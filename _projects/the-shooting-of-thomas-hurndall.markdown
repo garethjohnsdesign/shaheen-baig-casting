@@ -1,22 +1,8 @@
 ---
-<<<<<<< HEAD
-layout: project
-=======
->>>>>>> origin/master
-title: The Shooting of Thomas Hurndall
-date: 2008-10-13 00:00:00 Z
-categories:
-- Television
-- All
+title: The Shooting Of Thomas Hurndall
 tags:
 - example
 - news
 - story
-layout: project-entry
-img: "/uploads/shaheen-baig-casting-the-shooting-of-thomas-hurndall.jpg"
-director: Rowan Joffe
-with: Stephen Dillane, Kerry Fox
-imdb: http://www.imdb.com/title/tt1145529/
-video: eq1ceitlmj
 ---
 
