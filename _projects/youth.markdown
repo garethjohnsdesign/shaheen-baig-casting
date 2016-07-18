@@ -1,15 +1,22 @@
 ---
+<<<<<<< HEAD
 layout: project
+=======
+>>>>>>> origin/master
 title: Youth
-category: [Film, All]
-published: true
+date: 2015-05-20 00:00:00 Z
+categories:
+- Film
+- All
+tags:
+- example
+- news
+- story
+layout: project-entry
 img: "/uploads/shaheen-baig-casting-youth.jpg"
-date: 2015-05-20 00:00
-tags: [example,news,story]
 director: Paolo Sorrentino
 with: Michael Caine, Harvey Keitel, Rachel Weisz
-imdb: "http://www.imdb.com/title/tt3312830/"
+imdb: http://www.imdb.com/title/tt3312830/
 video: 
 ---
-
 

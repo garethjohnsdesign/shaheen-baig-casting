@@ -5,6 +5,9 @@ collections:
   carousel:
     title: Carousel
     output: true
+  posts:
+    title: Posts
+    output: true
   projects:
     title: Projects
     output: true
@@ -35,10 +38,10 @@ domain: http://insideretail.com
 company: Shaheen Baig Casting
 email: info@shaheenbaigcasting.com
 facebook: https://www.facebook.com/shaheen-baig-casting-172941678486/
-instagram:
+instagram: 
 twitter: https://twitter.com/sbaigcasting
-linkedin:
-googleplus:
+linkedin: 
+googleplus: 
 google: UA-80072725-1
 logo: "/assets/img/layout/logo.svg"
 per_page: 12

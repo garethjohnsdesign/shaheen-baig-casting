@@ -1,15 +1,19 @@
 ---
+<<<<<<< HEAD
 layout: project
+=======
+>>>>>>> origin/master
 title: Cider With Rosie
-category: [Television, All]
-published: true
+date: 2015-07-13 00:00:00 Z
+categories:
+- Television
+- All
+tags:
+- recent
+layout: project-entry
 img: "/uploads/shaheen-baig-casting-cider-with-rosie.jpg"
-date: 2015-07-13 00:00
-tags: [recent]
 director: Philippa Lowthorpe
 with: Samantha Morton, Archie Cox, Ruby Ashbourne Serkis, Timothy Spall
-imdb: "http://www.imdb.com/title/tt4117850/"
-
+imdb: http://www.imdb.com/title/tt4117850/
 ---
-
 

@@ -1,15 +1,22 @@
 ---
+<<<<<<< HEAD
 layout: project
+=======
+>>>>>>> origin/master
 title: Freefall
-category: [Television, All]
-published: true
+date: 2009-07-14 00:00:00 Z
+categories:
+- Television
+- All
+tags:
+- example
+- news
+- story
+layout: project-entry
 img: "/uploads/shaheen-baig-casting-freefall.jpg"
-date: 2009-07-14 00:00
-tags: [example,news,story]
 director: Dominic Savage
-with: Dominic Cooper, Anna Maxwell Martin, Joseph Mawle, Aidan Gillen 
-imdb: "http://www.imdb.com/title/tt1320093/"
+with: Dominic Cooper, Anna Maxwell Martin, Joseph Mawle, Aidan Gillen
+imdb: http://www.imdb.com/title/tt1320093/
 video: 1jnc3ib9gj
 ---
-
 

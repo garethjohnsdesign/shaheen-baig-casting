@@ -1,15 +1,22 @@
 ---
+<<<<<<< HEAD
 layout: project
+=======
+>>>>>>> origin/master
 title: Just Jim
-category: [Film, All]
-published: true
+date: 2014-03-14 00:00:00 Z
+categories:
+- Film
+- All
+tags:
+- example
+- news
+- story
+layout: project-entry
 img: "/uploads/shaheen-baig-casting-just-jim.jpg"
-date: 2014-03-14 00:00
-tags: [example,news,story]
 director: Craig Roberts
 with: Craig Roberts, Emile Hirsch
-imdb: "http://www.imdb.com/title/tt3291148/"
+imdb: http://www.imdb.com/title/tt3291148/
 video: 
 ---
-
 
