@@ -1,15 +1,18 @@
 ---
-layout: project-entry
 title: The Briny
-category: [Short, All]
-published: true
+date: 2015-02-10 00:00:00 Z
+categories:
+- Short
+- All
+tags:
+- example
+- news
+- story
+layout: project-entry
 img: "/uploads/shaheen-baig-casting-the-briny.jpg"
-date: 2015-02-10 00:00
-tags: [example,news,story]
 director: Lucy Kirkwood
 with: Francesca Annis, Stephen Campbell Moore, Emma Fielding
-imdb: "http://www.imdb.com/title/tt4476492/"
-video:
+imdb: http://www.imdb.com/title/tt4476492/
+video: 
 ---
-
 
