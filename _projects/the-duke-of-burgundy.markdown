@@ -1,4 +1,5 @@
 ---
+<<<<<<< HEAD
 layout: project
 title: The Duke of Burgundy
 date: 2015-01-23 00:00:00 Z
@@ -13,5 +14,10 @@ director: Peter Strickland
 with: Sidse Babett Knudsen, Chiara D’Anna
 imdb: http://www.imdb.com/title/tt2570858/
 video: ihi3lcpys6
+=======
+title: The Duke Of Burgundy
+tags:
+- recent
+>>>>>>> origin/master
 ---
 

@@ -1,19 +1,26 @@
 ---
+<<<<<<< HEAD
 layout: project
 title: Black Mirror - The Waldo Moment
 date: 2013-02-25 00:00:00 Z
 categories:
 - Television
 - All
+=======
+title: Black Mirror Season Two The Waldo Moment
+>>>>>>> origin/master
 tags:
 - example
 - news
 - story
+<<<<<<< HEAD
 
 img: "/uploads/shaheen-baig-casting-black-mirror-the-waldo-moment.jpg"
 director: Bryn Higgins
 with: Daniel Rigby, Chloe Pirrie, Jason Flemyng
 imdb: http://www.imdb.com/title/tt2386296/
 video: n718o2btik
+=======
+>>>>>>> origin/master
 ---
 

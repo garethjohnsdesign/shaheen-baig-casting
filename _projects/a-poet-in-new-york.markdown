@@ -9,7 +9,6 @@ tags:
 - example
 - news
 - story
-layout: project-entry
 img: "/uploads/shaheen-baig-casting-a-poet-in-new-york.jpg"
 director: Aisling Walsh
 with: Tom Hollander, Essie Davis, Phoebe Fox, Ewen Bremner
