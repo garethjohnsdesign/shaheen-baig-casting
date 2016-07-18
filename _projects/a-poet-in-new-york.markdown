@@ -1,5 +1,4 @@
 ---
-layout: project
 title: A Poet in New York
 date: 2014-05-18 00:00:00 Z
 categories:
@@ -9,6 +8,7 @@ tags:
 - example
 - news
 - story
+layout: project
 img: "/uploads/shaheen-baig-casting-a-poet-in-new-york.jpg"
 director: Aisling Walsh
 with: Tom Hollander, Essie Davis, Phoebe Fox, Ewen Bremner

@@ -1,8 +1,4 @@
 ---
-<<<<<<< HEAD
-layout: project
-=======
->>>>>>> origin/master
 title: The Briny
 tags:
 - example
