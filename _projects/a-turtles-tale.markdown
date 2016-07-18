@@ -1,5 +1,5 @@
 ---
-layout: project-entry
+layout: project
 title: A Turtle's Tale
 category: [Film, All]
 published: true

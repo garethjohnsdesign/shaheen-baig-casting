@@ -1,5 +1,5 @@
 ---
-layout: project-entry
+layout: project
 title: Starred Up
 category: [Film, All]
 published: true

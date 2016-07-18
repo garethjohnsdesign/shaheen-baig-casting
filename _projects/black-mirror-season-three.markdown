@@ -1,5 +1,5 @@
 ---
-layout: project-entry
+layout: project
 title: Black Mirror - White Christmas
 category: [Television, All]
 published: true

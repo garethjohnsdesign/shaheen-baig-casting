@@ -1,5 +1,5 @@
 ---
-layout: project-entry
+layout: project
 title: Perfect Sense
 category: [Film, All]
 published: true

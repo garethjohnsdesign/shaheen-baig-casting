@@ -1,5 +1,5 @@
 ---
-layout: project-entry
+layout: project
 title: Born Equal
 category: [Television, All]
 published: true

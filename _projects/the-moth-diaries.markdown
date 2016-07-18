@@ -1,5 +1,5 @@
 ---
-layout: project-entry
+layout: project
 title: The Moth Diaries
 category: [Film, All]
 published: true

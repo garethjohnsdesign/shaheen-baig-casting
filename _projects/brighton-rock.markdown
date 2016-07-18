@@ -1,5 +1,5 @@
 ---
-layout: project-entry
+layout: project
 title: Brighton Rock
 category: [Film, All]
 published: true

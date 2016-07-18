@@ -1,5 +1,5 @@
 ---
-layout: project-entry
+layout: project
 title: Black Mirror - Be Right Back
 category: [Television, All]
 published: true

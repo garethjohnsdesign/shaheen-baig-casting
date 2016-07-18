@@ -1,5 +1,5 @@
 ---
-layout: project-entry
+layout: project
 title: Cider With Rosie
 category: [Television, All]
 published: true

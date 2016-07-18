@@ -1,5 +1,5 @@
 ---
-layout: project-entry
+layout: project
 title: Man About Dog
 category: [Film, All]
 published: true

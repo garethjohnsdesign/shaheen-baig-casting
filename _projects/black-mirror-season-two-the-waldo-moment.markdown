@@ -1,5 +1,5 @@
 ---
-layout: project-entry
+layout: project
 title: Black Mirror - The Waldo Moment
 category: [Television, All]
 published: true

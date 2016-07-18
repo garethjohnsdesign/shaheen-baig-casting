@@ -1,5 +1,5 @@
 ---
-layout: project-entry
+layout: project
 title: Tulip Fever
 category: [Film, All]
 published: true

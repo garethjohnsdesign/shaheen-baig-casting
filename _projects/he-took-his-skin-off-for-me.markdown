@@ -1,5 +1,5 @@
 ---
-layout: project-entry
+layout: project
 title: He Took His Skin Off For Me
 category: [Shorts, All]
 published: true

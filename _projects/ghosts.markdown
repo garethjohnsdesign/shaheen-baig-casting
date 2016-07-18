@@ -1,5 +1,5 @@
 ---
-layout: project-entry
+layout: project
 title: Ghosts
 category: [Film, All]
 published: true

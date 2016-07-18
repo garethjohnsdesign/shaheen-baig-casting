@@ -1,5 +1,5 @@
 ---
-layout: project-entry
+layout: project
 title: The Shooting of Thomas Hurndall
 category: [Television, All]
 published: true

@@ -1,5 +1,5 @@
 ---
-layout: project-entry
+layout: project
 title: Polar Bear
 category: [Short, All]
 published: true

@@ -1,5 +1,5 @@
 ---
-layout: project-entry
+layout: project
 title: Black Mirror - The Entire History of You
 category: [Television, All]
 published: true

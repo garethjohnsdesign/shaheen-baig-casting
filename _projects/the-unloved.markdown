@@ -1,5 +1,5 @@
 ---
-layout: project-entry
+layout: project
 title: The Unloved
 category: [Television, All]
 published: true

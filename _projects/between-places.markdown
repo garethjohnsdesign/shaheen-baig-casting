@@ -1,5 +1,5 @@
 ---
-layout: project-entry
+layout: project
 title: Between Places
 category: [Shorts, All]
 published: true

@@ -1,5 +1,5 @@
 ---
-layout: project-entry
+layout: project
 title: The Pizza Miracle
 category: [Shorts, All]
 published: true

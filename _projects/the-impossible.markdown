@@ -1,5 +1,5 @@
 ---
-layout: project-entry
+layout: project
 title: The Impossible
 category: [Film, All]
 published: true

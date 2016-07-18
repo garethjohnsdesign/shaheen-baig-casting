@@ -1,5 +1,5 @@
 ---
-layout: project-entry
+layout: project
 title: Control
 category: [Film, All]
 published: true

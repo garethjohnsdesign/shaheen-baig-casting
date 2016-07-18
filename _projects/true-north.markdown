@@ -1,5 +1,5 @@
 ---
-layout: project-entry
+layout: project
 title: True North
 category: [Film, All]
 published: true

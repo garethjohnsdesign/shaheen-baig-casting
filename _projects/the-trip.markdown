@@ -1,5 +1,5 @@
 ---
-layout: project-entry
+layout: project
 title: The Trip
 category: [Television, All]
 published: true

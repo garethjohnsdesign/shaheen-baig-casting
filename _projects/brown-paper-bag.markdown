@@ -1,5 +1,5 @@
 ---
-layout: project-entry
+layout: project
 title: Brown Paper Bag
 category: [Shorts, All]
 published: true

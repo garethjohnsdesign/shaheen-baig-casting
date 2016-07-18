@@ -50,7 +50,6 @@ color: $color--white !important;
 
 @mixin accent-text {
 	text-transform: uppercase;
-	font-family: $header-font-family-accent;
 	letter-spacing: $letter-spacing--looser;
 }
 
@@ -64,21 +63,6 @@ a {
     }
 }
 
-// Announcement
-.announcement {
-	background-color: $color--darkest-gray;
-	color: $color--white;
-	padding-top: 0.5rem;
-	padding-bottom: 0.5rem;
-}
-
-.announcement__location {
-	@include accent-text;
-	padding-left: 1rem;
-	padding-right: 1rem;
-}
-
-
 // Header
 .header__logo {
 	width: 4rem;
@@ -87,7 +71,6 @@ a {
 
 .top-bar {
 	font-family: $body-font-family;
-// 	text-transform: uppercase;
 	font-size: 1rem;
 }
 
@@ -97,38 +80,12 @@ a {
 }
 
 .top-bar-right {
-	font-family: $header-font-family-accent;
-	text-transform: uppercase;
 	letter-spacing: 0.1em;
-}
-
-.top-bar-right__subscribe {
-	padding-left: 1rem;
 }
 
 .top-bar .menu > li > a {
 	padding: 0.7rem 0.7rem;
 }
-
-#top-bar__logo__desktop {
-  --teal-color: $color--teal;
-  --purple-color: $color--purple;
-  --magenta-color: $color--magenta;
-  --yellow-color: $color--yellow;
-  --black-color: $color--black;
-  --orange-color: $color--orange;
-}
-
-/*
-.header__home:hover #top-bar__logo__desktop {
-  --teal-color: $color--darkest-gray;
-  --purple-color: $color--darkest-gray;
-  --magenta-color: $color--darkest-gray;
-  --yellow-color: $color--darkest-gray;
-  --black-color: $color--darkest-gray;
-  --orange-color: $color--darkest-gray;
-}
-*/
 
 .current a {
   color: $color--dark-gray;
@@ -155,22 +112,6 @@ a {
   transition: $primary-transition;
 }
 
-.element-teal > a:before {
-  background-color: $color--teal;
-}
-
-.element-orange > a:before {
-  background-color: $color--orange;
-}
-
-.element-magenta > a:before {
-  background-color: $color--magenta;
-}
-
-.element-purple > a:before {
-  background-color: $color--purple;
-}
-
 .element-black > a:before {
   background-color: $color--black;
 }
@@ -184,14 +125,6 @@ a {
 }
 
 .primary-menu {
-  @include breakpoint(small only) {
-   border-top: 1px solid $color--gray;
-  padding-top: 1rem;
-  padding-bottom: 1rem;
-}
-}
-
-.secondary-menu {
   @include breakpoint(small only) {
    border-top: 1px solid $color--gray;
   padding-top: 1rem;
@@ -570,7 +503,6 @@ li.excerpt__tag.align-right {
 
 .category__title {
 	text-transform: uppercase;
-	font-family: $header-font-family-accent;
 	letter-spacing: $letter-spacing--looser;
 }
 
@@ -592,35 +524,8 @@ li.excerpt__tag.align-right {
 
 //Carousel
 
-.carousel__header {
-	font-family: $header-font-family;
- 	font-size: 4rem;
-}
-
-.carousel__text {
-	padding-top: 3rem;
- 	z-index: 1;
-}
 
 .carousel__title {
- 	text-transform: uppercase;
-	font-family: $header-font-family-accent;
-	letter-spacing: $letter-spacing--looser;
-	background-color: $color--white;
-	padding: 1rem 1.5rem 0rem 1.5rem;
-}
-
-.carousel__header {
- 	line-height: $line-height--tight;
- 	background-color: $color--white;
-	padding: 0.5rem 1.5rem;
-	line-height: 1;
-}
-
-.carousel__subheader {
- 	line-height: $line-height--base;
- 	background-color: $color--white;
-	padding: 1rem 1.5rem;
 }
 
 .carousel__button {
@@ -682,7 +587,6 @@ li.excerpt__tag.align-right {
 
 .sponsors h5 {
 	text-transform: uppercase;
-	font-family: $header-font-family-accent;
 	letter-spacing: $letter-spacing--looser;
 }
 
@@ -704,7 +608,6 @@ li.excerpt__tag.align-right {
 
 .subscribe h5 {
 	text-transform: uppercase;
-	font-family: $header-font-family-accent;
 	letter-spacing: $letter-spacing--looser;
 }
 
@@ -745,7 +648,6 @@ li.excerpt__tag.align-right {
 }
 
 .footer__bottom .menu-text {
-	font-family: $header-font-family-accent;
 	font-weight: $global-weight-normal;
 	text-transform: uppercase;
 	letter-spacing: $letter-spacing--looser;

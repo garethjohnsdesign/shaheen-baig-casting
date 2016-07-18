@@ -1,5 +1,5 @@
 ---
-layout: project-entry
+layout: project
 title: The Last Panthers
 category: [Television, All]
 published: true

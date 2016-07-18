@@ -1,5 +1,5 @@
 ---
-layout: project-entry
+layout: project
 title: Just Jim
 category: [Film, All]
 published: true

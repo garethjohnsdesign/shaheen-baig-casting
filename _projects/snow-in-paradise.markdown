@@ -1,5 +1,5 @@
 ---
-layout: project-entry
+layout: project
 title: Snow in Paradise
 category: [Film, All]
 published: true

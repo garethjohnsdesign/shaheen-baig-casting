@@ -1,5 +1,5 @@
 ---
-layout: project-entry
+layout: project
 title: Freefall
 category: [Television, All]
 published: true

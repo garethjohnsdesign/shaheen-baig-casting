@@ -1,5 +1,5 @@
 ---
-layout: project-entry
+layout: project
 title: Murder Joint Enterprise
 category: [Television, All]
 published: true

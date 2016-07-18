@@ -1,5 +1,5 @@
 ---
-layout: project-entry
+layout: project
 title: The Secret World of Arrietty
 category: [Film, All]
 published: true

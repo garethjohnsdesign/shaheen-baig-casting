@@ -1,5 +1,5 @@
 ---
-layout: project-entry
+layout: project
 title: Good People
 category: [Film, All]
 published: true

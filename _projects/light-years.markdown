@@ -1,5 +1,5 @@
 ---
-layout: project-entry
+layout: project
 title: Light Years
 category: [Film, All]
 published: true

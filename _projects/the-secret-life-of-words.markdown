@@ -1,5 +1,5 @@
 ---
-layout: project-entry
+layout: project
 title: The Secret Life of Words
 category: [Film, All]
 published: true

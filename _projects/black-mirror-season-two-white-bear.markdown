@@ -1,5 +1,5 @@
 ---
-layout: project-entry
+layout: project
 title: Black Mirror - White Bear
 category: [Television, All]
 published: true

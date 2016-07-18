@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8"/>
+	<title>Projects</title>
+	<meta name="date" content="2015-11-10 15:17:00 Z"/>
+	<meta name="permalink" content="&quot;/projects/&quot;"/>
+	<meta name="layout" content="default"/>
+</head>
+<body>
+
+<div class="row">
+{% for project in site.projects %}
+<div class="small-12 medium-4 columns">
+{% include excerpt.html %}
+</div>
+{% endfor %}
+</div>
+
+</body>
+</html>

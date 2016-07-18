@@ -1,5 +1,5 @@
 ---
-layout: project-entry
+layout: project
 title: Brick Lane
 category: [Film, All]
 published: true

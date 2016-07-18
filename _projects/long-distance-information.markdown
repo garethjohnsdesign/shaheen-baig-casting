@@ -1,5 +1,5 @@
 ---
-layout: project-entry
+layout: project
 title: Long Distance Information
 category: [Shorts, All]
 published: true

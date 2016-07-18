@@ -1,5 +1,5 @@
 ---
-layout: project-entry
+layout: project
 title: Jonah
 category: [Shorts, All]
 published: true

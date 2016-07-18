@@ -1,5 +1,5 @@
 ---
-layout: project-entry
+layout: project
 title: The Last Days on Mars
 category: [Film, All]
 published: true

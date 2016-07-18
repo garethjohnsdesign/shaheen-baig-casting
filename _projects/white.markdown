@@ -1,5 +1,5 @@
 ---
-layout: project-entry
+layout: project
 title: White
 category: [Film, All]
 published: false

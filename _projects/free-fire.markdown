@@ -1,5 +1,5 @@
 ---
-layout: project-entry
+layout: project
 title: Free Fire
 category: [Film, All]
 published: true

@@ -1,18 +1,22 @@
 <article class="excerpt">
-
 <!-- Image -->
-<a href="{{post.url}}">
+<a href="{{project.url}}">
 <div class="excerpt__image">
-<img src="{{post.img}}" alt="{{post.title}}" />
+<img src="{{project.img}}" alt="{{project.title}}" />
 </div>
 </a>
 <!-- End Image -->
 
 <!-- Title -->
-<h2 class="excerpt__title">
-<a href="{{ post.url }}">{{ post.title }}</a>
-</h2>
+<h2 class="excerpt__title"><a href="{{ project.url }}">{{ project.title }}</a></h2>
 <!-- End Title -->
 
+<!-- Director -->
+<h6 class="excerpt__director"><a href="{{ project.url }}">Director: {{ project.director }}</a></h6>
+<!-- End Director -->
+
+<!-- With -->
+<h6 class="excerpt__director"><a href="{{ project.url }}">With: {{ project.with }}</a></h6>
+<!-- End With -->
 
 </article>

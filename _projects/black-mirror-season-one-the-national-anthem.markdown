@@ -1,5 +1,5 @@
 ---
-layout: project-entry
+layout: project
 title: Black Mirror - The National Anthem
 category: [Television, All]
 published: true

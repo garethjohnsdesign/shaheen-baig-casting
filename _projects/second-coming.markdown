@@ -1,5 +1,5 @@
 ---
-layout: project-entry
+layout: project
 title: Second Coming
 category: [Film, All]
 published: true

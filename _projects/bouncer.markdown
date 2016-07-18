@@ -1,5 +1,5 @@
 ---
-layout: project-entry
+layout: project
 title: Bouncer
 category: [Shorts, All]
 published: true

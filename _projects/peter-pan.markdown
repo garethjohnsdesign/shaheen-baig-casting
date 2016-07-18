@@ -1,5 +1,5 @@
 ---
-layout: project-entry
+layout: project
 title: Peter Pan
 category: [Film, All]
 published: true

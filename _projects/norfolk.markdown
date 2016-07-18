@@ -1,5 +1,5 @@
 ---
-layout: project-entry
+layout: project
 title: Norfolk
 category: [Film, All]
 published: true

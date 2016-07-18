@@ -1,5 +1,5 @@
 ---
-layout: project-entry
+layout: project
 title: Womb
 category: [Film, All]
 published: true

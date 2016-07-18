@@ -1,5 +1,5 @@
 ---
-layout: project-entry
+layout: project
 title: Comes a Bright Day
 category: [Film, All]
 published: true

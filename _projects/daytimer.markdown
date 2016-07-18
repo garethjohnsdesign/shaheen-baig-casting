@@ -1,5 +1,5 @@
 ---
-layout: project-entry
+layout: project
 title: Daytimer
 category: [Shorts, All]
 published: true

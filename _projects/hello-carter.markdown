@@ -1,5 +1,5 @@
 ---
-layout: project-entry
+layout: project
 title: Hello Carter
 category: [Film, All]
 published: true

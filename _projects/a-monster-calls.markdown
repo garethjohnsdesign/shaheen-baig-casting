@@ -1,5 +1,5 @@
 ---
-layout: project-entry
+layout: project
 title: A Monster Calls
 category: [Film, All]
 published: true

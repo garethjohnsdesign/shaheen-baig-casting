@@ -1,5 +1,5 @@
 ---
-layout: project-entry
+layout: project
 title: The Awakening
 category: [Film, All]
 published: true

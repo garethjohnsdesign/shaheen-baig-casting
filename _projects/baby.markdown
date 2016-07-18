@@ -1,5 +1,5 @@
 ---
-layout: project-entry
+layout: project
 title: Baby
 category: [Shorts, All]
 published: true

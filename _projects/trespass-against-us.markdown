@@ -1,5 +1,5 @@
 ---
-layout: project-entry
+layout: project
 title: Trespass Against Us
 category: [Film, All]
 published: true

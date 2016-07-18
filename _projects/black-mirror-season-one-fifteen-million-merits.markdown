@@ -1,5 +1,5 @@
 ---
-layout: project-entry
+layout: project
 title: Black Mirror - Fifteen Million Merits
 category: [Television, All]
 published: true

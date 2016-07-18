@@ -1,5 +1,5 @@
 ---
-layout: project-entry
+layout: project
 title: The Mighty Celt
 category: [Film, All]
 published: true

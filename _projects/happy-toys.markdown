@@ -1,5 +1,5 @@
 ---
-layout: project-entry
+layout: project
 title: Happy Toys
 category: [Shorts, All]
 published: true

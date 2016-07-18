@@ -1,5 +1,5 @@
 ---
-layout: project-entry
+layout: project
 title: Save Our Bacon
 category: [Shorts, All]
 published: true

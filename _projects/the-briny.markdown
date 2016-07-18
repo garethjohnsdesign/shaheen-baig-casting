@@ -1,5 +1,5 @@
 ---
-layout: project-entry
+layout: project
 title: The Briny
 category: [Short, All]
 published: true

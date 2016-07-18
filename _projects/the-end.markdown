@@ -1,5 +1,5 @@
 ---
-layout: project-entry
+layout: project
 title: The End
 category: [Shorts, All]
 published: true

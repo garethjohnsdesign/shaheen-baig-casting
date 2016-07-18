@@ -1,5 +1,5 @@
 ---
-layout: project-entry
+layout: project
 title: Dead Europe
 category: [Film, All]
 published: true

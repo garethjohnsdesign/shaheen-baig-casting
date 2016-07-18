@@ -1,5 +1,5 @@
 ---
-layout: project-entry
+layout: project
 title: A Poet in New York
 category: [Television, All]
 published: true

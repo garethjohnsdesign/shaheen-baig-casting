@@ -1,5 +1,5 @@
 ---
-layout: project-entry
+layout: project
 title: Complicit
 category: [Television, All]
 published: true

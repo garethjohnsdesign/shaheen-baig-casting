@@ -1,5 +1,5 @@
 ---
-layout: project-entry
+layout: project
 title: The ABCs of Death 2 - G is for Grandad
 category: [Shorts, All]
 published: true

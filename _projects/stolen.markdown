@@ -1,5 +1,5 @@
 ---
-layout: project-entry
+layout: project
 title: Stolen
 category: [Television, All]
 published: true

@@ -1,5 +1,5 @@
 ---
-layout: project-entry
+layout: project
 title: Intruders
 category: [Film, All]
 published: true

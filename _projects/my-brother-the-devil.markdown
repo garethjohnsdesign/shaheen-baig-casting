@@ -1,5 +1,5 @@
 ---
-layout: project-entry
+layout: project
 title: My Brother the Devil
 category: [Film, All]
 published: true

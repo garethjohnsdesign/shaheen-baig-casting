@@ -1,5 +1,5 @@
 ---
-layout: project-entry
+layout: project
 title: Angus Thongs and Perfect Snogging
 category: [Film, All]
 published: true

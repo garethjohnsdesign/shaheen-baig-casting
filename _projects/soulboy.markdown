@@ -1,5 +1,5 @@
 ---
-layout: project-entry
+layout: project
 title: SoulBoy
 category: [Film, All]
 published: true

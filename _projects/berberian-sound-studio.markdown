@@ -1,5 +1,5 @@
 ---
-layout: project-entry
+layout: project
 title: Berberian Sound Studio
 category: [Film, All]
 published: true

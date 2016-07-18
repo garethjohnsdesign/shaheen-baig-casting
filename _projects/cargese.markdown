@@ -1,5 +1,5 @@
 ---
-layout: project-entry
+layout: project
 title: Cargese
 category: [Film, All]
 published: false

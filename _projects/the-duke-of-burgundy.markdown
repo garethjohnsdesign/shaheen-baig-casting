@@ -1,5 +1,5 @@
 ---
-layout: project-entry
+layout: project
 title: The Duke of Burgundy
 category: [Film, All]
 published: true

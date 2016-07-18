@@ -1,5 +1,5 @@
 ---
-layout: project-entry
+layout: project
 title: Ali and Nino
 category: [Film, All]
 published: true

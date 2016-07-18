@@ -1,5 +1,5 @@
 ---
-layout: project-entry
+layout: project
 title: I Am Slave
 category: [Film, All]
 published: true

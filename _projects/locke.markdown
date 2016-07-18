@@ -1,5 +1,5 @@
 ---
-layout: project-entry
+layout: project
 title: Locke
 category: [Film, All]
 published: true
