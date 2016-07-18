@@ -1,0 +1,27 @@
+---
+layout: default
+---
+
+<div class="index__carousel">
+{% include carousel.html %}
+</div>
+
+<div class="row">
+{% for project in site.projects limit:8 %}
+<div class="small-12 medium-4 columns">
+
+<a href="{{ project.url }}"><img class="thumb" src="{{project.img}}" alt="{{ small.title }}"/></a>
+
+<h5 class="project-title"><a href="{{ project.slug }}">{{project.title }}</a></h5>
+<p class="summary">Director: {{project.director}}</p>
+{% if project.with %}
+<p class="summary">With: {{project.with}}</p>
+{% endif %}
+
+</div>
+{% endfor %}
+</div>
+
+
+
+</section>

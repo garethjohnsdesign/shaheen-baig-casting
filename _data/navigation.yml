@@ -1,0 +1,46 @@
+header:
+- title: Projects
+  url: /projects/
+  color: black
+- title: CV
+  url: /cv/
+  color: black
+- title: Info
+  url: /info/
+  color: black
+details:
+- title: About
+  url: /about/
+- title: Privacy
+  url: /privacy/
+- title: Terms & Conditions
+  url: /terms-and-conditions/
+- title: Site Map
+  url: /site-map/
+categories:
+- title: Getting Started
+  url: /getting-started/
+- title: Up and Running
+  url: /up-and-running/
+- title: Branching Out
+  url: /branching-out/
+- title: Fine-tuning
+  url: /fine-tuning/
+tags:
+- title: eCommerce
+  url: /ecommerce/
+- title: Marketing
+  url: /marketing/
+- title: In-Store
+  url: /in-store/
+- title: Inspiration
+  url: /inspiration/
+sub-tags:
+- title: eCommerce
+  url: ecommerce/
+- title: Marketing
+  url: marketing/
+- title: In-Store
+  url: in-store/
+- title: Inspiration
+  url: inspiration/
