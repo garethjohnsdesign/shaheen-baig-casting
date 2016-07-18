@@ -1,8 +1,5 @@
 ---
-<<<<<<< HEAD
 layout: project
-=======
->>>>>>> origin/master
 title: The End
 date: 2010-03-01 00:00:00 Z
 categories:
@@ -12,7 +9,7 @@ tags:
 - example
 - news
 - story
-layout: project-entry
+
 img: "/uploads/shaheen-baig-casting-the-end.jpg"
 director: Eduardo Chapero-Jackson
 with: Nathalie Press and Charlie Creed-Miles

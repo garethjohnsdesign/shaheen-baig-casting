@@ -1,8 +1,5 @@
 ---
-<<<<<<< HEAD
 layout: project
-=======
->>>>>>> origin/master
 title: Brick Lane
 date: 2007-11-16 00:00:00 Z
 categories:
@@ -12,7 +9,7 @@ tags:
 - example
 - news
 - story
-layout: project-entry
+
 img: "/uploads/shaheen-baig-casting-brick-lane.jpg"
 director: Sarah Gavron
 with: Tannishtha Chatterjee, Satish Kaushik, Christopher Simpson

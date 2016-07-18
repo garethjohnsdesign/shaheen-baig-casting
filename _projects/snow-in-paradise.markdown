@@ -1,8 +1,5 @@
 ---
-<<<<<<< HEAD
 layout: project
-=======
->>>>>>> origin/master
 title: Snow in Paradise
 date: 2015-02-13 00:00:00 Z
 categories:
@@ -10,7 +7,7 @@ categories:
 - All
 tags:
 - recent
-layout: project-entry
+
 img: "/uploads/shaheen-baig-casting-snow-in-paradise.jpg"
 director: Andrew Hulme
 with: Frederick Schmidt, Martin Askew, David Spinx

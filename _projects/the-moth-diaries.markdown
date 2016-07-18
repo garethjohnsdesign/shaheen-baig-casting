@@ -1,8 +1,5 @@
 ---
-<<<<<<< HEAD
 layout: project
-=======
->>>>>>> origin/master
 title: The Moth Diaries
 date: 2013-05-24 00:00:00 Z
 categories:
@@ -12,7 +9,7 @@ tags:
 - example
 - news
 - story
-layout: project-entry
+
 img: "/uploads/shaheen-baig-casting-the-moth-diaries.jpg"
 director: Mary Harron
 with: Sarah Bolger, Sarah Gadon, Lily Cole

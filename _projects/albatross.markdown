@@ -1,8 +1,5 @@
 ---
-<<<<<<< HEAD
 layout: project
-=======
->>>>>>> origin/master
 title: Albatross
 date: 2011-10-14 00:00:00 Z
 categories:
@@ -12,7 +9,7 @@ tags:
 - example
 - news
 - story
-layout: project-entry
+
 img: "/uploads/shaheen-baig-casting-albatross.jpg"
 director: Niall MacCormick
 with: Felicity Jones, Jessica Brown Findlay, Sebastian Koch

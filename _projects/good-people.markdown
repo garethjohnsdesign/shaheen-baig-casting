@@ -1,8 +1,5 @@
 ---
-<<<<<<< HEAD
 layout: project
-=======
->>>>>>> origin/master
 title: Good People
 date: 2015-08-21 00:00:00 Z
 categories:
@@ -12,7 +9,7 @@ tags:
 - example
 - news
 - story
-layout: project-entry
+
 img: "/uploads/shaheen-baig-casting-good-people.jpg"
 director: Henrik Ruben Genz
 with: James Franco, Omar Sy, Kate Hudson

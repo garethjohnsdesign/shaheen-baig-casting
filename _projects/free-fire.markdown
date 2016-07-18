@@ -1,8 +1,5 @@
 ---
-<<<<<<< HEAD
 layout: project
-=======
->>>>>>> origin/master
 title: Free Fire
 date: 2016-01-01 00:00:00 Z
 categories:
@@ -12,7 +9,7 @@ tags:
 - example
 - news
 - story
-layout: project-entry
+
 img: "/uploads/shaheen-baig-casting-free-fire.jpg"
 director: Ben Wheatley
 with: Sharlto Copley, Armie Hammer, Cillian Murphy, Brie Larson

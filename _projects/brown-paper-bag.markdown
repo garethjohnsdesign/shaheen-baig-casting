@@ -1,8 +1,5 @@
 ---
-<<<<<<< HEAD
 layout: project
-=======
->>>>>>> origin/master
 title: Brown Paper Bag
 date: 2003-12-17 00:00:00 Z
 categories:
@@ -12,7 +9,7 @@ tags:
 - example
 - news
 - story
-layout: project-entry
+
 img: "/uploads/shaheen-baig-casting-brown-paper-bag.jpg"
 director: Michael B. Clifford
 with: Ronnie Fox, Jo McInnes

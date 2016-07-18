@@ -1,8 +1,5 @@
 ---
-<<<<<<< HEAD
 layout: project
-=======
->>>>>>> origin/master
 title: The Briny
 date: 2015-02-10 00:00:00 Z
 categories:

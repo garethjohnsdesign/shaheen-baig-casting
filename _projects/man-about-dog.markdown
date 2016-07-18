@@ -1,8 +1,5 @@
 ---
-<<<<<<< HEAD
 layout: project
-=======
->>>>>>> origin/master
 title: Man About Dog
 date: 2004-11-19 00:00:00 Z
 categories:
@@ -12,7 +9,7 @@ tags:
 - example
 - news
 - story
-layout: project-entry
+
 img: "/uploads/shaheen-baig-casting-man-about-dog.jpg"
 director: Paddy Breathnach
 with: Allen Leech, Tom Murphy, Ciaran Nolan

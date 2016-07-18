@@ -1,8 +1,5 @@
 ---
-<<<<<<< HEAD
 layout: project
-=======
->>>>>>> origin/master
 title: Storm
 date: 2009-09-10 00:00:00 Z
 categories:
@@ -12,7 +9,7 @@ tags:
 - example
 - news
 - story
-layout: project-entry
+
 img: "/uploads/shaheen-baig-casting-storm.jpg"
 director: Hans-Christian Schmid
 with: Kerry Fox, Anamaria Marinca, Stephen Dillane

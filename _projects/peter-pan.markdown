@@ -1,8 +1,5 @@
 ---
-<<<<<<< HEAD
 layout: project
-=======
->>>>>>> origin/master
 title: Peter Pan
 date: 2003-12-25 00:00:00 Z
 categories:
@@ -12,7 +9,7 @@ tags:
 - example
 - news
 - story
-layout: project-entry
+
 img: "/uploads/shaheen-baig-casting-peter-pan.jpg"
 director: P.J. Hogan
 with: Jeremy Sumpter, Rachel Hurd-Wood, Jason Isaacs, Olivia Williams

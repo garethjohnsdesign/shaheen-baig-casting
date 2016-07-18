@@ -1,8 +1,5 @@
 ---
-<<<<<<< HEAD
 layout: project
-=======
->>>>>>> origin/master
 title: Black Mirror - The Waldo Moment
 date: 2013-02-25 00:00:00 Z
 categories:
@@ -12,7 +9,7 @@ tags:
 - example
 - news
 - story
-layout: project-entry
+
 img: "/uploads/shaheen-baig-casting-black-mirror-the-waldo-moment.jpg"
 director: Bryn Higgins
 with: Daniel Rigby, Chloe Pirrie, Jason Flemyng

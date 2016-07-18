@@ -1,8 +1,5 @@
 ---
-<<<<<<< HEAD
 layout: project
-=======
->>>>>>> origin/master
 title: Citadel
 date: 2013-03-01 00:00:00 Z
 categories:
@@ -12,7 +9,7 @@ tags:
 - example
 - news
 - story
-layout: project-entry
+
 img: "/uploads/shaheen-baig-casting-citadel.jpg"
 director: Ciarán Foy
 with: Aneurin Barnard, James Cosmo, Wunmi Mosaku

@@ -1,8 +1,5 @@
 ---
-<<<<<<< HEAD
 layout: project
-=======
->>>>>>> origin/master
 title: Control
 date: 2007-10-05 00:00:00 Z
 categories:
@@ -12,7 +9,7 @@ tags:
 - example
 - news
 - story
-layout: project-entry
+
 img: "/uploads/shaheen-baig-casting-control.jpg"
 director: Anton Corbijn
 with: Sam Riley, Samantha Morton, Toby Kebbell, Craig Parkinson

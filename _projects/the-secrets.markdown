@@ -1,8 +1,5 @@
 ---
-<<<<<<< HEAD
 layout: project
-=======
->>>>>>> origin/master
 title: The Secrets
 date: 2014-09-07 00:00:00 Z
 categories:
@@ -12,7 +9,7 @@ tags:
 - example
 - news
 - story
-layout: project-entry
+
 img: "/uploads/shaheen-baig-casting-the-secrets.jpg"
 director: Dominic Savage
 with: Olivia Colman, Ashley Walters, Joanne Froggatt

@@ -1,8 +1,5 @@
 ---
-<<<<<<< HEAD
 layout: project
-=======
->>>>>>> origin/master
 title: X+Y
 date: 2014-09-05 00:00:00 Z
 categories:
@@ -12,7 +9,7 @@ tags:
 - example
 - news
 - story
-layout: project-entry
+
 img: "/uploads/shaheen-baig-casting-xy.jpg"
 director: Morgan Matthews
 with: Asa Butterfield, Rafe Spall, Sally Hawkins, Eddie Marsan

@@ -1,8 +1,5 @@
 ---
-<<<<<<< HEAD
 layout: project
-=======
->>>>>>> origin/master
 title: The Awakening
 date: 2011-11-11 00:00:00 Z
 categories:
@@ -12,7 +9,7 @@ tags:
 - example
 - news
 - story
-layout: project-entry
+
 img: "/uploads/shaheen-baig-casting-the-awakening.jpg"
 director: Nick Murphy
 with: Rebecca Hall, Dominic West, Imelda Staunton

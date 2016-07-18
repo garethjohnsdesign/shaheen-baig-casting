@@ -1,8 +1,5 @@
 ---
-<<<<<<< HEAD
 layout: project
-=======
->>>>>>> origin/master
 title: Black Mirror - Fifteen Million Merits
 date: 2011-12-11 00:00:00 Z
 categories:
@@ -12,7 +9,7 @@ tags:
 - example
 - news
 - story
-layout: project-entry
+
 img: "/uploads/shaheen-baig-casting-black-mirror-fifteen-million-merits.jpg"
 director: Euros Lyn
 with: Daniel Kaluuya, Jessica Brown Findlay, Rupert Everett

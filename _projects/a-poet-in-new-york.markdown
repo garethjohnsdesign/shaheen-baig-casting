@@ -1,8 +1,5 @@
 ---
-<<<<<<< HEAD
 layout: project
-=======
->>>>>>> origin/master
 title: A Poet in New York
 date: 2014-05-18 00:00:00 Z
 categories:

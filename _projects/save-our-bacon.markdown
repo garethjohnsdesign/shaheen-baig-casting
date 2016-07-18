@@ -1,8 +1,5 @@
 ---
-<<<<<<< HEAD
 layout: project
-=======
->>>>>>> origin/master
 title: Save Our Bacon
 date: 2010-09-25 00:00:00 Z
 categories:
@@ -12,7 +9,7 @@ tags:
 - example
 - news
 - story
-layout: project-entry
+
 img: "/uploads/shaheen-baig-casting-save-our-bacon.jpg"
 director: Peter Baynton
 with: Warren Clarke, Simon Callow

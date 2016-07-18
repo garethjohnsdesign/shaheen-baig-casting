@@ -1,8 +1,5 @@
 ---
-<<<<<<< HEAD
 layout: project
-=======
->>>>>>> origin/master
 title: Al Sur De Granada
 date: 2003-01-10 00:00:00 Z
 categories:
@@ -12,7 +9,7 @@ tags:
 - example
 - news
 - story
-layout: project-entry
+
 img: "/uploads/shaheen-baig-casting-al-sur-de-granada.jpg"
 director: Fernando Colomo
 with: Matthew Goode, Verónica Sánchez, Guillermo Toledo

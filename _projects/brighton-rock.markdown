@@ -1,8 +1,5 @@
 ---
-<<<<<<< HEAD
 layout: project
-=======
->>>>>>> origin/master
 title: Brighton Rock
 date: 2011-02-04 00:00:00 Z
 categories:
@@ -12,7 +9,7 @@ tags:
 - example
 - news
 - story
-layout: project-entry
+
 img: "/uploads/shaheen-baig-casting-brighton-rock.jpg"
 director: Rowan Joffe
 with: Sam Riley, Andrea Riseborough, Helen Mirren

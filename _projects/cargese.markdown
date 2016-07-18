@@ -1,8 +1,5 @@
 ---
-<<<<<<< HEAD
 layout: project
-=======
->>>>>>> origin/master
 title: Cargese
 date: 2013-05-30 00:00:00 Z
 published: false
@@ -13,7 +10,7 @@ tags:
 - example
 - news
 - story
-layout: project-entry
+
 img: "/uploads/shaheen-baig-casting-cargese.jpg"
 director: Matt Smith
 with: Joe Cole, Craig Roberts, Perry Millward

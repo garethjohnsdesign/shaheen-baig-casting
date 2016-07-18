@@ -1,8 +1,5 @@
 ---
-<<<<<<< HEAD
 layout: project
-=======
->>>>>>> origin/master
 title: Hello Carter
 date: 2013-10-12 00:00:00 Z
 categories:
@@ -12,7 +9,7 @@ tags:
 - example
 - news
 - story
-layout: project-entry
+
 img: "/uploads/shaheen-baig-casting-hello-carter.jpg"
 director: Anthony Wilcox
 with: Charlie Cox, Jodie Whittaker
