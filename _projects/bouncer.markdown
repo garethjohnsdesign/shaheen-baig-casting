@@ -1,6 +1,5 @@
 ---
 title: Bouncer
-img: "/uploads/shaheen-baig-casting-bouncer.jpg"
 date: 2002-11-18 00:00:00 Z
 categories:
 - short
@@ -8,9 +7,11 @@ tags:
 - example
 - news
 - story
-director: Michael B. Clifford 
+img: "/uploads/shaheen-baig-casting-bouncer.jpg"
+director: Michael B. Clifford
 with: Paddy Considine, Ray Winstone
-imdb: "http://www.imdb.com/title/tt0342144/"
+imdb: http://www.imdb.com/title/tt0342144/
 video: g91zfjaweq
 layout: project
 ---
+
