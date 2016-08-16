@@ -203,6 +203,15 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/_site\/all.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_site\/all.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/_site\/all\/index.html": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -13643,6 +13652,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/_site\/uploads\/shaheen-baig-casting-a-monster-calls.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 81685,
+		"inputAbbreviatedPath": "\/_site\/uploads\/shaheen-baig-casting-a-monster-calls.jpg",
+		"outputAbbreviatedPath": "\/_site\/uploads\/shaheen-baig-casting-a-monster-calls.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/_site\/uploads\/shaheen-baig-casting-a-poet-in-new-york.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -14068,6 +14088,17 @@
 		"initialSize": 145348,
 		"inputAbbreviatedPath": "\/_site\/uploads\/shaheen-baig-casting-five-daughters.jpg",
 		"outputAbbreviatedPath": "\/_site\/uploads\/shaheen-baig-casting-five-daughters.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/uploads\/shaheen-baig-casting-free-fire.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 133171,
+		"inputAbbreviatedPath": "\/_site\/uploads\/shaheen-baig-casting-free-fire.jpg",
+		"outputAbbreviatedPath": "\/_site\/uploads\/shaheen-baig-casting-free-fire.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -14600,6 +14631,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/_site\/uploads\/shaheen-baig-casting-the-last-panthers.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 74955,
+		"inputAbbreviatedPath": "\/_site\/uploads\/shaheen-baig-casting-the-last-panthers.jpg",
+		"outputAbbreviatedPath": "\/_site\/uploads\/shaheen-baig-casting-the-last-panthers.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/_site\/uploads\/shaheen-baig-casting-the-mighty-celt.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -14783,6 +14825,17 @@
 		"initialSize": 39733,
 		"inputAbbreviatedPath": "\/_uploads\/shaheen-baig-casting-28-weeks-later.jpg",
 		"outputAbbreviatedPath": "\/_uploads\/shaheen-baig-casting-28-weeks-later.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_uploads\/shaheen-baig-casting-a-monster-calls.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 137942,
+		"inputAbbreviatedPath": "\/_uploads\/shaheen-baig-casting-a-monster-calls.jpg",
+		"outputAbbreviatedPath": "\/_uploads\/shaheen-baig-casting-a-monster-calls.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -15212,6 +15265,17 @@
 		"initialSize": 145348,
 		"inputAbbreviatedPath": "\/_uploads\/shaheen-baig-casting-five-daughters.jpg",
 		"outputAbbreviatedPath": "\/_uploads\/shaheen-baig-casting-five-daughters.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_uploads\/shaheen-baig-casting-free-fire.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 133171,
+		"inputAbbreviatedPath": "\/_uploads\/shaheen-baig-casting-free-fire.jpg",
+		"outputAbbreviatedPath": "\/_uploads\/shaheen-baig-casting-free-fire.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -15744,6 +15808,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/_uploads\/shaheen-baig-casting-the-last-panthers.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 74955,
+		"inputAbbreviatedPath": "\/_uploads\/shaheen-baig-casting-the-last-panthers.jpg",
+		"outputAbbreviatedPath": "\/_uploads\/shaheen-baig-casting-the-last-panthers.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/_uploads\/shaheen-baig-casting-the-mighty-celt.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -15940,6 +16015,15 @@
 		"processHTML": 0,
 		"randomFootnoteNumbers": 0,
 		"useCompatibilityMode": 0
+		},
+	"\/all.html": {
+		"fileType": 8192,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/all.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
 		},
 	"\/all.md": {
 		"criticStyle": 0,

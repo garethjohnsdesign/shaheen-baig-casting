@@ -7,7 +7,7 @@ tags:
 - example
 - news
 - story
-img: "/uploads/shaheen-baig-casting-born-equal.jpg"
+img: "/uploads/shaheen-baig-casting-brick-lane.jpg"
 director: Sarah Gavron
 with: Tannishtha Chatterjee, Satish Kaushik, Christopher Simpson
 imdb: http://www.imdb.com/title/tt0940585/
