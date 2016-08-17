@@ -10,7 +10,8 @@ tags:
 img: "/uploads/shaheen-baig-casting-the-trip.jpg"
 director: Michael Winterbottom
 with: Steve Coogan, Rob Brydon
-imdb: "http://www.imdb.com/title/tt1698441/"
+imdb: http://www.imdb.com/title/tt1698441/
 video: j9uwmqi4pe
 layout: project
 ---
+

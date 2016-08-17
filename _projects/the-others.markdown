@@ -10,7 +10,8 @@ tags:
 img: "/uploads/shaheen-baig-casting-the-others.jpg"
 director: Alejandro Amenábar
 with: Nicole Kidman, Christopher Eccleston, Fionnula Flanagan
-imdb: "http://www.imdb.com/title/tt0230600/"
+imdb: http://www.imdb.com/title/tt0230600/
 video: rfw0eopd7b
 layout: project
 ---
+

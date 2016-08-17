@@ -10,7 +10,8 @@ tags:
 img: "/uploads/shaheen-baig-casting-trespass-against-us.jpg"
 director: Adam Smith
 with: Michael Fassbender, Brendan Gleeson, Sean Harris
-imdb: "http://www.imdb.com/title/tt3305308/"
+imdb: http://www.imdb.com/title/tt3305308/
 video: 
 layout: project
 ---
+
