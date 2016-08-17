@@ -6,10 +6,48 @@ layout: default
 {% include carousel.html %}
 </div>
 
+<section class="index__content">
 <div class="row">
-{% for project in site.projects limit:9 %}
+	<div class="columns">
+		<p class="text-center excerpt__highlight">Recent</p>
+	</div>
+</div>
+
+<div class="row">
+{% assign projects = (site.projects | sort: 'date') | reverse %}
+{% for project in projects limit:6 %}
 <div class="small-12 medium-4 columns">
 {% include excerpt.html %}
 </div>
 {% endfor %}
 </div>
+
+
+<div class="row">
+	<div class="columns">
+		<p class="text-center excerpt__highlight">In Production</p>
+	</div>
+</div>
+
+<div class="row">
+{% assign projects = (site.projects | sort: 'date') | reverse %}
+{% for project in projects limit:6 %}
+<div class="small-12 medium-4 columns">
+<article class="excerpt">
+<!-- Title -->
+<h2 class="excerpt__title"><a href="{{ project.url }}">{{ project.title }}</a></h2>
+<!-- End Title -->
+
+<!-- Director -->
+<p class="excerpt__director"><a href="{{ project.url }}">Director: {{ project.director }}</a></p>
+<!-- End Director -->
+
+<!-- With -->
+<p class="excerpt__with"><a href="{{ project.url }}">With: {{ project.with }}</a></p>
+<!-- End With -->
+
+</article>
+</div>
+{% endfor %}
+</div>
+</section>

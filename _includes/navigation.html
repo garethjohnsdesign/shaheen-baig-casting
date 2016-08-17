@@ -9,33 +9,42 @@
   <div class="top-bar-left">
 	<ul class="vertical medium-horizontal dropdown menu primary-menu" data-dropdown-menu>
 	<li class="hide-for-small-only"><a href="/" class="header__home">Shaheen Baig Casting</a></li>
-	</ul>
-	
-	<ul class="vertical medium-horizontal dropdown menu secondary-menu" data-dropdown-menu>
-	{% for link in site.data.navigation.tags %}
+	{% for link in site.data.navigation %}
         {% assign current = nil %}
         {% if page.url contains link.url %}
             {% assign current = 'current' %}
         {% endif %}
-        <li class="element show-for-small-only {% if forloop.first %}first{% endif %} {{ current }} {% if forloop.last %}last{% endif %}">
-            <a href="{{ link.url }}">{{ link.title }}</a>
-        </li>
-    {% endfor %}
+        
+        
+<!-- check to see if the data file has a submenu, and if so display it -->
+{% if link.subcategories != null %}
+<li>
+    <a href="{{ link.href }}">{{ link.title }}</a>
+    <ul class="menu">
+	  {% for subcategory in link.subcategories %}
+      <li><a href="{{ subcategory.subhref }}">{{ subcategory.subtitle }}</a></li>
+      {% endfor %}
     </ul>
+</li>
+{% else %}
+
+<!— display the top level navigation for items that don’t have a submenu -->
+<li>
+<a href="{{ link.href }}">{{ link.title }}</a>
+{% endif %}
+</li>
+    
+    {% endfor %}
+	</ul>
+	
+
 
     
   </div>
   <div class="top-bar-right hide-for-small-only">
     <ul class="menu align-right">
-	  {% for link in site.data.navigation.header %}
-        {% assign current = nil %}
-        {% if page.url contains link.url %}
-            {% assign current = 'current' %}
-        {% endif %}
-        <li class="element element-{{ link.color }} {% if forloop.first %}first{% endif %} {{ current }} {% if forloop.last %}last{% endif %}">
-            <a href="{{ link.url }}">{{ link.title }}</a>
-        </li>
-    {% endfor %}
+	<li><a href="{{ site.facebook }}">Facebook</a></li>
+	<li><a href="{{ site.twitter }}">Twitter</a></li>
     </ul>
   </div>
 </div>

@@ -2,30 +2,15 @@
 layout: default
 ---
 
-<div class="post__wrapper post--bg--{% for page_category in page.categories %}{% assign page_category_downcase = page_category | downcase | replace: ' ', '-' %}{% for site_category in site.blog_categories %}{% assign site_category_title = site_category.title | downcase | replace: ' ', '-' %}{% if site_category_title == page_category_downcase %}{{site_category.color}}{% endif %}{% endfor %}{% endfor %}">
 
-
-	
-<div class="row columns post__panel">
-	
-<!-- Post Share -->
-<div class="row post__share">
-	<div class="small-12 columns">
-	<ul class="menu simple">
-	<li><button type="button" class="hollow button" onclick="history.back(-1)"><svg class="icon icon-arrow-left8"><use xlink:href="#icon-arrow-left8"></use></svg> Back</button></li>
-	<li>Share</li>
-	 
-	{% include sharing.html %} 
-	 
-  	</ul>
-	</div>
-</div>
-<!-- End Post Share -->
 
 <!-- Post Title -->
 <div class="row post__title">
-	<div class="small-12 columns">
+	<div class="small-12 columns text-center">
 		<h1>{{ page.title }}</h1>
+		<p>Director: {{ page.director }}</p>
+		<p>With: {{ page.with }}</p>
+		<p><a href="{{ page.imdb}}" target="_blank">IMDB</a></p>
 	</div>
 </div>
 
@@ -103,5 +88,4 @@ layout: default
 </div>
 </div>
 
-</div>
-</div>
+

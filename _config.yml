@@ -5,6 +5,9 @@ collections:
   carousel:
     title: Carousel
     output: true
+  project_categories:
+    title: Categories
+    output: true
   posts:
     title: Posts
     output: true

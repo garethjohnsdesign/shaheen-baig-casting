@@ -1,15 +1,39 @@
 @font-face {
-  font-family: 'CircularStd-Book';
-  src: url('../fonts/CircularStd-Book.eot?#iefix') format('embedded-opentype'),  url('../fonts/CircularStd-Book.otf')  format('opentype'),
-	     url('../fonts/CircularStd-Book.woff') format('woff'), url('../fonts/CircularStd-Book.ttf')  format('truetype'), url('../fonts/CircularStd-Book.svg#CircularStd-Book') format('svg');
+  font-family: 'TiemposHeadline-Semibold';
+  src: url('../fonts/TiemposHeadline-Semibold.eot?#iefix') format('embedded-opentype'),  url('../fonts/TiemposHeadline-Semibold.otf')  format('opentype'),
+	     url('../fonts/TiemposHeadline-Semibold.woff') format('woff'), url('../fonts/TiemposHeadline-Semibold.ttf')  format('truetype'), url('../fonts/TiemposHeadline-Semibold.svg#TiemposHeadline-Semibold') format('svg');
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
-  font-family: 'CircularStd-Black';
-  src: url('../fonts/CircularStd-Black.eot?#iefix') format('embedded-opentype'),  url('../fonts/CircularStd-Black.otf')  format('opentype'),
-	     url('../fonts/CircularStd-Black.woff') format('woff'), url('../fonts/CircularStd-Black.ttf')  format('truetype'), url('../fonts/CircularStd-Black.svg#CircularStd-Black') format('svg');
+  font-family: 'Larsseit';
+  src: url('../fonts/Larsseit.eot?#iefix') format('embedded-opentype'),  url('../fonts/Larsseit.otf')  format('opentype'),
+	     url('../fonts/Larsseit.woff') format('woff'), url('../fonts/Larsseit.ttf')  format('truetype'), url('../fonts/Larsseit.svg#Larsseit') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'InputMonoNarrow-Regular';
+  src: url('../fonts/InputMonoNarrow-Regular.eot?#iefix') format('embedded-opentype'),  url('../fonts/InputMonoNarrow-Regular.otf')  format('opentype'),
+	     url('../fonts/InputMonoNarrow-Regular.woff') format('woff'), url('../fonts/InputMonoNarrow-Regular.ttf')  format('truetype'), url('../fonts/InputMonoNarrow-Regular.svg#InputMonoNarrow-Regular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Graphik-Light-Web';
+  src: url('../fonts/Graphik-Light-Web.eot?#iefix') format('embedded-opentype'),  url('../fonts/Graphik-Light-Web.otf')  format('opentype'),
+	     url('../fonts/Graphik-Light-Web.woff') format('woff'), url('../fonts/Graphik-Light-Web.ttf')  format('truetype'), url('../fonts/Graphik-Light-Web.svg#Graphik-Light-Web') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Graphik-Bold-Web';
+  src: url('../fonts/Graphik-Bold-Web.eot?#iefix') format('embedded-opentype'),  url('../fonts/Graphik-Bold-Web.otf')  format('opentype'),
+	     url('../fonts/Graphik-Bold-Web.woff') format('woff'), url('../fonts/Graphik-Bold-Web.ttf')  format('truetype'), url('../fonts/Graphik-Bold-Web.svg#Graphik-Bold-Web') format('svg');
   font-weight: normal;
   font-style: normal;
 }
