@@ -1,5 +1,6 @@
 ---
 title: The Falling
+<<<<<<< HEAD
 date: 2015-04-24 00:00:00 Z
 medium: film
 img: "/uploads/shaheen-baig-casting-the-falling.jpg"
@@ -11,5 +12,7 @@ layout: project
 is-in-production:
 is-featured: "true"
 featured-image: "/uploads/shaheen-baig-casting-slide-the-falling.jpg"
+=======
+>>>>>>> origin/master
 ---
 

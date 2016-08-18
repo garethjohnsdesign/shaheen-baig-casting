@@ -1,5 +1,6 @@
 ---
 title: The Last Panthers
+<<<<<<< HEAD
 date: 2015-02-10 00:00:00 Z
 medium: television
 img: "/uploads/shaheen-baig-casting-the-last-panthers.jpg"
@@ -11,5 +12,7 @@ layout: project
 is-in-production:
 is-featured:
 featured-image: 
+=======
+>>>>>>> origin/master
 ---
 

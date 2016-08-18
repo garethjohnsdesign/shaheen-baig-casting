@@ -1,5 +1,6 @@
 ---
 title: Southcliffe
+<<<<<<< HEAD
 date: 2013-08-04 00:00:00 Z
 medium: television
 img: "/uploads/shaheen-baig-casting-southcliffe.jpg"
@@ -11,5 +12,7 @@ layout: project
 is-in-production:
 is-featured: "true"
 featured-image: "/uploads/shaheen-baig-casting-slide-southcliffe.jpg"
+=======
+>>>>>>> origin/master
 ---
 

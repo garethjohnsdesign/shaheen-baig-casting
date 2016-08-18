@@ -1,5 +1,6 @@
 ---
 title: Peaky Blinders
+<<<<<<< HEAD
 date: 2013-09-12 00:00:00 Z
 medium: television
 img: "/uploads/shaheen-baig-casting-peaky-blinders.jpg"
@@ -11,5 +12,7 @@ layout: project
 is-in-production:
 is-featured: "true"
 featured-image: "/uploads/shaheen-baig-casting-slide-peaky-blinders.jpg"
+=======
+>>>>>>> origin/master
 ---
 
