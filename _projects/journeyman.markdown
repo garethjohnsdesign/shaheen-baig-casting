@@ -6,9 +6,10 @@ img: "/uploads/shaheen-baig-casting-journeyman.jpg"
 director: Paddy Considine
 with: Paddy Considine, Jodie Whittaker, Paul Popplewell
 imdb: http://www.imdb.com/title/tt5314118/
-video:
+video: 
 layout: project
-is-in-production: "true"
-is-featured:
+is-in-production: 'true'
+is-featured: 
 featured-image: 
 ---
+
