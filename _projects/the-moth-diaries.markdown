@@ -8,8 +8,8 @@ with: Sarah Bolger, Sarah Gadon, Lily Cole
 imdb: http://www.imdb.com/title/tt1407065/
 video: 1b8wageedp
 layout: project
-is-in-production:
-is-featured:
+is-in-production: 
+is-featured: 
 featured-image: 
 ---
 

@@ -8,8 +8,8 @@ with: David Thewlis, Ken Stott, Miranda Richardson
 imdb: http://www.imdb.com/title/tt4271918/
 video: 
 layout: project
-is-in-production:
-is-featured:
+is-in-production: 
+is-featured: 
 featured-image: 
 ---
 

@@ -8,8 +8,8 @@ with: Wunmi Mosaku, Isaach de Bankolé, Lubna Azabal, Hiam Abbass
 imdb: http://www.imdb.com/title/tt1596352/
 video: 9314ng3hxy
 layout: project
-is-in-production:
-is-featured:
+is-in-production: 
+is-featured: 
 featured-image: 
 ---
 

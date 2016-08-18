@@ -8,8 +8,8 @@ with: Sarah Polley, Tim Robbins
 imdb: http://www.imdb.com/title/tt0430576/
 video: gejf2dz436
 layout: project
-is-in-production:
-is-featured:
+is-in-production: 
+is-featured: 
 featured-image: 
 ---
 

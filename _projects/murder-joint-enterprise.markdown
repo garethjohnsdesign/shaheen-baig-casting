@@ -8,8 +8,8 @@ with: Karla Crome, Joe Dempsie, Stephen Dillane
 imdb: http://www.imdb.com/title/tt2272902/
 video: yjrtxqu882
 layout: project
-is-in-production:
-is-featured:
+is-in-production: 
+is-featured: 
 featured-image: 
 ---
 

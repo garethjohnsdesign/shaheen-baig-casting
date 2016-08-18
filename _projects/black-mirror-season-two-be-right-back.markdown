@@ -8,8 +8,8 @@ with: Hayley Atwell, Domhnall Gleeson
 imdb: http://www.imdb.com/title/tt2089049/
 video: n718o2btik
 layout: project
-is-in-production:
-is-featured:
+is-in-production: 
+is-featured: 
 featured-image: 
 ---
 

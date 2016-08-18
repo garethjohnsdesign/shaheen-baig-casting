@@ -8,8 +8,8 @@ with: Arta Dobroshi, Daniel Kaluuya
 imdb: http://www.imdb.com/title/tt1772761/
 video: izl6i65mhn
 layout: project
-is-in-production:
-is-featured:
+is-in-production: 
+is-featured: 
 featured-image: 
 ---
 

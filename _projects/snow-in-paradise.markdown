@@ -8,8 +8,8 @@ with: Frederick Schmidt, Martin Askew, David Spinx
 imdb: http://www.imdb.com/title/tt2147521/
 video: fguiqjzvvy
 layout: project
-is-in-production:
-is-featured:
+is-in-production: 
+is-featured: 
 featured-image: 
 ---
 

@@ -8,8 +8,8 @@ with: Nicole Kidman, Christopher Eccleston, Fionnula Flanagan
 imdb: http://www.imdb.com/title/tt0230600/
 video: rfw0eopd7b
 layout: project
-is-in-production:
-is-featured:
+is-in-production: 
+is-featured: 
 featured-image: 
 ---
 

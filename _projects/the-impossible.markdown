@@ -8,8 +8,8 @@ with: Naomi Watts, Ewan McGregor, Tom Holland
 imdb: http://www.imdb.com/title/tt1649419/
 video: 6ghw0pomj6
 layout: project
-is-in-production:
-is-featured:
+is-in-production: 
+is-featured: 
 featured-image: 
 ---
 

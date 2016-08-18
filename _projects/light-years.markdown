@@ -8,8 +8,8 @@ with: Muhammet Uzuner, Beth Orton
 imdb: http://www.imdb.com/title/tt4059128/
 video: 
 layout: project
-is-in-production:
-is-featured:
+is-in-production: 
+is-featured: 
 featured-image: 
 ---
 

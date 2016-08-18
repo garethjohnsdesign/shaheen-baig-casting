@@ -8,8 +8,8 @@ with: Peter Capaldi
 imdb: http://www.imdb.com/title/tt2056638/
 video: 3z7ju3pwfb
 layout: project
-is-in-production:
-is-featured:
+is-in-production: 
+is-featured: 
 featured-image: 
 ---
 

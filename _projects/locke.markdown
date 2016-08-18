@@ -8,8 +8,8 @@ with: Tom Hardy
 imdb: http://www.imdb.com/title/tt2692904/
 video: pd1ghz1lw8
 layout: project
-is-in-production:
-is-featured:
+is-in-production: 
+is-featured: 
 featured-image: 
 ---
 

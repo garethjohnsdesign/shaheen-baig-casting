@@ -8,8 +8,8 @@ with: Maisie Williams, Florence Pugh, Maxine Peake
 imdb: http://www.imdb.com/title/tt3294200/
 video: 3nftm89ltp
 layout: project
-is-in-production:
-is-featured:
+is-in-production: 
+is-featured: 
 featured-image: 
 ---
 

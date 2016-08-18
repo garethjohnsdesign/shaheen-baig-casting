@@ -8,8 +8,8 @@ with: Sam Hazeldine, Morven Christie, Nicholas Farrell
 imdb: http://www.imdb.com/title/tt3349322/
 video: xvrynvn83s
 layout: project
-is-in-production:
-is-featured:
+is-in-production: 
+is-featured: 
 featured-image: 
 ---
 

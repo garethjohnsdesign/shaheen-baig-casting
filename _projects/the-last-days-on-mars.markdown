@@ -8,8 +8,8 @@ with: Liev Schreiber, Elias Koteas, Romola Garai
 imdb: http://www.imdb.com/title/tt1709143/
 video: vx5kskktjv
 layout: project
-is-in-production:
-is-featured:
+is-in-production: 
+is-featured: 
 featured-image: 
 ---
 

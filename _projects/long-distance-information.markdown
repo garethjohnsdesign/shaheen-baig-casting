@@ -8,8 +8,8 @@ with: Peter Mullan
 imdb: http://www.imdb.com/title/tt2056638/
 video: z7p6ez86kq
 layout: project
-is-in-production:
-is-featured:
+is-in-production: 
+is-featured: 
 featured-image: 
 ---
 

@@ -8,8 +8,8 @@ with: Maggie Cheung, Nick Nolte, Béatrice Dalle
 imdb: http://www.imdb.com/title/tt0388838/
 video: xenbg4tloo
 layout: project
-is-in-production:
-is-featured:
+is-in-production: 
+is-featured: 
 featured-image: 
 ---
 

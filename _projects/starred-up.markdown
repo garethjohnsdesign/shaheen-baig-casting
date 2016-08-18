@@ -8,8 +8,8 @@ with: Jack O'Connell, Ben Mendelsohn, Rupert Friend
 imdb: http://www.imdb.com/title/tt2567712/
 video: jfr3f2vxn4
 layout: project
-is-in-production:
-is-featured:
+is-in-production: 
+is-featured: 
 featured-image: 
 ---
 

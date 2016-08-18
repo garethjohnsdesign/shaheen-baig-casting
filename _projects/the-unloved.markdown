@@ -8,8 +8,8 @@ with: Molly Windsor, Robert Carlyle, Susan Lynch
 imdb: http://www.imdb.com/title/tt1268989/
 video: 2mhje0zofh
 layout: project
-is-in-production:
-is-featured:
+is-in-production: 
+is-featured: 
 featured-image: 
 ---
 

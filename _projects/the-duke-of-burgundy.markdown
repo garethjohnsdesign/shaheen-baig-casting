@@ -8,8 +8,8 @@ with: Sidse Babett Knudsen, Chiara D’Anna
 imdb: http://www.imdb.com/title/tt2570858/
 video: ihi3lcpys6
 layout: project
-is-in-production:
-is-featured:
+is-in-production: 
+is-featured: 
 featured-image: 
 ---
 

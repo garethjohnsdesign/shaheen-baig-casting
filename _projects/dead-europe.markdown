@@ -8,8 +8,8 @@ with: Kodi Smit McPhee, Martin Csokas
 imdb: http://www.imdb.com/title/tt2091880/
 video: 9ywfjbe9lt
 layout: project
-is-in-production:
-is-featured:
+is-in-production: 
+is-featured: 
 featured-image: 
 ---
 

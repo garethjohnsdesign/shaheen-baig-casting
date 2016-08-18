@@ -8,8 +8,8 @@ with: Kerry Fox, Anamaria Marinca, Stephen Dillane
 imdb: http://www.imdb.com/title/tt0768239/
 video: 4hfi28z8bo
 layout: project
-is-in-production:
-is-featured:
+is-in-production: 
+is-featured: 
 featured-image: 
 ---
 

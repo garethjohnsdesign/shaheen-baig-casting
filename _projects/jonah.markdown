@@ -8,8 +8,8 @@ with: Daniel Kaluuya, Malachi Kirby
 imdb: http://www.imdb.com/title/tt2690924/
 video: f3qe22c95e
 layout: project
-is-in-production:
-is-featured:
+is-in-production: 
+is-featured: 
 featured-image: 
 ---
 

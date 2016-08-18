@@ -8,8 +8,8 @@ with: Ian Hart, Natalie Press, Sean Harris
 imdb: http://www.imdb.com/title/tt1642351/
 video: 
 layout: project
-is-in-production:
-is-featured:
+is-in-production: 
+is-featured: 
 featured-image: 
 ---
 

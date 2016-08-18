@@ -8,8 +8,8 @@ with: Daniel Kaluuya, Jessica Brown Findlay, Rupert Everett
 imdb: http://www.imdb.com/title/tt2089049/
 video: s0qeyut84w
 layout: project
-is-in-production:
-is-featured:
+is-in-production: 
+is-featured: 
 featured-image: 
 ---
 

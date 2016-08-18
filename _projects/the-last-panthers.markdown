@@ -8,8 +8,8 @@ with: Samantha Morton, Tahar Rahim, Goran Bogdan, John Hurt
 imdb: http://www.imdb.com/title/tt4075386/
 video: 
 layout: project
-is-in-production: "true"
-is-featured:
+is-in-production: 'true'
+is-featured: 
 featured-image: 
 ---
 

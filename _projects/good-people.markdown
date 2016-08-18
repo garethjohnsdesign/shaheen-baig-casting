@@ -8,8 +8,8 @@ with: James Franco, Omar Sy, Kate Hudson
 imdb: http://www.imdb.com/title/tt1361318/
 video: aipkwg6jtx
 layout: project
-is-in-production:
-is-featured:
+is-in-production: 
+is-featured: 
 featured-image: 
 ---
 

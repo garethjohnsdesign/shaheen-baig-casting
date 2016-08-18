@@ -8,8 +8,8 @@ with: Zhan Yu, Tao Li, Ai Qin Lin
 imdb: http://www.imdb.com/title/tt0872202/
 video: a9s8zb3qd2
 layout: project
-is-in-production:
-is-featured:
+is-in-production: 
+is-featured: 
 featured-image: 
 ---
 

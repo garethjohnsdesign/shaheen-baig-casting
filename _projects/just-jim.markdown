@@ -8,8 +8,8 @@ with: Craig Roberts, Emile Hirsch
 imdb: http://www.imdb.com/title/tt3291148/
 video: 
 layout: project
-is-in-production:
-is-featured:
+is-in-production: 
+is-featured: 
 featured-image: 
 ---
 
