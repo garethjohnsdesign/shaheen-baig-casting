@@ -6,10 +6,10 @@ img: "/uploads/shaheen-baig-casting-a-monster-calls.jpg"
 director: Juan Antonio Bayona
 with: Liam Neeson, Felicity Jones, Toby Kebbell, Lewis MacDougall
 imdb: http://www.imdb.com/title/tt3416532/
-video:
+video: 
 layout: project
-is-in-production:
-is-featured:
+is-in-production: 
+is-featured: 
 featured-image: 
 ---
 

@@ -8,8 +8,8 @@ with: Rafe Spall, Kelly Macdonald, Andrew Scott
 imdb: http://www.imdb.com/title/tt1227183/
 video: 
 layout: project
-is-in-production:
-is-featured:
+is-in-production: 
+is-featured: 
 featured-image: 
 ---
 

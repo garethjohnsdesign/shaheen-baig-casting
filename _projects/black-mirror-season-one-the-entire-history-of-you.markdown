@@ -8,8 +8,8 @@ with: Toby Kebbell, Jodie Whittaker, Tom Cullen
 imdb: http://www.imdb.com/title/tt2089050/
 video: s0qeyut84w
 layout: project
-is-in-production:
-is-featured:
+is-in-production: 
+is-featured: 
 featured-image: 
 ---
 

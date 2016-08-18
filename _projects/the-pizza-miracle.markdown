@@ -8,8 +8,8 @@ with: Stanley Townsend and Matt Berry
 imdb: http://www.imdb.com/title/tt1670711/
 video: j3miu99yt1
 layout: project
-is-in-production:
-is-featured:
+is-in-production: 
+is-featured: 
 featured-image: 
 ---
 

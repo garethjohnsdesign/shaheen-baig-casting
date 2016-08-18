@@ -8,8 +8,8 @@ with: Rebecca Hall, Dominic West, Imelda Staunton
 imdb: http://www.imdb.com/title/tt1687901/
 video: ukvp7g7sah
 layout: project
-is-in-production:
-is-featured:
+is-in-production: 
+is-featured: 
 featured-image: 
 ---
 

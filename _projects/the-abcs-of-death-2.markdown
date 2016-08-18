@@ -8,8 +8,8 @@ with: Nicholas Amer, Richard Hardisty
 imdb: http://www.imdb.com/title/tt2926810/
 video: cawvyw0maq
 layout: project
-is-in-production:
-is-featured:
+is-in-production: 
+is-featured: 
 featured-image: 
 ---
 

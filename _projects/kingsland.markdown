@@ -8,8 +8,8 @@ with:
 imdb: http://www.imdb.com/title/tt2690924/
 video: y0j1xbnldn
 layout: project
-is-in-production:
-is-featured:
+is-in-production: 
+is-featured: 
 featured-image: 
 ---
 

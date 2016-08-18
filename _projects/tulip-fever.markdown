@@ -8,8 +8,8 @@ with: Christoph Waltz, Dane DeHaan, Alicia Vikander, Judi Dench
 imdb: http://www.imdb.com/title/tt0491203/
 video: 
 layout: project
-is-in-production:
-is-featured:
+is-in-production: 
+is-featured: 
 featured-image: 
 ---
 

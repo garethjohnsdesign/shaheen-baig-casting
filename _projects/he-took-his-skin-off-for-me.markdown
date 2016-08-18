@@ -8,8 +8,8 @@ with: Anna Maguire, Sebastian Armesto
 imdb: http://www.imdb.com/title/tt3452322/
 video: 3l40wvxaam
 layout: project
-is-in-production:
-is-featured:
+is-in-production: 
+is-featured: 
 featured-image: 
 ---
 

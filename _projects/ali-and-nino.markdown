@@ -8,8 +8,8 @@ with: Adam Bakri, María Valverde, Mandy Patinkin
 imdb: http://www.imdb.com/title/tt4072326/
 video: 
 layout: project
-is-in-production:
-is-featured:
+is-in-production: 
+is-featured: 
 featured-image: 
 ---
 

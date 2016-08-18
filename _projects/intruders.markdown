@@ -8,8 +8,8 @@ with: Clive Owen, Carice van Houten, Daniel Bruhl
 imdb: http://www.imdb.com/title/tt1634121/
 video: q4fkoj0rg7
 layout: project
-is-in-production:
-is-featured:
+is-in-production: 
+is-featured: 
 featured-image: 
 ---
 

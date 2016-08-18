@@ -8,8 +8,8 @@ with: Jeremy Sumpter, Rachel Hurd-Wood, Jason Isaacs, Olivia Williams
 imdb: http://www.imdb.com/title/tt0316396/
 video: c3gmc82aqu
 layout: project
-is-in-production:
-is-featured:
+is-in-production: 
+is-featured: 
 featured-image: 
 ---
 

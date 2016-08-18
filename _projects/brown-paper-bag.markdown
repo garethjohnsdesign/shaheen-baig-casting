@@ -8,8 +8,8 @@ with: Ronnie Fox, Jo McInnes
 imdb: http://www.imdb.com/title/tt0396515/
 video: a6sq7h9y1u
 layout: project
-is-in-production:
-is-featured:
+is-in-production: 
+is-featured: 
 featured-image: 
 ---
 

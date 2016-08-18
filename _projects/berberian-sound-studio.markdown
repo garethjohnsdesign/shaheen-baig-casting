@@ -8,8 +8,8 @@ with: Toby Jones
 imdb: http://www.imdb.com/title/tt1833844/
 video: adcnjda1ek
 layout: project
-is-in-production:
-is-featured:
+is-in-production: 
+is-featured: 
 featured-image: 
 ---
 

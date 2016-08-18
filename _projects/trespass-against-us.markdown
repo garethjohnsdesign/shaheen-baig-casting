@@ -8,8 +8,8 @@ with: Michael Fassbender, Brendan Gleeson, Sean Harris
 imdb: http://www.imdb.com/title/tt3305308/
 video: 
 layout: project
-is-in-production:
-is-featured:
+is-in-production: 
+is-featured: 
 featured-image: 
 ---
 

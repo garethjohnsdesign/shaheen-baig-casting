@@ -8,8 +8,8 @@ with: Aisling Loftus, Jack O'Connell
 imdb: http://www.imdb.com/title/tt1458547/
 video: w4c0upq6zy
 layout: project
-is-in-production:
-is-featured:
+is-in-production: 
+is-featured: 
 featured-image: 
 ---
 

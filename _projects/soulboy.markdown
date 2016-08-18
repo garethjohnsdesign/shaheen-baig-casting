@@ -8,8 +8,8 @@ with: Martin Compston, Felicity Jones
 imdb: http://www.imdb.com/title/tt1259227/
 video: 5wb77ulupz
 layout: project
-is-in-production:
-is-featured:
+is-in-production: 
+is-featured: 
 featured-image: 
 ---
 

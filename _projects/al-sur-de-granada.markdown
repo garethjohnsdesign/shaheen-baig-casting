@@ -8,8 +8,8 @@ with: Matthew Goode, Verónica Sánchez, Guillermo Toledo
 imdb: http://www.imdb.com/title/tt0349076/
 video: f67lraxwi3
 layout: project
-is-in-production:
-is-featured:
+is-in-production: 
+is-featured: 
 featured-image: 
 ---
 

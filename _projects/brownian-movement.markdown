@@ -8,8 +8,8 @@ with: Sandra Hüller, Dragan Bakema
 imdb: http://www.imdb.com/title/tt1529240/
 video: 844ji8gw48
 layout: project
-is-in-production:
-is-featured:
+is-in-production: 
+is-featured: 
 featured-image: 
 ---
 

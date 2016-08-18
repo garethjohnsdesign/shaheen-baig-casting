@@ -8,8 +8,8 @@ with: Ewan McGregor, Eva Green
 imdb: http://www.imdb.com/title/tt1439572/
 video: fzfa7sdc9w
 layout: project
-is-in-production:
-is-featured:
+is-in-production: 
+is-featured: 
 featured-image: 
 ---
 

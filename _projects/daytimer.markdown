@@ -8,8 +8,8 @@ with: Jordan O'Donegan
 imdb: http://www.imdb.com/title/tt3623302/
 video: 
 layout: project
-is-in-production:
-is-featured:
+is-in-production: 
+is-featured: 
 featured-image: 
 ---
 

@@ -8,8 +8,8 @@ with: Lenora Crichlow, Michael Smiley, Tuppence Middleton
 imdb: http://www.imdb.com/title/tt2542420/
 video: n718o2btik
 layout: project
-is-in-production:
-is-featured:
+is-in-production: 
+is-featured: 
 featured-image: 
 ---
 

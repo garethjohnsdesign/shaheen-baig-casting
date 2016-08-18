@@ -8,8 +8,8 @@ with: Marton Csokas, Hayley Atwell
 imdb: http://www.imdb.com/title/tt2351868/
 video: 74qrawq1ry
 layout: project
-is-in-production:
-is-featured:
+is-in-production: 
+is-featured: 
 featured-image: 
 ---
 

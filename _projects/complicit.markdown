@@ -8,8 +8,8 @@ with: David Oyelowo, Arsher Ali
 imdb: http://www.imdb.com/title/tt2224119/
 video: 05paaf4rwr
 layout: project
-is-in-production:
-is-featured:
+is-in-production: 
+is-featured: 
 featured-image: 
 ---
 

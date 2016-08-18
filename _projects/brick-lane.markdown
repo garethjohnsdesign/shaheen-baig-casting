@@ -8,8 +8,8 @@ with: Tannishtha Chatterjee, Satish Kaushik, Christopher Simpson
 imdb: http://www.imdb.com/title/tt0940585/
 video: p9f8yrlfh8
 layout: project
-is-in-production:
-is-featured:
+is-in-production: 
+is-featured: 
 featured-image: 
 ---
 

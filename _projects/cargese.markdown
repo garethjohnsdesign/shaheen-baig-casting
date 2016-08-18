@@ -8,8 +8,8 @@ with: Joe Cole, Craig Roberts, Perry Millward
 imdb: http://www.imdb.com/title/tt2638520/
 video: 
 layout: project
-is-in-production:
-is-featured:
+is-in-production: 
+is-featured: 
 featured-image: 
 ---
 

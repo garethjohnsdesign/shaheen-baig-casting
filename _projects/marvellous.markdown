@@ -8,8 +8,8 @@ with: Toby Jones, Gemma Jones, Tony Curran
 imdb: http://www.imdb.com/title/tt3659786/
 video: pz03gfr8nz
 layout: project
-is-in-production:
-is-featured:
+is-in-production: 
+is-featured: 
 featured-image: 
 ---
 

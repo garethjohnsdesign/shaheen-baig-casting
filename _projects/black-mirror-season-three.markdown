@@ -8,8 +8,8 @@ with: Jon Hamm, Rafe Spall, Oona Chaplin
 imdb: http://www.imdb.com/title/tt2085059/
 video: vgj2wr3d5y
 layout: project
-is-in-production:
-is-featured:
+is-in-production: 
+is-featured: 
 featured-image: 
 ---
 

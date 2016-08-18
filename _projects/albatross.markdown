@@ -8,8 +8,8 @@ with: Felicity Jones, Jessica Brown Findlay, Sebastian Koch
 imdb: http://www.imdb.com/title/tt1541149/
 video: myjfrsnaqm
 layout: project
-is-in-production:
-is-featured:
+is-in-production: 
+is-featured: 
 featured-image: 
 ---
 

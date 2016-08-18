@@ -8,8 +8,8 @@ with: Jenny Jules, Frances Barber
 imdb: http://www.imdb.com/title/tt3546354/
 video: 
 layout: project
-is-in-production:
-is-featured:
+is-in-production: 
+is-featured: 
 featured-image: 
 ---
 

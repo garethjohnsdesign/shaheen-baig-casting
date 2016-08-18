@@ -8,8 +8,8 @@ with: Charlie Cox, Jodie Whittaker
 imdb: http://www.imdb.com/title/tt2636488/
 video: 3huzdpjkll
 layout: project
-is-in-production:
-is-featured:
+is-in-production: 
+is-featured: 
 featured-image: 
 ---
 

@@ -8,8 +8,8 @@ with: Gemma Arterton and Dominic Cooper
 imdb: http://www.imdb.com/title/tt1230204/
 video: c9g2rclrqj
 layout: project
-is-in-production:
-is-featured:
+is-in-production: 
+is-featured: 
 featured-image: 
 ---
 
