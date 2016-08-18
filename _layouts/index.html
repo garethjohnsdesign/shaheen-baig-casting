@@ -16,7 +16,7 @@ layout: default
 <div class="row">
 {% assign projects = site.projects | sort: 'date' | reverse | where: "is-in-production", "" %}
 {% for project in projects limit:6 %}
-<div class="small-12 medium-4 columns">
+<div class="small-12 medium-6 large-4 columns">
 {% include excerpt.html %}
 </div>
 {% endfor %}
@@ -33,7 +33,7 @@ layout: default
 {% assign projects = site.projects | sort: 'date' | reverse %}
 {% for project in projects %}
 {% if project.is-in-production contains 'true' %}
-<div class="small-12 medium-4 columns">
+<div class="small-12 medium-6 large-4 columns">
 <article class="excerpt">
 <!-- Title -->
 <h2 class="excerpt__title">{{ project.title }}</h2>
