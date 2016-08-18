@@ -67,6 +67,17 @@ a {
 	transition: $primary-transition;
 }
 
+html {
+  height: 100%;
+}
+body {
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.content-wrapper {
+  flex: 1;
+}
 
 // Header
 .header__logo {
@@ -85,10 +96,6 @@ a {
 }
 
 .top-bar-left {
-/*
-	font-family: $header-font-family;
-	font-size: 1.5rem;
-*/
 }
 
 .top-bar-right {
@@ -176,31 +183,18 @@ a {
 	margin-bottom: 0rem;
 }
 
+// CV
 
-
-// Subscribe Top
-.subscribe-top {
-	background-color: $color--gray;
-	color: $color--white;
+.cv {
 	padding-top: 2rem;
 	padding-bottom: 2rem;
 }
 
-.subscribe-top .subscribe__form {
-	padding-top: 0rem;
-}
-
-// Search Top
-.search-top {
-	background-color: $color--gray;
-	color: $color--white;
+.cv__title {
 	padding-top: 2rem;
-	padding-bottom: 2rem;
+	padding-bottom: 1rem;
 }
 
-.search__input {
-	margin-bottom: 0rem;
-}
 
 // Excerpt
 
@@ -404,8 +398,11 @@ a {
 }
 
 
-.carousel__text h1 {
+.carousel__text h1 a {
 	color: $color--white;
+	&:hover {
+      color: $color--dark-gray;
+    }
 }
 
 .carousel__button {
@@ -528,11 +525,6 @@ a {
     }
 }
 
-.footer__bottom .menu-text {
-	font-weight: $global-weight-normal;
-	text-transform: uppercase;
-	letter-spacing: $letter-spacing--looser;
-}
 
 .footer__bottom__copyright {
 	text-align: center;
@@ -541,13 +533,10 @@ a {
   	}
 }
 
-.footer__bottom__socials {
-	@include flex-align(center, null);
-	@include breakpoint(small only) { 
-	padding-bottom: 2rem;
-	}
+.footer__bottom__credit {
+	text-align: center;
 	@include breakpoint(medium) {
-    @include flex-align(right, null);
+    text-align: right;
   	}
 }
 

@@ -2,9 +2,6 @@
 title: Shaheen Baig Casting
 timezone: UTC
 collections:
-  carousel:
-    title: Carousel
-    output: true
   project_categories:
     title: Categories
     output: true
@@ -45,7 +42,7 @@ instagram:
 twitter: https://twitter.com/sbaigcasting
 linkedin: 
 googleplus: 
-google: UA-80072725-1
+google: UA-61943851-1
 logo: "/assets/img/layout/logo.svg"
 per_page: 12
 date_format: "%b %d, %Y"

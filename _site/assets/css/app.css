@@ -2385,23 +2385,13 @@ a.bg--gray:hover {
   font-weight: normal;
   font-style: normal; }
 @font-face {
-  font-family: 'Larsseit';
-  src: url("../fonts/Larsseit.eot?#iefix") format("embedded-opentype"), url("../fonts/Larsseit.otf") format("opentype"), url("../fonts/Larsseit.woff") format("woff"), url("../fonts/Larsseit.ttf") format("truetype"), url("../fonts/Larsseit.svg#Larsseit") format("svg");
-  font-weight: normal;
-  font-style: normal; }
-@font-face {
-  font-family: 'InputMonoNarrow-Regular';
-  src: url("../fonts/InputMonoNarrow-Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/InputMonoNarrow-Regular.otf") format("opentype"), url("../fonts/InputMonoNarrow-Regular.woff") format("woff"), url("../fonts/InputMonoNarrow-Regular.ttf") format("truetype"), url("../fonts/InputMonoNarrow-Regular.svg#InputMonoNarrow-Regular") format("svg");
-  font-weight: normal;
-  font-style: normal; }
-@font-face {
   font-family: 'Graphik-Light-Web';
-  src: url("../fonts/Graphik-Light-Web.eot?#iefix") format("embedded-opentype"), url("../fonts/Graphik-Light-Web.otf") format("opentype"), url("../fonts/Graphik-Light-Web.woff") format("woff"), url("../fonts/Graphik-Light-Web.ttf") format("truetype"), url("../fonts/Graphik-Light-Web.svg#Graphik-Light-Web") format("svg");
+  src: url("../fonts/Graphik-Light-Web.eot?#iefix") format("embedded-opentype"), url("../fonts/Graphik-Light-Web.woff") format("woff"), url("../fonts/Graphik-Light-Web.ttf") format("truetype"), url("../fonts/Graphik-Light-Web.svg#Graphik-Light-Web") format("svg");
   font-weight: normal;
   font-style: normal; }
 @font-face {
   font-family: 'Graphik-Bold-Web';
-  src: url("../fonts/Graphik-Bold-Web.eot?#iefix") format("embedded-opentype"), url("../fonts/Graphik-Bold-Web.otf") format("opentype"), url("../fonts/Graphik-Bold-Web.woff") format("woff"), url("../fonts/Graphik-Bold-Web.ttf") format("truetype"), url("../fonts/Graphik-Bold-Web.svg#Graphik-Bold-Web") format("svg");
+  src: url("../fonts/Graphik-Bold-Web.eot?#iefix") format("embedded-opentype"), url("../fonts/Graphik-Bold-Web.woff") format("woff"), url("../fonts/Graphik-Bold-Web.ttf") format("truetype"), url("../fonts/Graphik-Bold-Web.svg#Graphik-Bold-Web") format("svg");
   font-weight: normal;
   font-style: normal; }
 /*!
@@ -5677,7 +5667,7 @@ table {
   thead,
   tbody,
   tfoot {
-    border: 1px solid #f1f1f1;
+    border: 0px solid #f1f1f1;
     background-color: #fefefe; }
 
   caption {
@@ -6910,6 +6900,17 @@ a {
 .button {
   transition: all 0.35s cubic-bezier(0.39, 0.575, 0.565, 1); }
 
+html {
+  height: 100%; }
+
+body {
+  min-height: 100%;
+  display: flex;
+  flex-direction: column; }
+
+.content-wrapper {
+  flex: 1; }
+
 .header__logo {
   width: 4rem;
   height: 2rem; }
@@ -6921,12 +6922,6 @@ a {
 .top-bar {
   font-family: "Graphik-Bold-Web", Helvetica, Roboto, Arial, sans-serif;
   font-size: 1rem; }
-
-.top-bar-left {
-  /*
-  	font-family: $header-font-family;
-  	font-size: 1.5rem;
-  */ }
 
 .top-bar-right {
   font-family: "Graphik-Bold-Web", Helvetica, Roboto, Arial, sans-serif; }
@@ -6989,23 +6984,13 @@ a {
 .project__meta p {
   margin-bottom: 0rem; }
 
-.subscribe-top {
-  background-color: #d7d7d7;
-  color: #ffffff;
+.cv {
   padding-top: 2rem;
   padding-bottom: 2rem; }
 
-.subscribe-top .subscribe__form {
-  padding-top: 0rem; }
-
-.search-top {
-  background-color: #d7d7d7;
-  color: #ffffff;
+.cv__title {
   padding-top: 2rem;
-  padding-bottom: 2rem; }
-
-.search__input {
-  margin-bottom: 0rem; }
+  padding-bottom: 1rem; }
 
 .excerpt__highlight {
   font-family: "Graphik-Bold-Web", Helvetica, Roboto, Arial, sans-serif;
@@ -7168,8 +7153,10 @@ a {
 .carousel__text {
   height: 100%; }
 
-.carousel__text h1 {
+.carousel__text h1 a {
   color: #ffffff; }
+  .carousel__text h1 a:hover {
+    color: #949494; }
 
 .carousel__button {
   line-height: 1.16;
@@ -7266,22 +7253,14 @@ a {
   .footer__bottom a:hover {
     color: #949494; }
 
-.footer__bottom .menu-text {
-  font-weight: normal;
-  text-transform: uppercase;
-  letter-spacing: 0.15em; }
-
 .footer__bottom__copyright {
   text-align: center; }
   @media screen and (min-width: 40em) {
     .footer__bottom__copyright {
       text-align: left; } }
 
-.footer__bottom__socials {
-  justify-content: center; }
-  @media screen and (max-width: 39.9375em) {
-    .footer__bottom__socials {
-      padding-bottom: 2rem; } }
+.footer__bottom__credit {
+  text-align: center; }
   @media screen and (min-width: 40em) {
-    .footer__bottom__socials {
-      justify-content: flex-end; } }
+    .footer__bottom__credit {
+      text-align: right; } }

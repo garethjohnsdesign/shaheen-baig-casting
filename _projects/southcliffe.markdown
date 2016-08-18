@@ -9,7 +9,7 @@ imdb: http://www.imdb.com/title/tt2446726/
 video: oyxy1zddk3
 layout: project
 is-in-production:
-is-featured:
-featured-image: 
+is-featured: "true"
+featured-image: "/uploads/shaheen-baig-casting-slide-southcliffe.jpg"
 ---
 

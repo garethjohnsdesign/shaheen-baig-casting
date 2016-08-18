@@ -9,7 +9,7 @@ imdb: http://www.imdb.com/title/tt2442560/
 video: ruy1tpo66r
 layout: project
 is-in-production:
-is-featured:
-featured-image: 
+is-featured: "true"
+featured-image: "/uploads/shaheen-baig-casting-slide-peaky-blinders.jpg"
 ---
 
