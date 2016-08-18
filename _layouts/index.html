@@ -30,8 +30,9 @@ layout: default
 </div>
 
 <div class="row">
-{% assign projects = (site.projects | sort: 'date') | reverse %}
-{% for project in projects limit:6 %}
+{% assign projects = site.projects | sort: 'date' | reverse %}
+{% for project in projects %}
+{% if project.is-in-production contains 'true' %}
 <div class="small-12 medium-4 columns">
 <article class="excerpt">
 <!-- Title -->
@@ -48,6 +49,7 @@ layout: default
 
 </article>
 </div>
+{% endif %}
 {% endfor %}
 </div>
 </section>

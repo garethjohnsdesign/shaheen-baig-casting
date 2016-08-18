@@ -6983,6 +6983,12 @@ a {
   padding-top: 2rem;
   padding-bottom: 2rem; }
 
+.project__meta {
+  padding-top: 2rem; }
+
+.project__meta p {
+  margin-bottom: 0rem; }
+
 .subscribe-top {
   background-color: #d7d7d7;
   color: #ffffff;

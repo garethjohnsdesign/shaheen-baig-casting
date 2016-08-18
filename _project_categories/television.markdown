@@ -1,6 +1,6 @@
 ---
 title: Television
 permalink: "/television/"
-layout: category
+layout: television
 ---
 

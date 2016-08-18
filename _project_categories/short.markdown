@@ -1,6 +1,6 @@
 ---
 title: Short
 permalink: "/short/"
-layout: category
+layout: short
 ---
 
