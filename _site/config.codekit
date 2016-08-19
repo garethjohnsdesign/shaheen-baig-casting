@@ -359,13 +359,13 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/_site\/assets\/img\/meta\/meta-image.png": {
+	"\/_site\/assets\/img\/meta\/og-image.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 31526,
-		"inputAbbreviatedPath": "\/_site\/assets\/img\/meta\/meta-image.png",
-		"outputAbbreviatedPath": "\/_site\/assets\/img\/meta\/meta-image.png",
+		"initialSize": 14790,
+		"inputAbbreviatedPath": "\/_site\/assets\/img\/meta\/og-image.png",
+		"outputAbbreviatedPath": "\/_site\/assets\/img\/meta\/og-image.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -16459,13 +16459,13 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/assets\/img\/meta\/meta-image.png": {
+	"\/assets\/img\/meta\/og-image.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 31526,
-		"inputAbbreviatedPath": "\/assets\/img\/meta\/meta-image.png",
-		"outputAbbreviatedPath": "\/assets\/img\/meta\/meta-image.png",
+		"initialSize": 14790,
+		"inputAbbreviatedPath": "\/assets\/img\/meta\/og-image.png",
+		"outputAbbreviatedPath": "\/assets\/img\/meta\/og-image.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -30354,6 +30354,15 @@
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
+		},
+	"\/index.html": {
+		"fileType": 8192,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/index.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
 		},
 	"\/index.md": {
 		"criticStyle": 0,
