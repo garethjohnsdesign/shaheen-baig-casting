@@ -1,6 +1,6 @@
-# Inside Retail
+# Shaheen Baig Casting
 
-Website for Inside Retail. Please go to [www.insideretail.com](http://insideretail.com) in case you want to take a look at the website.
+Website for Shaheen Baig Casting. Please go to [www.shaheenbaigcasting.com](http://www.shaheenbaigcasting.com) in case you want to take a look at the website.
 
 * * *
 
