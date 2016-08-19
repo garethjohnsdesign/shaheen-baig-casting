@@ -31,7 +31,8 @@ kramdown:
   input: GFM
   hard_wrap: false
 highlighter: rouge
-description: London-based casting director working on projects as diverse as Control, Black Mirror and The Impossible
+description: London-based casting director working on projects as diverse as Control,
+  Black Mirror and The Impossible
 domain: http://insideretail.com
 company: Shaheen Baig Casting
 email: info@shaheenbaigcasting.com
