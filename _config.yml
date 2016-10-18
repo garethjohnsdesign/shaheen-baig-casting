@@ -24,13 +24,13 @@ defaults:
     path: ''
     type: projects
   values:
-    medium:
-    img:
-    director:
-    with:
-    imdb:
-    video:
-    layout:
+    medium: 
+    img: 
+    director: 
+    with: 
+    imdb: 
+    video: 
+    layout: 
     is-in-production: 
     is-featured: 
     featured-image: 
