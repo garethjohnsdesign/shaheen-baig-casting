@@ -195,6 +195,11 @@ body {
 	padding-bottom: 1rem;
 }
 
+.cv__titles {
+	padding-top: 2rem;
+	padding-bottom: 1rem;
+  color: $color--gray;
+}
 
 // Excerpt
 
@@ -303,9 +308,8 @@ body {
 	@include accent-text;
 }
 
-.post__share__bottom {
-	padding-top: 2rem;
-	@include accent-text;
+.project__share {
+	padding-bottom: 2rem;
 }
 
 .post__pagination {
@@ -541,3 +545,15 @@ body {
 }
 
 // Testing
+
+// Pagination
+
+.pagination {
+  background-color: $color--lighter-gray;
+  padding: 2rem 2rem 1rem 2rem;
+  width: 100%;
+  @include float;
+  &:hover {
+    background-color: $color--black;
+  }
+}

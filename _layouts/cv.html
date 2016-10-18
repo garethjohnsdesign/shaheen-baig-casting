@@ -5,31 +5,56 @@ layout: default
 <section class="cv">
 {% assign collection = site.projects | group_by: "medium" %}
 {% for group in collection %}
+
+<!-- Title -->
 <div class="row cv__title">
 <div class="small-12 columns text-center">
   <h4 class="excerpt__highlight">{{ group.name }}</h4>
 </div>
 </div>
+<!-- End Title -->
 
-<div class="row">
-<div class="small-12 columns">
 
-<table class="hover">
-  <tbody>
-	{% assign collectionsorted = group.items | sort: 'date' | reverse %}
+<div class="row show-for-medium cv__titles">
+  <div class="small-12 medium-3 large-3 columns">
+				Title
+				</div>
+				<div class="small-12 medium-2 large-2 columns">
+			    Director
+			    </div>
+			    <div class="small-12 medium-5 large-5 columns">
+			    With
+			    </div>
+			    <div class="small-12 medium-1 large-1 columns show-for-medium">
+			    IMDB
+			    </div>
+			    <div class="small-12 medium-1 large-1 columns show-for-medium">
+			    Date
+			    </div>
+
+</div>
+
+ {% assign collectionsorted = group.items | sort: 'date' | reverse %}
 	{% for item in collectionsorted %}
-    <tr>
-      <td width="200"><a href="{{item.url}}">{{item.title}}</a></td>
-      <td width="200"><a href="{{item.url}}">{{item.director}}</a></td>
-      <td width="400"><a href="{{item.url}}">{{item.with}}</a></td>
-      <td width="50"><a href="{{item.imdb}}" target="_blank">IMDB</a></td>
-      <td width="40"><a href="{{item.url}}">{{item.date | date: '%Y/%m'}}</a></td>
-    </tr>
-    {%endfor%}
-  </tbody>
-</table>
+				<div class="row">
+				<div class="small-12 medium-3 large-3 columns">
+				{{item.title}}
+				</div>
+				<div class="small-12 medium-2 large-2 columns">
+			    {{item.director}}
+			    </div>
+			    <div class="small-12 medium-5 large-5 columns">
+			    {{item.with}}
+			    </div>
+			    <div class="small-12 medium-1 large-1 columns show-for-medium">
+			    <a href="{{item.imdb}}" target="_blank">IMDB</a>
+			    </div>
+			    <div class="small-12 medium-1 large-1 columns show-for-medium">
+			    {{item.date | date: '%Y/%m'}}
+			    </div>
+			    </div>
+			    <hr>
+			    {%endfor%}
 
-</div>
-</div>
 {%endfor%}
 </section>
