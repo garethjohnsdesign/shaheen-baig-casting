@@ -1,18 +1,4 @@
 @charset "UTF-8";
-/*
-a {
-  color: gray;
-  @include transition(color .3s ease);
-  &:hover {
-    color: black;
-  }
-}
-*/
-/*
-.faded-text {
-  @include opacity(0.8);
-}
-*/
 /*!
 Animate.css - http://daneden.me/animate
 Licensed under the MIT license - http://opensource.org/licenses/MIT
@@ -2889,6 +2875,7 @@ a.bg--gray:hover {
 .long-delay {
   animation-delay: 700ms !important; }
 
+/* Underline From Left */
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
 /**
  * 1. Set default font family to sans-serif.
@@ -6992,6 +6979,11 @@ body {
   padding-top: 2rem;
   padding-bottom: 1rem; }
 
+.cv__titles {
+  padding-top: 2rem;
+  padding-bottom: 1rem;
+  color: #d7d7d7; }
+
 .excerpt__highlight {
   font-family: "Graphik-Bold-Web", Helvetica, Roboto, Arial, sans-serif;
   text-transform: uppercase;
@@ -7074,10 +7066,8 @@ body {
   text-transform: uppercase;
   letter-spacing: 0.15em; }
 
-.post__share__bottom {
-  padding-top: 2rem;
-  text-transform: uppercase;
-  letter-spacing: 0.15em; }
+.project__share {
+  padding-bottom: 2rem; }
 
 .post__pagination {
   padding-top: 2rem; }
@@ -7264,3 +7254,27 @@ body {
   @media screen and (min-width: 40em) {
     .footer__bottom__credit {
       text-align: right; } }
+
+.pagination {
+  background-color: #f8f8f8;
+  padding: 2rem 2rem 1rem 2rem;
+  width: 100%;
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px transparent;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out; }
+  .pagination:hover, .pagination:focus, .pagination:active {
+    -webkit-transform: translateY(-8px);
+    transform: translateY(-8px); }
+  .pagination:hover {
+    background-color: #222222; }
