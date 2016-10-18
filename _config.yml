@@ -20,6 +20,20 @@ defaults:
     type: pages
   values:
     layout: page
+- scope:
+    path: ''
+    type: projects
+  values:
+	medium:
+	img:
+	director:
+	with:
+	imdb:
+	video:
+	layout:
+	is-in-production: 
+	is-featured: 
+	featured-image: 
 url: http://shaheenbaigcasting.com
 permalink: pretty
 gems:
