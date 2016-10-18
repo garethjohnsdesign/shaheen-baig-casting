@@ -1,6 +1,6 @@
 ---
 title: Shaheen Baig Casting
-image: "/assets/og-image.png"
+image: "/assets/img/meta/og-image.png"
 layout: index
 ---
 
