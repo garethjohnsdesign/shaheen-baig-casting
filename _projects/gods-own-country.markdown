@@ -8,7 +8,7 @@ with: Josh O’Connor, Ian Hart, Gemma Jones
 imdb: http://www.imdb.com/title/tt5635086/
 video: 
 layout: project
-is-in-production: 'true'
+is-in-production: true
 is-featured: 
 featured-image: 
 ---
