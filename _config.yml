@@ -24,16 +24,16 @@ defaults:
     path: ''
     type: projects
   values:
-	medium:
-	img:
-	director:
-	with:
-	imdb:
-	video:
-	layout:
-	is-in-production: 
-	is-featured: 
-	featured-image: 
+    medium:
+    img:
+    director:
+    with:
+    imdb:
+    video:
+    layout:
+    is-in-production: 
+    is-featured: 
+    featured-image: 
 url: http://shaheenbaigcasting.com
 permalink: pretty
 gems:
