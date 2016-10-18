@@ -14,7 +14,7 @@ layout: default
 </div>
 
 <div class="row">
-{% assign projects = site.projects | sort: 'date' | reverse | where: "is-in-production", "" %}
+{% assign projects = site.projects | sort: 'date' | reverse | where_exp: 'item', 'item.is-in-production != true' %}
 {% for project in projects limit:6 %}
 <div class="small-12 medium-6 large-4 columns">
 {% include excerpt.html %}
@@ -32,7 +32,7 @@ layout: default
 <div class="row">
 {% assign projects = site.projects | sort: 'date' | reverse %}
 {% for project in projects %}
-{% if project.is-in-production contains 'true' %}
+{% if project.is-in-production %}
 <div class="small-12 medium-6 large-4 columns">
 <article class="excerpt">
 <!-- Title -->

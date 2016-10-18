@@ -8,7 +8,7 @@ with: Paddy Considine, Jodie Whittaker, Paul Popplewell
 imdb: http://www.imdb.com/title/tt5314118/
 video: 
 layout: project
-is-in-production: 'true'
+is-in-production: true
 is-featured: 
 featured-image: 
 ---

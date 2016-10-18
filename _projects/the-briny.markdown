@@ -8,7 +8,7 @@ with: Francesca Annis, Stephen Campbell Moore, Emma Fielding
 imdb: http://www.imdb.com/title/tt4476492/
 video: 
 layout: project
-is-in-production: 'true'
+is-in-production: true
 is-featured: 
 featured-image: 
 ---
