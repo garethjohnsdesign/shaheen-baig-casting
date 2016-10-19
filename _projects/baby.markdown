@@ -2,7 +2,7 @@
 title: Baby
 date: 2011-04-01 00:00:00 Z
 medium: short
-img: "/uploads/shaheen-baig-casting-baby.jpg"
+image: "/uploads/shaheen-baig-casting-baby.jpg"
 director: Daniel Mulloy
 with: Arta Dobroshi, Daniel Kaluuya
 imdb: http://www.imdb.com/title/tt1772761/

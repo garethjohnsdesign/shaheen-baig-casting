@@ -2,7 +2,7 @@
 title: Black Mirror Season One The National Anthem
 date: 2011-12-04 00:00:00 Z
 medium: television
-img: "/uploads/shaheen-baig-casting-black-mirror-the-national-anthem.jpg"
+image: "/uploads/shaheen-baig-casting-black-mirror-the-national-anthem.jpg"
 director: Otto Bathurst
 with: Rory Kinnear, Lindsay Duncan, Donald Sumpter
 imdb: http://www.imdb.com/title/tt2089051/

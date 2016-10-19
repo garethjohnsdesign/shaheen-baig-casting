@@ -2,7 +2,7 @@
 title: National Treasure
 date: 2017-01-01 00:00:00 Z
 medium: television
-img: 
+image: 
 director: Marc Munden
 with: Robbie Coltrane, Julie Walters and Andrea Riseborough
 imdb: http://www.imdb.com/title/tt5571524/

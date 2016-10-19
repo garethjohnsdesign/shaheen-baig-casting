@@ -2,7 +2,7 @@
 title: Dead Europe
 date: 2012-12-14 00:00:00 Z
 medium: film
-img: "/uploads/shaheen-baig-casting-dead-europe.jpg"
+image: "/uploads/shaheen-baig-casting-dead-europe.jpg"
 director: Tony Krawitz
 with: Kodi Smit McPhee, Martin Csokas
 imdb: http://www.imdb.com/title/tt2091880/

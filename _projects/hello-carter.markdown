@@ -2,7 +2,7 @@
 title: Hello Carter
 date: 2013-10-12 00:00:00 Z
 medium: film
-img: "/uploads/shaheen-baig-casting-hello-carter.jpg"
+image: "/uploads/shaheen-baig-casting-hello-carter.jpg"
 director: Anthony Wilcox
 with: Charlie Cox, Jodie Whittaker
 imdb: http://www.imdb.com/title/tt2636488/

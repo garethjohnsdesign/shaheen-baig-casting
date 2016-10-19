@@ -3,58 +3,98 @@ layout: default
 ---
 
 <section class="cv">
-{% assign collection = site.projects | group_by: "medium" | sort: 'name' | reverse %}
-{% for group in collection %}
-
-<!-- Title -->
-<div class="row cv__title">
+  
+<!-- Film -->
+<div class="row">
 <div class="small-12 columns text-center">
-  <h4 class="excerpt__highlight">{{ group.name }}</h4>
+  <h4 class="excerpt__highlight">Film</h4>
 </div>
 </div>
-<!-- End Title -->
-
 
 <div class="row show-for-medium cv__titles">
-  <div class="small-12 medium-3 large-3 columns">
-				Title
-				</div>
-				<div class="small-12 medium-2 large-2 columns">
-			    Director
-			    </div>
-			    <div class="small-12 medium-5 large-5 columns">
-			    With
-			    </div>
-			    <div class="small-12 medium-1 large-1 columns show-for-medium">
-			    IMDB
-			    </div>
-			    <div class="small-12 medium-1 large-1 columns show-for-medium">
-			    Date
-			    </div>
-
+  <div class="small-12 medium-3 large-3 columns">Title</div>
+  <div class="small-12 medium-2 large-2 columns">Director</div>
+  <div class="small-12 medium-5 large-5 columns">With</div>
+  <div class="small-12 medium-1 large-1 columns show-for-medium">IMDB</div>
+  <div class="small-12 medium-1 large-1 columns show-for-medium">Date</div>
 </div>
 
- {% assign collectionsorted = group.items | sort: 'date' | reverse %}
-	{% for item in collectionsorted %}
-				<div class="row">
-				<div class="small-12 medium-3 large-3 columns">
-				{{item.title}}
-				</div>
-				<div class="small-12 medium-2 large-2 columns">
-			    {{item.director}}
-			    </div>
-			    <div class="small-12 medium-5 large-5 columns">
-			    {{item.with}}
-			    </div>
-			    <div class="small-12 medium-1 large-1 columns show-for-medium">
-			    <a href="{{item.imdb}}" target="_blank">IMDB</a>
-			    </div>
-			    <div class="small-12 medium-1 large-1 columns show-for-medium">
-			    {{item.date | date: '%Y'}}
-			    </div>
-			    </div>
-			    <hr>
-			    {%endfor%}
-
+{% assign films = site.projects | where:"medium","film" | sort: 'date' | reverse %}
+{% for project in films %}
+<div class="row">
+<div class="small-12 medium-3 large-3 columns">{{project.title}}</div>
+<div class="small-12 medium-2 large-2 columns">{{project.director}}</div>
+<div class="small-12 medium-5 large-5 columns">{{project.with}}</div>
+<div class="small-12 medium-1 large-1 columns show-for-medium"><a href="{{project.imdb}}" target="_blank">IMDB</a>
+</div>
+<div class="small-12 medium-1 large-1 columns show-for-medium">
+{{project.date | date: '%Y'}}
+</div>
+</div>
+<hr>
 {%endfor%}
+<!-- End Film -->
+
+<!-- Television -->
+<div class="row cv__title">
+<div class="small-12 columns text-center">
+  <h4 class="excerpt__highlight">Television</h4>
+</div>
+</div>
+
+<div class="row show-for-medium cv__titles">
+  <div class="small-12 medium-3 large-3 columns">Title</div>
+  <div class="small-12 medium-2 large-2 columns">Director</div>
+  <div class="small-12 medium-5 large-5 columns">With</div>
+  <div class="small-12 medium-1 large-1 columns show-for-medium">IMDB</div>
+  <div class="small-12 medium-1 large-1 columns show-for-medium">Date</div>
+</div>
+
+{% assign television = site.projects | where:"medium","television" | sort: 'date' | reverse %}
+{% for project in television %}
+<div class="row">
+<div class="small-12 medium-3 large-3 columns">{{project.title}}</div>
+<div class="small-12 medium-2 large-2 columns">{{project.director}}</div>
+<div class="small-12 medium-5 large-5 columns">{{project.with}}</div>
+<div class="small-12 medium-1 large-1 columns show-for-medium"><a href="{{project.imdb}}" target="_blank">IMDB</a>
+</div>
+<div class="small-12 medium-1 large-1 columns show-for-medium">
+{{project.date | date: '%Y'}}
+</div>
+</div>
+<hr>
+{%endfor%}
+<!-- End Television -->
+
+<!-- Short -->
+<div class="row cv__title">
+<div class="small-12 columns text-center">
+  <h4 class="excerpt__highlight">Short</h4>
+</div>
+</div>
+
+<div class="row show-for-medium cv__titles">
+  <div class="small-12 medium-3 large-3 columns">Title</div>
+  <div class="small-12 medium-2 large-2 columns">Director</div>
+  <div class="small-12 medium-5 large-5 columns">With</div>
+  <div class="small-12 medium-1 large-1 columns show-for-medium">IMDB</div>
+  <div class="small-12 medium-1 large-1 columns show-for-medium">Date</div>
+</div>
+
+{% assign short = site.projects | where:"medium","short" | sort: 'date' | reverse %}
+{% for project in short %}
+<div class="row">
+<div class="small-12 medium-3 large-3 columns">{{project.title}}</div>
+<div class="small-12 medium-2 large-2 columns">{{project.director}}</div>
+<div class="small-12 medium-5 large-5 columns">{{project.with}}</div>
+<div class="small-12 medium-1 large-1 columns show-for-medium"><a href="{{project.imdb}}" target="_blank">IMDB</a>
+</div>
+<div class="small-12 medium-1 large-1 columns show-for-medium">
+{{project.date | date: '%Y'}}
+</div>
+</div>
+<hr>
+{%endfor%}
+<!-- End Short -->
+
 </section>

@@ -25,7 +25,7 @@ defaults:
     type: projects
   values:
     medium: 
-    img: 
+    image: 
     director: 
     with: 
     imdb: 

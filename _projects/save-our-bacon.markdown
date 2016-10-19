@@ -2,7 +2,7 @@
 title: Save Our Bacon
 date: 2010-09-25 00:00:00 Z
 medium: short
-img: "/uploads/shaheen-baig-casting-save-our-bacon.jpg"
+image: "/uploads/shaheen-baig-casting-save-our-bacon.jpg"
 director: Peter Baynton
 with: Warren Clarke, Simon Callow
 imdb: http://www.imdb.com/title/tt1626213/

@@ -2,7 +2,7 @@
 title: Brown Paper Bag
 date: 2003-12-17 00:00:00 Z
 medium: short
-img: "/uploads/shaheen-baig-casting-brown-paper-bag.jpg"
+image: "/uploads/shaheen-baig-casting-brown-paper-bag.jpg"
 director: Michael B. Clifford
 with: Ronnie Fox, Jo McInnes
 imdb: http://www.imdb.com/title/tt0396515/
