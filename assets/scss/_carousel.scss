@@ -149,10 +149,10 @@ http://flickity.metafizzy.co
   background: #FAFAFA;
   height: 80vh;
   @include breakpoint(medium) {
-  height: 60vh;
+  height: 80vh;
   }
   @include breakpoint(large) {
-  height: 60vh;
+  height: 80vh;
   }
 }
 

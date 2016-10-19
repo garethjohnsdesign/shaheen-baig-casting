@@ -2366,6 +2366,16 @@ a.bg--gray:hover {
   background: linear-gradient(to right bottom, #ae45aa 50%, #91278F 50%, #91278F 75%, #7a1b77 75%); }
 
 @font-face {
+  font-family: 'Graphik-Medium';
+  src: url("../fonts/Graphik-Medium.eot?#iefix") format("embedded-opentype"), url("../fonts/Graphik-Medium.woff") format("woff"), url("../fonts/Graphik-Medium.ttf") format("truetype"), url("../fonts/Graphik-Medium.svg#Graphik-Medium") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: 'Tungsten-Bold';
+  src: url("../fonts/Tungsten-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/Tungsten-Bold.woff") format("woff"), url("../fonts/Tungsten-Bold.ttf") format("truetype"), url("../fonts/Tungsten-Bold.svg#Tungsten-Bold") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
   font-family: 'TiemposHeadline-Semibold';
   src: url("../fonts/TiemposHeadline-Semibold.eot?#iefix") format("embedded-opentype"), url("../fonts/TiemposHeadline-Semibold.otf") format("opentype"), url("../fonts/TiemposHeadline-Semibold.woff") format("woff"), url("../fonts/TiemposHeadline-Semibold.ttf") format("truetype"), url("../fonts/TiemposHeadline-Semibold.svg#TiemposHeadline-Semibold") format("svg");
   font-weight: normal;
@@ -3250,8 +3260,8 @@ body {
   font-family: "Graphik-Light-Web", Helvetica, Roboto, Arial, sans-serif;
   font-weight: normal;
   line-height: 1.5;
-  color: #0a0a0a;
-  background: #fcfcfc;
+  color: #ffffff;
+  background: #222222;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale; }
 
@@ -3892,10 +3902,10 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "TiemposHeadline-Semibold", serif;
+  font-family: "Graphik-Light-Web", Helvetica, Roboto, Arial, sans-serif;
   font-weight: normal;
   font-style: normal;
-  color: inherit;
+  color: #ffffff;
   text-rendering: optimizeLegibility;
   margin-top: 0;
   margin-bottom: 0.5rem;
@@ -3929,13 +3939,13 @@ h6 {
 
 @media screen and (min-width: 40em) {
   h1 {
-    font-size: 3.75rem; }
+    font-size: 3rem; }
 
   h2 {
     font-size: 1.875rem; }
 
   h3 {
-    font-size: 1.9375rem; }
+    font-size: 1.5rem; }
 
   h4 {
     font-size: 1.5625rem; }
@@ -3946,12 +3956,12 @@ h6 {
   h6 {
     font-size: 1rem; } }
 a {
-  color: #2199e8;
+  color: #222222;
   text-decoration: none;
   line-height: inherit;
   cursor: pointer; }
   a:hover, a:focus {
-    color: #1585cf; }
+    color: #1d1d1d; }
   a img {
     border: 0; }
 
@@ -4008,7 +4018,7 @@ cite {
     content: '\2014 \0020'; }
 
 abbr {
-  color: #0a0a0a;
+  color: #ffffff;
   cursor: help;
   border-bottom: 1px dotted #0a0a0a; }
 
@@ -4172,12 +4182,12 @@ kbd {
   padding: 0.85em 1em;
   margin: 0 0 1rem 0;
   font-size: 0.9rem;
-  background-color: #2199e8;
+  background-color: #222222;
   color: #fefefe; }
   [data-whatinput='mouse'] .button {
     outline: 0; }
   .button:hover, .button:focus {
-    background-color: #1583cc;
+    background-color: #1d1d1d;
     color: #fefefe; }
   .button.tiny {
     font-size: 0.6rem; }
@@ -4191,10 +4201,10 @@ kbd {
     margin-left: 0;
     margin-right: 0; }
   .button.primary {
-    background-color: #2199e8;
+    background-color: #222222;
     color: #fefefe; }
     .button.primary:hover, .button.primary:focus {
-      background-color: #147cc0;
+      background-color: #1b1b1b;
       color: #fefefe; }
   .button.secondary {
     background-color: #777;
@@ -4221,19 +4231,19 @@ kbd {
       background-color: #da3116;
       color: #fefefe; }
   .button.hollow {
-    border: 1px solid #2199e8;
-    color: #2199e8; }
+    border: 1px solid #222222;
+    color: #222222; }
     .button.hollow, .button.hollow:hover, .button.hollow:focus {
       background-color: transparent; }
     .button.hollow:hover, .button.hollow:focus {
-      border-color: #0c4d78;
-      color: #0c4d78; }
+      border-color: #111111;
+      color: #111111; }
     .button.hollow.primary {
-      border: 1px solid #2199e8;
-      color: #2199e8; }
+      border: 1px solid #222222;
+      color: #222222; }
       .button.hollow.primary:hover, .button.hollow.primary:focus {
-        border-color: #0c4d78;
-        color: #0c4d78; }
+        border-color: #111111;
+        color: #111111; }
     .button.hollow.secondary {
       border: 1px solid #777;
       color: #777; }
@@ -4262,7 +4272,7 @@ kbd {
     opacity: 0.25;
     cursor: not-allowed; }
     .button.disabled:hover, .button.disabled:focus, .button[disabled]:hover, .button[disabled]:focus {
-      background-color: #2199e8;
+      background-color: #222222;
       color: #fefefe; }
   .button.dropdown::after {
     content: '';
@@ -4434,7 +4444,7 @@ legend {
   padding: 1.25rem;
   margin: 1.125rem 0; }
   .fieldset legend {
-    background: #fcfcfc;
+    background: #222222;
     padding: 0 0.1875rem;
     margin: 0;
     margin-left: -0.1875rem; }
@@ -4502,7 +4512,7 @@ select {
   padding: 1.25rem 1rem;
   line-height: 1;
   font-size: 0.75rem;
-  color: #2199e8;
+  color: #222222;
   position: relative;
   border: 1px solid #e6e6e6;
   border-bottom: 0; }
@@ -4526,7 +4536,7 @@ select {
   border: 1px solid #e6e6e6;
   border-bottom: 0;
   background-color: #fefefe;
-  color: #0a0a0a; }
+  color: #ffffff; }
   :last-child > .accordion-content:last-child {
     border-bottom: 1px solid #e6e6e6; }
 
@@ -4538,7 +4548,7 @@ select {
     width: 0;
     height: 0;
     border: inset 6px;
-    border-color: #2199e8 transparent transparent;
+    border-color: #222222 transparent transparent;
     border-top-style: solid;
     border-bottom-width: 0;
     position: absolute;
@@ -4557,7 +4567,7 @@ select {
   font-size: 0.6rem;
   text-align: center;
   border-radius: 50%;
-  background: #2199e8;
+  background: #222222;
   color: #fefefe; }
   .badge.secondary {
     background: #777;
@@ -4596,7 +4606,7 @@ select {
       top: 1px;
       opacity: 1; }
   .breadcrumbs a {
-    color: #2199e8; }
+    color: #222222; }
     .breadcrumbs a:hover {
       text-decoration: underline; }
   .breadcrumbs .disabled {
@@ -4632,10 +4642,10 @@ select {
   .button-group.expanded .button {
     flex: 1 1 0px; }
   .button-group.primary .button {
-    background-color: #2199e8;
+    background-color: #222222;
     color: #fefefe; }
     .button-group.primary .button:hover, .button-group.primary .button:focus {
-      background-color: #147cc0;
+      background-color: #1b1b1b;
       color: #fefefe; }
   .button-group.secondary .button {
     background-color: #777;
@@ -4688,14 +4698,14 @@ select {
   border: 1px solid rgba(10, 10, 10, 0.25);
   border-radius: 0;
   position: relative;
-  color: #0a0a0a;
+  color: #ffffff;
   background-color: white; }
   .callout > :first-child {
     margin-top: 0; }
   .callout > :last-child {
     margin-bottom: 0; }
   .callout.primary {
-    background-color: #def0fc; }
+    background-color: #dedede; }
   .callout.secondary {
     background-color: #ebebeb; }
   .callout.success {
@@ -4816,7 +4826,7 @@ select {
     margin-left: 1rem; }
   .menu .active > a {
     color: #fefefe;
-    background: #2199e8; }
+    background: #222222; }
 
 .menu-text {
   font-weight: bold;
@@ -4906,7 +4916,7 @@ select {
     width: 0;
     height: 0;
     border: inset 6px;
-    border-color: transparent transparent transparent #2199e8;
+    border-color: transparent transparent transparent #222222;
     border-left-style: solid;
     border-right-width: 0;
     position: absolute;
@@ -4920,7 +4930,7 @@ select {
   width: 0;
   height: 0;
   border: inset 6px;
-  border-color: transparent #2199e8 transparent transparent;
+  border-color: transparent #222222 transparent transparent;
   border-right-style: solid;
   border-left-width: 0;
   border-left-width: 0;
@@ -4929,7 +4939,7 @@ select {
   margin-right: 0.75rem; }
 
 .dropdown-pane {
-  background-color: #fcfcfc;
+  background-color: #222222;
   border: 0px solid #cacaca;
   border-radius: 0;
   display: block;
@@ -5076,7 +5086,7 @@ select {
   white-space: nowrap;
   cursor: default;
   border-radius: 0;
-  background: #2199e8;
+  background: #222222;
   color: #fefefe; }
   .label.secondary {
     background: #777;
@@ -5146,7 +5156,7 @@ body {
 .off-canvas-content,
 .off-canvas-content {
   min-height: 100%;
-  background: #fcfcfc;
+  background: #222222;
   transition: transform 0.5s ease;
   backface-visibility: hidden;
   z-index: 1;
@@ -5315,7 +5325,7 @@ body {
       background: #e6e6e6; }
   .pagination .current {
     padding: 0.1875rem 0.625rem;
-    background: #2199e8;
+    background: #222222;
     color: #fefefe;
     cursor: default; }
   .pagination .disabled {
@@ -5347,7 +5357,7 @@ body {
   margin-bottom: 1rem;
   border-radius: 0; }
   .progress.primary .progress-meter {
-    background-color: #2199e8; }
+    background-color: #222222; }
   .progress.secondary .progress-meter {
     background-color: #777; }
   .progress.success .progress-meter {
@@ -5362,7 +5372,7 @@ body {
   display: block;
   width: 0%;
   height: 100%;
-  background-color: #2199e8; }
+  background-color: #222222; }
 
 .progress-meter-text {
   position: absolute;
@@ -5408,14 +5418,14 @@ body {
   display: inline-block;
   width: 1.4rem;
   height: 1.4rem;
-  background-color: #2199e8;
+  background-color: #222222;
   transition: all 0.2s ease-in-out;
   touch-action: manipulation;
   border-radius: 0; }
   [data-whatinput='mouse'] .slider-handle {
     outline: 0; }
   .slider-handle:hover {
-    background-color: #1583cc; }
+    background-color: #1d1d1d; }
   .slider-handle.is-dragging {
     transition: all 0s linear; }
 
@@ -5595,7 +5605,7 @@ html.is-reveal-open body {
     transform: translate3d(0, 0, 0);
     border-radius: 0; }
   input:checked ~ .switch-paddle {
-    background: #2199e8; }
+    background: #222222; }
     input:checked ~ .switch-paddle::after {
       left: 2.25rem; }
   [data-whatinput='mouse'] input:focus ~ .switch-paddle {
@@ -5664,7 +5674,7 @@ table {
   thead,
   tfoot {
     background: #f8f8f8;
-    color: #0a0a0a; }
+    color: #ffffff; }
     thead tr,
     tfoot tr {
       background: transparent; }
@@ -5733,11 +5743,11 @@ table.hover tr:nth-of-type(even):hover {
     background: transparent; }
 
 .tabs.primary {
-  background: #2199e8; }
+  background: #222222; }
   .tabs.primary > li > a {
     color: #fefefe; }
     .tabs.primary > li > a:hover, .tabs.primary > li > a:focus {
-      background: #1893e4; }
+      background: #2d2d2d; }
 
 .tabs-title {
   float: left; }
@@ -5777,7 +5787,7 @@ table.hover tr:nth-of-type(even):hover {
   border-radius: 0;
   margin-bottom: 1rem; }
   .thumbnail:hover, .thumbnail:focus {
-    box-shadow: 0 0 6px 1px rgba(33, 153, 232, 0.5); }
+    box-shadow: 0 0 6px 1px rgba(34, 34, 34, 0.5); }
 
 .title-bar {
   background: #ffffff;
@@ -5901,7 +5911,7 @@ table.hover tr:nth-of-type(even):hover {
   flex-wrap: wrap; }
   .top-bar,
   .top-bar ul {
-    background-color: #ffffff; }
+    background-color: #f8f8f8; }
   .top-bar input {
     max-width: 200px;
     margin-right: 1rem; }
@@ -6688,10 +6698,10 @@ http://flickity.metafizzy.co
   height: 80vh; }
   @media screen and (min-width: 40em) {
     .gallery {
-      height: 60vh; } }
+      height: 80vh; } }
   @media screen and (min-width: 64em) {
     .gallery {
-      height: 60vh; } }
+      height: 80vh; } }
 
 .gallery-cell {
   width: 100%;
@@ -6879,9 +6889,15 @@ input::-webkit-input-placeholder {
   text-transform: uppercase; }
 
 a {
-  color: #222222;
+  color: #ffffff;
   transition: all 0.35s cubic-bezier(0.39, 0.575, 0.565, 1); }
   a:hover {
+    color: #d6d6d6; }
+
+.top-bar a {
+  color: #222222;
+  transition: all 0.35s cubic-bezier(0.39, 0.575, 0.565, 1); }
+  .top-bar a:hover {
     color: #949494; }
 
 .button {
@@ -6903,11 +6919,13 @@ body {
   height: 2rem; }
 
 .header__home {
-  font-family: "TiemposHeadline-Semibold", serif;
-  font-size: 1.5rem; }
+  font-family: 'Graphik-Bold-Web', Helvetica, Roboto, Arial, sans-serif;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  letter-spacing: 1px; }
 
 .top-bar {
-  font-family: "Graphik-Bold-Web", Helvetica, Roboto, Arial, sans-serif;
+  font-family: 'Graphik-Light-Web', Helvetica, Roboto, Arial, sans-serif;
   font-size: 1rem; }
 
 .top-bar-right {
@@ -6982,7 +7000,8 @@ body {
 .cv__titles {
   padding-top: 2rem;
   padding-bottom: 1rem;
-  color: #d7d7d7; }
+  color: #d6d6d6;
+  font-family: 'Graphik-Bold-Web', Helvetica, Roboto, Arial, sans-serif; }
 
 .excerpt__highlight {
   font-family: "Graphik-Bold-Web", Helvetica, Roboto, Arial, sans-serif;
@@ -7040,7 +7059,7 @@ body {
       padding: 7rem; } }
 
 .post__content__quote blockquote {
-  font-family: "TiemposHeadline-Semibold", serif;
+  font-family: "Graphik-Light-Web", Helvetica, Roboto, Arial, sans-serif;
   font-size: 2rem;
   line-height: 1.2;
   color: #222222; }
@@ -7234,14 +7253,14 @@ body {
   font-size: 80%; }
 
 .footer__bottom {
-  color: #222222;
+  color: #ffffff;
   padding-bottom: 1rem; }
 
 .footer__bottom a {
-  color: #222222;
+  color: #ffffff;
   transition: all 0.35s cubic-bezier(0.39, 0.575, 0.565, 1); }
   .footer__bottom a:hover {
-    color: #949494; }
+    color: #d6d6d6; }
 
 .footer__bottom__copyright {
   text-align: center; }
@@ -7258,6 +7277,7 @@ body {
 .pagination {
   background-color: #f8f8f8;
   padding: 2rem 2rem 1rem 2rem;
+  color: #222222;
   width: 100%;
   display: inline-block;
   vertical-align: middle;
@@ -7277,4 +7297,4 @@ body {
     -webkit-transform: translateY(-8px);
     transform: translateY(-8px); }
   .pagination:hover {
-    background-color: #222222; }
+    background-color: #949494; }
