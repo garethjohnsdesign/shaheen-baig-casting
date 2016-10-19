@@ -2,7 +2,7 @@
 title: That Syncing Feeling
 date: 2011-10-14 00:00:00 Z
 medium: short
-img: "/uploads/shaheen-baig-casting-that-syncing-feeling.jpg"
+image: "/uploads/shaheen-baig-casting-that-syncing-feeling.jpg"
 director: Tony Grisoni
 with: Peter Capaldi
 imdb: http://www.imdb.com/title/tt2056638/

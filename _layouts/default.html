@@ -9,12 +9,16 @@
 <script>document.body.className += ' fade-out';</script>
 {% endif %}
 
+<!-- Menu -->  
+{% include overlay-menu.html %}
+<!-- End Menu --> 
+
 <!-- Content Wrapper -->
 <div class="content-wrapper">	
-
-<!-- Navigation -->
+  
+{% unless page.url == "/" %}
 {% include navigation.html %}
-<!-- End Navigation -->
+{% endunless %}
 
 <!-- Animation -->
 <div class="animated fadeIn">

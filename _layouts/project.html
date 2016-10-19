@@ -2,27 +2,28 @@
 layout: default
 ---
 
+<section class="project">
 <!-- Post Title -->
 <div class="row project__meta">
 	<div class="small-12 columns text-center">
 		<h1>{{ page.title }}</h1>
-		<p class="excerpt__director">Director: {{ page.director }}</p>
-		<p class="excerpt__with">With: {{ page.with }}</p>
-		<p><a href="{{ page.imdb}}" target="_blank">IMDB</a></p>
+		<p class="excerpt__director"><span class="project_meta_detail">Director:</span> {{ page.director }}</p>
+		<p class="excerpt__with"><span class="project_meta_detail">With:</span> {{ page.with }}</p>
+		<p><a href="{{ page.imdb}}" target="_blank"><span class="project_meta_detail">IMDB</span></a></p>
 	</div>
 </div>
 
-{% if page.video or page.img %}
+{% if page.video or page.image %}
 <div class="row post__hero align-center">
-<div class="small-8 columns">
+<div class="small-12 medium-8 columns">
 {% if page.video %}
 
 <div class="flex-video widescreen vimeo">
 <iframe src="//fast.wistia.net/embed/iframe/{{page.video}}" allowtransparency="true" frameborder="0" scrolling="no" class="wistia_embed" name="wistia_embed" allowfullscreen mozallowfullscreen webkitallowfullscreen oallowfullscreen msallowfullscreen width="640" height="360"></iframe><script src="//fast.wistia.net/assets/external/E-v1.js" async></script>
 </div>
 
-{% elsif page.img %}
-<img src="{{page.img}}" alt="{{page.title}}" />
+{% elsif page.image %}
+<img src="{{page.image}}" alt="{{page.title}}" />
 {% endif %}
 
 </div>
@@ -36,7 +37,16 @@ layout: default
 	</div>
 </div>
 
+<!-- Pagination -->
+<div class="row expanded align-center">
+<div class="small-12 medium-12 columns">
+{% include pagination.html %}
+</div>
+</div>
+<!-- End Pagination -->
+
 <!-- Post Share Bottom -->
+<!--
 <div class="row project__share">
 	<div class="small-12 columns text-center">
 		<ul class="menu simple align-center">
@@ -44,12 +54,9 @@ layout: default
 	  	</ul>
 	</div>
 </div>
+-->
 <!-- End Post Share Bottom -->
 
-<!-- Pagination -->
-{% include pagination.html %}
-<!-- End Pagination -->
-
-
+</section>
 
 

@@ -2,7 +2,7 @@
 title: The Pizza Miracle
 date: 2010-06-18 00:00:00 Z
 medium: short
-img: "/uploads/shaheen-baig-casting-the-pizza-miracle.jpg"
+image: "/uploads/shaheen-baig-casting-the-pizza-miracle.jpg"
 director: Tony Grisoni
 with: Stanley Townsend and Matt Berry
 imdb: http://www.imdb.com/title/tt1670711/

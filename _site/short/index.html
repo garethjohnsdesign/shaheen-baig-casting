@@ -135,18 +135,39 @@
 	
 
 
+<!-- Menu -->  
+<!-- Overlay Menu -->
+<div class="overlay" id="overlay" data-toggler=".open">
+  <nav class="overlay-menu">
+    <ul>
+        <li class="element"><a href="/film">Film</a></li>
+        <li class="element"><a href="/television">Television</a></li>
+        <li class="element"><a href="/short">Short</a></li>
+        <li class="element"><a href="/info">Info</a></li>
+        <li class="element"><a href="/cv">CV</a></li>
+        <li class="element"><a href="https://twitter.com/https://twitter.com/sbaigcasting">Follow</a></li>
+    </ul>
+  </nav>
+</div>
+<!-- End Overlay Menu -->
+<!-- End Menu --> 
+
 <!-- Content Wrapper -->
 <div class="content-wrapper">	
+  
 
-<!-- Navigation -->
-<div class="title-bar" data-responsive-toggle="primary-menu" data-hide-for="medium">
+<div class="title-bar show-for-small-only" >
   <div class="title-bar-title"><a href="/" class="header__home">Shaheen Baig Casting</a></div>
-  <button class="hamburger hamburger--collapse" id="menuBar" data-toggler=".is-active" type="button" data-toggle="menuBar"><span class="hamburger-box">
-    <span class="hamburger-inner"></span>
-  </span></button>
+  
+    <button class="hamburger hamburger--collapse" id="toggle" data-toggler=".is-active" type="button" data-toggle="overlay toggle">
+      <span class="hamburger-box">
+      <span class="hamburger-inner hamburger-inner-dark"></span>
+      </span>
+    </button>
+    
 </div>
 
-<div class="top-bar" id="primary-menu">
+<div class="top-bar hide-for-small-only">
   <div class="top-bar-left">
 	<ul class="vertical medium-horizontal dropdown menu primary-menu" data-dropdown-menu>
 	<li class="hide-for-small-only"><a href="/" class="header__home">Shaheen Baig Casting</a></li>
@@ -217,7 +238,7 @@
     </ul>
   </div>
 </div>
-<!-- End Navigation -->
+
 
 <!-- Animation -->
 <div class="animated fadeIn">

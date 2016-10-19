@@ -2,7 +2,7 @@
 title: My Brother The Devil
 date: 2012-11-09 00:00:00 Z
 medium: film
-img: "/uploads/shaheen-baig-casting-my-brother-the-devil.jpg"
+image: "/uploads/shaheen-baig-casting-my-brother-the-devil.jpg"
 director: Sally El Hosaini
 with: James Floyd, Fady Elsayed, Saïd Taghmaoui
 imdb: http://www.imdb.com/title/tt2076897/

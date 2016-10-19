@@ -2,6 +2,10 @@
 layout: default
 ---
 
+<div class="index__wrapper">
+{% include navigation.html %}
+</div>
+
 <div class="index__carousel">
 {% include carousel.html %}
 </div>
@@ -14,7 +18,7 @@ layout: default
 </div>
 
 <div class="row">
-{% assign projects = site.projects | sort: 'date' | reverse | where: "is-in-production", "" %}
+{% assign projects = site.projects | sort: 'date' | reverse | where_exp: 'item', 'item.is-in-production != true' %}
 {% for project in projects limit:6 %}
 <div class="small-12 medium-6 large-4 columns">
 {% include excerpt.html %}

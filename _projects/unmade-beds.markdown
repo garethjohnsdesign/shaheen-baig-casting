@@ -2,7 +2,7 @@
 title: Unmade Beds
 date: 2009-09-02 00:00:00 Z
 medium: film
-img: "/uploads/shaheen-baig-casting-unmade-beds.jpg"
+image: "/uploads/shaheen-baig-casting-unmade-beds.jpg"
 director: Alexis Dos Santos
 with: Déborah François, Fernando Tielve, Michiel Huisman
 imdb: http://www.imdb.com/title/tt0997263/
