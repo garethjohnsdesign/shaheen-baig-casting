@@ -56,6 +56,14 @@ color: $color--white !important;
 // Layout
 
 a {
+	color: $color--white;
+	transition: $primary-transition;
+	&:hover {
+      color: $color--light-gray;
+    }
+}
+
+.top-bar a {
 	color: $color--black;
 	transition: $primary-transition;
 	&:hover {
@@ -86,12 +94,14 @@ body {
 }
 
 .header__home {
-	font-family: $header-font-family;
+	font-family: 'Graphik-Bold-Web', Helvetica, Roboto, Arial, sans-serif;
 	font-size: 1.5rem;
+	text-transform: uppercase;
+	letter-spacing: 1px;
 }
 
 .top-bar {
-	font-family: $font-family-secondary;
+	font-family: 'Graphik-Light-Web', Helvetica, Roboto, Arial, sans-serif;
 	font-size: 1rem;
 }
 
@@ -198,7 +208,8 @@ body {
 .cv__titles {
 	padding-top: 2rem;
 	padding-bottom: 1rem;
-  color: $color--gray;
+  color: $color--light-gray;
+  font-family: 'Graphik-Bold-Web', Helvetica, Roboto, Arial, sans-serif;
 }
 
 // Excerpt
@@ -517,15 +528,15 @@ body {
 }
 
 .footer__bottom {
-	color: $color--black;
+	color: $color--white;
 	padding-bottom: 1rem;
 }
 
 .footer__bottom a {
-	color: $color--black;
+	color: $color--white;
 	transition: $primary-transition;
 	&:hover {
-      color: $color--dark-gray;
+      color: $color--light-gray;
     }
 }
 
@@ -551,9 +562,10 @@ body {
 .pagination {
   background-color: $color--lighter-gray;
   padding: 2rem 2rem 1rem 2rem;
+  color: $color--black;
   width: 100%;
   @include float;
   &:hover {
-    background-color: $color--black;
+    background-color: $color--dark-gray;
   }
 }

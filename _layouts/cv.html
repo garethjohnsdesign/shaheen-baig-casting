@@ -3,7 +3,7 @@ layout: default
 ---
 
 <section class="cv">
-{% assign collection = site.projects | group_by: "medium" %}
+{% assign collection = site.projects | group_by: "medium" | sort: 'name' | reverse %}
 {% for group in collection %}
 
 <!-- Title -->
@@ -50,7 +50,7 @@ layout: default
 			    <a href="{{item.imdb}}" target="_blank">IMDB</a>
 			    </div>
 			    <div class="small-12 medium-1 large-1 columns show-for-medium">
-			    {{item.date | date: '%Y/%m'}}
+			    {{item.date | date: '%Y'}}
 			    </div>
 			    </div>
 			    <hr>
