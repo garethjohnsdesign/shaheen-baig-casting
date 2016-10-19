@@ -8,8 +8,6 @@ with: Nadine Marshall, Idris Elba, Kai Francis Lewis
 imdb: http://www.imdb.com/title/tt2837296/
 video: nhwh56chij
 layout: project
-is-in-production: 
-is-featured: 
-featured-image: 
 ---
 
+Saturn Award for Acting
