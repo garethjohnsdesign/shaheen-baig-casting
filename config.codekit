@@ -13008,6 +13008,15 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/_site\/projects\/fighting-with-my-family\/index.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_site\/projects\/fighting-with-my-family\/index.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/_site\/projects\/five-daughters\/index.html": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -14185,6 +14194,17 @@
 		"initialSize": 56362,
 		"inputAbbreviatedPath": "\/_site\/uploads\/shaheen-baig-casting-falcon.jpg",
 		"outputAbbreviatedPath": "\/_site\/uploads\/shaheen-baig-casting-falcon.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/uploads\/shaheen-baig-casting-fighting-with-my-family.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 93040,
+		"inputAbbreviatedPath": "\/_site\/uploads\/shaheen-baig-casting-fighting-with-my-family.jpg",
+		"outputAbbreviatedPath": "\/_site\/uploads\/shaheen-baig-casting-fighting-with-my-family.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -15487,6 +15507,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/_uploads\/shaheen-baig-casting-fighting-with-my-family.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 93040,
+		"inputAbbreviatedPath": "\/_uploads\/shaheen-baig-casting-fighting-with-my-family.jpg",
+		"outputAbbreviatedPath": "\/_uploads\/shaheen-baig-casting-fighting-with-my-family.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/_uploads\/shaheen-baig-casting-five-daughters.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -15780,6 +15811,17 @@
 		"initialSize": 45141,
 		"inputAbbreviatedPath": "\/_uploads\/shaheen-baig-casting-neil-gaimans-likely-stories.jpg",
 		"outputAbbreviatedPath": "\/_uploads\/shaheen-baig-casting-neil-gaimans-likely-stories.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_uploads\/shaheen-baig-casting-new-proj.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 182244,
+		"inputAbbreviatedPath": "\/_uploads\/shaheen-baig-casting-new-proj.jpg",
+		"outputAbbreviatedPath": "\/_uploads\/shaheen-baig-casting-new-proj.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
