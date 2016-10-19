@@ -1,6 +1,6 @@
 {
 "CodeKitInfo": "This is a CodeKit 2.x project configuration file. It is designed to sync project settings across multiple machines. MODIFYING THE CONTENTS OF THIS FILE IS A POOR LIFE DECISION. If you do so, you will likely cause CodeKit to crash. This file is not useful unless accompanied by the project that created it in CodeKit 2. This file is not backwards-compatible with CodeKit 1.x. For more information, see: http:\/\/incident57.com\/codekit",
-"creatorBuild": "19115",
+"creatorBuild": "19137",
 "files": {
 	"\/404.md": {
 		"criticStyle": 0,
@@ -13458,6 +13458,15 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/_site\/projects\/test\/index.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_site\/projects\/test\/index.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/_site\/projects\/that-syncing-feeling\/index.html": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -14502,6 +14511,17 @@
 		"initialSize": 45141,
 		"inputAbbreviatedPath": "\/_site\/uploads\/shaheen-baig-casting-neil-gaimans-likely-stories.jpg",
 		"outputAbbreviatedPath": "\/_site\/uploads\/shaheen-baig-casting-neil-gaimans-likely-stories.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/uploads\/shaheen-baig-casting-new-proj.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 182244,
+		"inputAbbreviatedPath": "\/_site\/uploads\/shaheen-baig-casting-new-proj.jpg",
+		"outputAbbreviatedPath": "\/_site\/uploads\/shaheen-baig-casting-new-proj.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -15811,6 +15831,17 @@
 		"initialSize": 45141,
 		"inputAbbreviatedPath": "\/_uploads\/shaheen-baig-casting-neil-gaimans-likely-stories.jpg",
 		"outputAbbreviatedPath": "\/_uploads\/shaheen-baig-casting-neil-gaimans-likely-stories.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_uploads\/shaheen-baig-casting-new-proj.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 182244,
+		"inputAbbreviatedPath": "\/_uploads\/shaheen-baig-casting-new-proj.jpg",
+		"outputAbbreviatedPath": "\/_uploads\/shaheen-baig-casting-new-proj.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
