@@ -13,4 +13,3 @@ featured-image:
 layout: project
 ---
 
-Bafta Nominated for best Actor

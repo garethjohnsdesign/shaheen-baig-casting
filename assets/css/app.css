@@ -3263,7 +3263,7 @@ body {
   font-family: "Graphik-Light-Web", Helvetica, Roboto, Arial, sans-serif;
   font-weight: normal;
   line-height: 1.5;
-  color: #ffffff;
+  color: #fcfcfc;
   background: #222222;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale; }
@@ -4021,7 +4021,7 @@ cite {
     content: '\2014 \0020'; }
 
 abbr {
-  color: #ffffff;
+  color: #fcfcfc;
   cursor: help;
   border-bottom: 1px dotted #0a0a0a; }
 
@@ -4539,7 +4539,7 @@ select {
   border: 1px solid #e6e6e6;
   border-bottom: 0;
   background-color: #fefefe;
-  color: #ffffff; }
+  color: #fcfcfc; }
   :last-child > .accordion-content:last-child {
     border-bottom: 1px solid #e6e6e6; }
 
@@ -4701,7 +4701,7 @@ select {
   border: 1px solid rgba(10, 10, 10, 0.25);
   border-radius: 0;
   position: relative;
-  color: #ffffff;
+  color: #fcfcfc;
   background-color: white; }
   .callout > :first-child {
     margin-top: 0; }
@@ -5677,7 +5677,7 @@ table {
   thead,
   tfoot {
     background: #f8f8f8;
-    color: #ffffff; }
+    color: #fcfcfc; }
     thead tr,
     tfoot tr {
       background: transparent; }
@@ -6934,8 +6934,8 @@ input::-webkit-input-placeholder {
   color: #ffffff !important; }
 
 ::selection {
-  background: #333;
-  color: #fff; }
+  background: #ffffff;
+  color: #222222; }
 
 @media screen and (max-width: 39.9375em) {
   .no-js .top-bar {
@@ -6948,7 +6948,7 @@ input::-webkit-input-placeholder {
   text-transform: uppercase; }
 
 a {
-  color: #ffffff;
+  color: #fcfcfc;
   transition: all 0.35s cubic-bezier(0.39, 0.575, 0.565, 1); }
   a:hover {
     color: #949494; }
@@ -7261,11 +7261,11 @@ span.project_meta_detail {
   opacity: 0.9; }
 
 .footer__bottom {
-  color: #ffffff;
+  color: #949494;
   padding-bottom: 1rem; }
 
 .footer__bottom a {
-  color: #ffffff;
+  color: #949494;
   transition: all 0.35s cubic-bezier(0.39, 0.575, 0.565, 1); }
   .footer__bottom a:hover {
     color: #949494; }
@@ -7321,3 +7321,12 @@ span.project_meta_detail {
 
 .hamburger {
   z-index: 5000; }
+
+.colophon {
+  padding-top: 2rem; }
+
+.colophon {
+  color: #949494; }
+
+.colophon a {
+  color: #949494; }

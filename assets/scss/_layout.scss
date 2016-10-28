@@ -29,8 +29,8 @@ color: $color--white !important;
 }
 
 ::selection {
-    background: #333;
-    color: #fff
+    background: $color--white;
+    color: $color--black;
 }
 
 .no-js {
@@ -61,7 +61,7 @@ color: $color--white !important;
 // Layout
 
 a {
-	color: $color--white;
+	color: $color--lightest-gray;
 	transition: $primary-transition;
 	&:hover {
       color: $color--dark-gray;
@@ -473,12 +473,12 @@ span.project_meta_detail  {
 // Footer
 
 .footer__bottom {
-	color: $color--white;
+	color: $color--dark-gray;
 	padding-bottom: 1rem;
 }
 
 .footer__bottom a {
-	color: $color--white;
+	color: $color--dark-gray;
 	transition: $primary-transition;
 	&:hover {
       color: $color--dark-gray;
@@ -532,4 +532,16 @@ span.project_meta_detail  {
 
 .hamburger {
   z-index: 5000;
+}
+
+.colophon {
+  padding-top: 2rem;
+}
+
+.colophon {
+  color: $color--dark-gray;
+}
+
+.colophon a {
+  color: $color--dark-gray;
 }
