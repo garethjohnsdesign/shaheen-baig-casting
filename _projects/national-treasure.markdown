@@ -1,14 +1,14 @@
 ---
 title: National Treasure
-date: 2017-01-01 00:00:00 Z
+date: 2016-09-20 00:00:00 Z
 medium: television
-image: 
+image: "/uploads/shaheen-baig-casting-national-treasure.jpg"
 director: Marc Munden
 with: Robbie Coltrane, Julie Walters and Andrea Riseborough
 imdb: http://www.imdb.com/title/tt5571524/
-video: 
+video: x7n32vjrq0
 layout: project
-is-in-production: true
+is-in-production: 
 is-featured: 
 featured-image: 
 ---
