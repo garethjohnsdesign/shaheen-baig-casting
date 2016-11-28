@@ -8,7 +8,7 @@ with: Babou Ceesay, Wunmi Mosaku
 imdb: http://www.imdb.com/title/tt5639464/
 video: g4sz103fas
 layout: project
-is-in-production:
+is-in-production: 
 is-featured: 
 featured-image: 
 ---
