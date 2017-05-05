@@ -8,7 +8,7 @@ with: Babou Ceesay, Freida Pinto, Idris Elba
 imdb: http://www.imdb.com/title/tt5650574/
 video: 
 layout: project
-is-in-production:
+is-in-production: 
 is-featured: 
 featured-image: 
 ---
