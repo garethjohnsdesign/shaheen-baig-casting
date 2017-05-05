@@ -12981,6 +12981,15 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/_site\/projects\/damilola-our-loved-boy\/index.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_site\/projects\/damilola-our-loved-boy\/index.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/_site\/projects\/daytimer\/index.html": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -13044,6 +13053,15 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/_site\/projects\/ghost-stories\/index.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_site\/projects\/ghost-stories\/index.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/_site\/projects\/ghosts\/index.html": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -13067,6 +13085,15 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/_site\/projects\/good-people\/index.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/_site\/projects\/guerrilla\/index.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_site\/projects\/guerrilla\/index.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -13305,6 +13332,15 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/_site\/projects\/old-boys\/index.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_site\/projects\/old-boys\/index.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/_site\/projects\/peaky-blinders-season-two\/index.html": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -13508,6 +13544,15 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/_site\/projects\/the-end\/index.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/_site\/projects\/the-escape\/index.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_site\/projects\/the-escape\/index.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -14154,6 +14199,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/_site\/uploads\/shaheen-baig-casting-damilola-our-loved-boy.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 248228,
+		"inputAbbreviatedPath": "\/_site\/uploads\/shaheen-baig-casting-damilola-our-loved-boy.jpg",
+		"outputAbbreviatedPath": "\/_site\/uploads\/shaheen-baig-casting-damilola-our-loved-boy.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/_site\/uploads\/shaheen-baig-casting-daytimer.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -14491,6 +14547,17 @@
 		"initialSize": 125140,
 		"inputAbbreviatedPath": "\/_site\/uploads\/shaheen-baig-casting-my-brother-the-devil.jpg",
 		"outputAbbreviatedPath": "\/_site\/uploads\/shaheen-baig-casting-my-brother-the-devil.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/uploads\/shaheen-baig-casting-national-treasure.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 234570,
+		"inputAbbreviatedPath": "\/_site\/uploads\/shaheen-baig-casting-national-treasure.jpg",
+		"outputAbbreviatedPath": "\/_site\/uploads\/shaheen-baig-casting-national-treasure.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -15474,6 +15541,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/_uploads\/shaheen-baig-casting-damilola-our-loved-boy.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 248228,
+		"inputAbbreviatedPath": "\/_uploads\/shaheen-baig-casting-damilola-our-loved-boy.jpg",
+		"outputAbbreviatedPath": "\/_uploads\/shaheen-baig-casting-damilola-our-loved-boy.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/_uploads\/shaheen-baig-casting-daytimer.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -15811,6 +15889,17 @@
 		"initialSize": 125140,
 		"inputAbbreviatedPath": "\/_uploads\/shaheen-baig-casting-my-brother-the-devil.jpg",
 		"outputAbbreviatedPath": "\/_uploads\/shaheen-baig-casting-my-brother-the-devil.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_uploads\/shaheen-baig-casting-national-treasure.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 234570,
+		"inputAbbreviatedPath": "\/_uploads\/shaheen-baig-casting-national-treasure.jpg",
+		"outputAbbreviatedPath": "\/_uploads\/shaheen-baig-casting-national-treasure.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
