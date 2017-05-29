@@ -9,5 +9,6 @@ imdb: http://www.imdb.com/title/tt2316204/
 video: cu0g48nhyy
 is-featured: true
 featured-image: "/uploads/shaheen-baig-casting-alien-covenant-feature.jpg"
+layout: project
 ---
 
