@@ -1,7 +1,7 @@
 ---
 title: Complicit
 date: 2013-03-17 00:00:00 Z
-medium: film
+medium: television
 image: "/uploads/shaheen-baig-casting-complicit.jpg"
 director: Niall MacCormick
 with: David Oyelowo, Arsher Ali

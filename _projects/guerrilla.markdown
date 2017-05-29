@@ -1,14 +1,14 @@
 ---
 title: Guerrilla
-date: 2017-01-01 00:00:00 Z
+date: 2017-04-13 00:00:00 Z
 medium: television
-image: 
-director: Sam Miller, John Ridley
+image: "/uploads/shaheen-baig-casting-guerilla.jpg"
+director: John Ridley, Sam Miller
 with: Babou Ceesay, Freida Pinto, Idris Elba
 imdb: http://www.imdb.com/title/tt5650574/
-video: 
+video: le46vdqllb
 layout: project
-is-in-production: true
+is-in-production: 
 is-featured: 
 featured-image: 
 ---

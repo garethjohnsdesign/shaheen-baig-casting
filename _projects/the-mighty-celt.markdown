@@ -1,7 +1,7 @@
 ---
 title: The Mighty Celt
 date: 2005-08-26 00:00:00 Z
-medium: television
+medium: film
 image: "/uploads/shaheen-baig-casting-the-mighty-celt.jpg"
 director: Pearse Elliott
 with: Gillian Anderson, Ken Stott, Robert Carlyle, Tyrone McKenna

@@ -1,7 +1,7 @@
 ---
 title: An Inspector Calls
 date: 2015-03-15 00:00:00 Z
-medium: film
+medium: television
 image: "/uploads/shaheen-baig-casting-an-inspector-calls.jpg"
 director: Aisling Walsh
 with: David Thewlis, Ken Stott, Miranda Richardson
