@@ -4,4 +4,4 @@ Website for Shaheen Baig Casting. Please go to [www.shaheenbaigcasting.com](http
 
 * * *
 
-Copyright (c) 2016 Gareth Johns Art Direction + Design – info@garethjohnsdesign.com
+Copyright (c) 2017 Gareth Johns Art Direction + Design – info@garethjohnsdesign.com

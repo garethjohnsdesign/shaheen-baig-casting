@@ -753,12 +753,6 @@
 		"oAP": "\/_projects\/shelter.markdown",
 		"oF": 0
 		},
-	"\/_projects\/shepherds-and-butchers.markdown": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/_projects\/shepherds-and-butchers.markdown",
-		"oF": 0
-		},
 	"\/_projects\/snow-in-paradise.markdown": {
 		"ft": 8192,
 		"oA": 2,
@@ -985,12 +979,6 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/_projects\/x+y.markdown",
-		"oF": 0
-		},
-	"\/_projects\/yardie.markdown": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/_projects\/yardie.markdown",
 		"oF": 0
 		},
 	"\/_projects\/youth.markdown": {
@@ -1405,6 +1393,16 @@
 		"opt": 0,
 		"q": 100
 		},
+	"\/_uploads\/shaheen-baig-casting-england-is-mine.jpg": {
+		"ft": 16384,
+		"iS": 193823,
+		"oA": 0,
+		"oAP": "\/_uploads\/shaheen-baig-casting-england-is-mine.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"\/_uploads\/shaheen-baig-casting-falcon.jpg": {
 		"ft": 16384,
 		"iS": 56362,
@@ -1492,7 +1490,7 @@
 		"oAP": "\/_uploads\/shaheen-baig-casting-guerilla.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/_uploads\/shaheen-baig-casting-happy-toys.jpg": {
@@ -2190,6 +2188,16 @@
 		"iS": 38386,
 		"oA": 0,
 		"oAP": "\/_uploads\/shaheen-baig-casting-the-unloved.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/_uploads\/shaheen-baig-casting-three-girls.jpg": {
+		"ft": 16384,
+		"iS": 225506,
+		"oA": 0,
+		"oAP": "\/_uploads\/shaheen-baig-casting-three-girls.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
