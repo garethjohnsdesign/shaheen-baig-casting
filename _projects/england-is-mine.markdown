@@ -8,7 +8,7 @@ with: Jack Lowden, Jessica Brown Findlay, Simone Kirby
 imdb: http://www.imdb.com/title/tt3717804/
 video: 
 layout: project
-is-in-production:
+is-in-production: 
 is-featured: 
 featured-image: 
 ---

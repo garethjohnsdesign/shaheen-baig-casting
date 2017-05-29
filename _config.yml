@@ -28,7 +28,7 @@ defaults:
     image: 
     director: 
     with: 
-    guest-stars:
+    guest-stars: 
     imdb: 
     video: 
     layout: 
