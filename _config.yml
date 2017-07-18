@@ -31,7 +31,7 @@ defaults:
     guest-stars: 
     imdb: 
     video: 
-    layout: 
+    layout: project
     is-in-production: 
     is-featured: 
     featured-image: 

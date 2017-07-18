@@ -7,7 +7,7 @@
 		"uuidString": "D6260BE9-EB53-4E68-8989-A4B0445905E8"
 		}
 	],
-"creatorBuild": "25813",
+"creatorBuild": "25849",
 "files": {
 	"\/.gitignore": {
 		"ft": 8192,
@@ -1063,6 +1063,26 @@
 		"opt": 0,
 		"q": 100
 		},
+	"\/_uploads\/shaheen-baig-casting-alien-covenant-feature.jpg": {
+		"ft": 16384,
+		"iS": 197379,
+		"oA": 0,
+		"oAP": "\/_uploads\/shaheen-baig-casting-alien-covenant-feature.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/_uploads\/shaheen-baig-casting-alien-covenant.jpg": {
+		"ft": 16384,
+		"iS": 141626,
+		"oA": 0,
+		"oAP": "\/_uploads\/shaheen-baig-casting-alien-covenant.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"\/_uploads\/shaheen-baig-casting-an-inspector-calls.jpg": {
 		"ft": 16384,
 		"iS": 137987,
@@ -1758,6 +1778,16 @@
 		"iS": 60615,
 		"oA": 0,
 		"oAP": "\/_uploads\/shaheen-baig-casting-notes-on-a-scandal.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/_uploads\/shaheen-baig-casting-peaky-blinders-season-four.jpg": {
+		"ft": 16384,
+		"iS": 143153,
+		"oA": 0,
+		"oAP": "\/_uploads\/shaheen-baig-casting-peaky-blinders-season-four.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -17563,6 +17593,7 @@
 		},
 	"languageDefaultsUserDefined": [
 		],
+	"overrideExternalServerCSS": 0,
 	"previewPathAddition": "",
 	"skippedFoldersString": "log, _logs, logs, _cache, cache, \/storage\/framework\/sessions, node_modules, \/_site",
 	"sourceFolderName": "source",
