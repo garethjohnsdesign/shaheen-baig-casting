@@ -7,9 +7,8 @@ director: William Oldroyd
 with: Florence Pugh, Cosmo Jarvis, Naomi Ackie
 imdb: http://www.imdb.com/title/tt4291600/
 video: zwetl2su0v
+is-featured: true
+featured-image: "/uploads/shaheen-baig-casting-lady-macbeth-feature.jpg"
 layout: project
-is-in-production: 
-is-featured: 
-featured-image: 
 ---
 
