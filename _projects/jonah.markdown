@@ -1,7 +1,7 @@
 ---
 title: Jonah
 date: 2013-01-16 00:00:00 Z
-medium: short film
+medium: short
 image: "/uploads/shaheen-baig-casting-jonah.jpg"
 director: Kibwe Tavares
 with: Daniel Kaluuya, Malachi Kirby
