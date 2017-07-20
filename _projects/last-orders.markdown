@@ -6,10 +6,6 @@ image: "/uploads/shaheen-baig-casting-last-orders.jpg"
 director: Fred Schepisi
 with: Michael Caine, Bob Hoskins, Tom Courtenay
 imdb: http://www.imdb.com/title/tt0253200/
-video: y0j1xbnldn
 layout: project
-is-in-production: 
-is-featured: 
-featured-image: 
 ---
 
