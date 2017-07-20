@@ -7,9 +7,8 @@ director: Ben Wheatley
 with: Sharlto Copley, Armie Hammer, Cillian Murphy, Brie Larson
 imdb: http://www.imdb.com/title/tt4158096/
 video: 8v0doa55oj
+is-featured: true
+featured-image: "/uploads/shaheen-baig-casting-free-fire-feature.jpg"
 layout: project
-is-in-production: 
-is-featured: 
-featured-image: 
 ---
 
