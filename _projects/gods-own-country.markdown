@@ -6,10 +6,9 @@ image: "/uploads/shaheen-baig-casting-gods-own-country.jpg"
 director: Francis Lee
 with: Josh O’Connor, Alec Secareanu
 imdb: http://www.imdb.com/title/tt5635086/
-video: 
+is-in-production: false
+is-featured: true
+featured-image: "/uploads/shaheen-baig-casting-gods-own-country.psd"
 layout: project
-is-in-production: 
-is-featured: 
-featured-image: 
 ---
 
