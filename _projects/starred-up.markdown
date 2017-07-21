@@ -7,9 +7,8 @@ director: David Mackenzie
 with: Jack O'Connell, Ben Mendelsohn, Rupert Friend
 imdb: http://www.imdb.com/title/tt2567712/
 video: jfr3f2vxn4
-layout: project
-is-in-production: 
-is-featured: 'true'
+is-featured: false
 featured-image: "/uploads/shaheen-baig-casting-slide-starred-up.jpg"
+layout: project
 ---
 
