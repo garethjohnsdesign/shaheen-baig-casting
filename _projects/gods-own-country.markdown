@@ -8,7 +8,7 @@ with: Josh O’Connor, Alec Secareanu
 imdb: http://www.imdb.com/title/tt5635086/
 is-in-production: false
 is-featured: true
-featured-image: "/uploads/shaheen-baig-casting-gods-own-country.psd"
+featured-image: "/uploads/shaheen-baig-casting-gods-own-country-65272a.jpg"
 layout: project
 ---
 
