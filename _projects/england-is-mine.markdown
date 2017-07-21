@@ -6,10 +6,8 @@ image: "/uploads/shaheen-baig-casting-england-is-mine.jpg"
 director: Mark Gill
 with: Jack Lowden, Jessica Brown Findlay, Simone Kirby
 imdb: http://www.imdb.com/title/tt3717804/
-video: 
+is-featured: true
+featured-image: "/uploads/shaheen-baig-casting-england-is-mine-d2ae8f.jpg"
 layout: project
-is-in-production: 
-is-featured: 
-featured-image: 
 ---
 
