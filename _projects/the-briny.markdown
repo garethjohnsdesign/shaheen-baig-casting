@@ -8,7 +8,6 @@ with: Francesca Annis, Stephen Campbell Moore, Emma Fielding
 imdb: http://www.imdb.com/title/tt4476492/
 is-in-production: false
 is-featured: false
-featured-image: "/uploads/shaheen-baig-casting-the-briny-469eef.png"
 layout: project
 ---
 
