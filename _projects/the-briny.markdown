@@ -6,7 +6,7 @@ image: "/uploads/shaheen-baig-casting-the-briny.jpg"
 director: Lucy Kirkwood
 with: Francesca Annis, Stephen Campbell Moore, Emma Fielding
 imdb: http://www.imdb.com/title/tt4476492/
-is-in-production: false
+is-in-production: true
 is-featured: false
 layout: project
 ---
