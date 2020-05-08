@@ -1,0 +1,19 @@
+---
+layout: null
+---
+
+[
+{% for post in site.projects %}
+    {
+      "title"    : "{{ post.title }}",
+      "date"     : "{{ post.date | date: "%B %d, %Y" }}",
+      "medium"     : "{{ post.medium }}",
+      "director"     : "{{ post.director }}",
+      "with"     : "{{ post.with }}",
+      "guest-stars"     : "{{ post.guest-stars }}",
+      "imdb"     : "{{ post.imdb }}",
+      "video"     : "{{ post.video }}",
+      "copy"  : "{{ post.excerpt | remove: '<p>' | remove: '</p>' | strip_newlines }}"
+    } {% if forloop.last %}{% else %},{% endif %}
+{% endfor %}
+] 
