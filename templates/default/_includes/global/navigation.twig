@@ -1,0 +1,42 @@
+<!-- Mobile Navigation -->
+<div class="grid-x grid-padding-y align-justify align-middle navigation hide-for-large" id="swup-header" style="z-index: 14">
+  <div class="small-10 cell">
+    <a href="/" class="">{% if bodyClass == "project" %}{{ entry.title }} <span class="dark-gray padding-left">{{ entry.client }}</span>{% else %}{{ siteName }}{% endif %}</a>
+  </div>
+  <div class="shrink cell align-middle">
+    <a class="" type="button" aria-label="Navigation" data-toggle="overlayNavigation">
+      <svg class="icon icon-lens"><use xlink:href="/assets/icons/symbol-defs.svg#icon-lens"></use></svg>
+    </a>
+  </div>
+</div>
+<!-- End Mobile Navigation -->
+
+<!-- Desktop Navigation -->
+<div class="grid-x show-for-large align-justify align-middle navigation" id="swup-header" style="z-index: 14">
+
+  <div class="small-2 cell align-middle">
+      <ul class="menu small text-uppercase sans-bold letter-spacing--loose">
+        <li><a href="/work">Work</a></li>
+        <li><a href="/about">About</a></li>
+      </ul>
+  </div>
+
+  <div class="small-8 cell text-center">
+    <a href="/" class="logo text-uppercase letter-spacing--loose">{% if bodyClass == "project" %}{{ entry.title }} <span class="dark-gray padding-left">{{ entry.client }}</span>{% else %}Shaheen Baig <span class="opacity-50">Casting</span>{% endif %}</a>
+  </div>
+
+  <div class="small-2 cell align-middle text-right">
+      <ul class="menu small text-uppercase sans-bold letter-spacing--loose align-right">
+{#
+        {% nav category in craft.categories.group('typeOfProject').all() %}
+          <li>
+           <a href="{{ category.url }}" class="">{{ category.title }}</a>
+          </li>
+        {% endnav %}
+#}
+        <li><a href="/contact">Notes</a></li>
+        <li><a href="/contact">Contact</a></li>
+      </ul>
+  </div>
+</div>
+<!-- End Desktop Navigation -->
