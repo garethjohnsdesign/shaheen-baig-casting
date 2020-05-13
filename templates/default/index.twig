@@ -10,7 +10,7 @@
 {% set seoDescription = entry.seoDescription %}
 {% endif %}
 
-{% set projects = entry.projects.all() %}
+{% set projects = entry.projects.orderBy('RAND()').all() %}
 
 {% extends "default/_layouts/site" %}
 
@@ -37,6 +37,7 @@
           <a href="{{ project.url }}" class="white">
             <h1 class="serif-display text-uppercase">{{project.title}}</h1>
             {{project.with}}
+
           </a>
           </div>
         </div>

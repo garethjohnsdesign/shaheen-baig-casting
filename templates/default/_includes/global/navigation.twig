@@ -14,18 +14,18 @@
 <!-- Desktop Navigation -->
 <div class="grid-x show-for-large align-justify align-middle navigation" id="swup-header" style="z-index: 14">
 
-  <div class="small-2 cell align-middle">
+  <div class="small-4 cell align-middle">
       <ul class="menu small text-uppercase sans-bold letter-spacing--loose">
-        <li><a href="/work">Work</a></li>
+        <li><a href="/latest">Work</a></li>
         <li><a href="/about">About</a></li>
       </ul>
   </div>
 
-  <div class="small-8 cell text-center">
+  <div class="small-4 cell text-center">
     <a href="/" class="logo text-uppercase letter-spacing--loose">{% if bodyClass == "project" %}{{ entry.title }} <span class="dark-gray padding-left">{{ entry.client }}</span>{% else %}Shaheen Baig <span class="opacity-50">Casting</span>{% endif %}</a>
   </div>
 
-  <div class="small-2 cell align-middle text-right">
+  <div class="small-4 cell align-middle text-right">
       <ul class="menu small text-uppercase sans-bold letter-spacing--loose align-right">
 {#
         {% nav category in craft.categories.group('typeOfProject').all() %}
@@ -34,7 +34,7 @@
           </li>
         {% endnav %}
 #}
-        <li><a href="/contact">Notes</a></li>
+        <li><a href="/notes">Notes</a></li>
         <li><a href="/contact">Contact</a></li>
       </ul>
   </div>

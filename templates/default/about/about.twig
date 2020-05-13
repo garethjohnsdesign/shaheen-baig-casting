@@ -25,29 +25,37 @@
 
 {% block main %}
 <div class="grid-container">
-      <div class="grid-x grid-padding-x grid-padding-y align-middle">
+
+
+      <div class="grid-x grid-padding-x grid-padding-y align-center">
         <div class="small-12 medium-8 cell">
           {{entry.copy}}
         </div>
       </div>
 
+
+
+{#
       {% for date, projects in allProjects | group("postDate|date('Y')") %}
-          <div class="grid-x grid-padding-x grid-padding-y">
-            <div class="small-12 medium-12 cell padding-bottom-0">
-              <div class="margin-bottom-0 dark-gray">{{ date }}</div>
-            </div>
+        <div class="grid-x grid-padding-x grid-padding-y align-left">
+          <div class="small-12 medium-12 cell padding-bottom-0">
+            <div class="margin-bottom-0 dark-gray">{{ date }}</div>
           </div>
-          {% for project in projects %}
-          <div class="grid-x grid-padding-x">
+        </div>
+        {% for project in projects %}
+        <div class="grid-x grid-padding-x align-left">
           <div class="medium-4 cell">
             {{ project.title }}<span class="dark-gray padding-left">{{ project.client }}</span>
           </div>
-          <div class="medium-6 cell">
-            {{ project.director }}<span class="padding-left dark-gray">{{ project.productionCompany }}</span>
+          <div class="medium-8 cell">
+            {{ project.director }}
           </div>
-          </div>
-          {% endfor %}
+        </div>
+        {% endfor %}
       {% endfor %}
+#}
+
+
 </div>
 
 

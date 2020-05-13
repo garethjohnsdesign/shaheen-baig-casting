@@ -74,6 +74,7 @@ $light-gray: #e6e6e6;
 $medium-gray: #cacaca;
 $dark-gray: #8a8a8a;
 $black: #0a0a0a;
+$black: #292b2c;
 $white: #fefefe;
 /*
 $foundation-palette: (
@@ -91,7 +92,10 @@ $foundation-palette: (
   warning: #ffae00,
   alert: #cc4b37,
 );
-$body-background: $white;
+// $body-background: $white;
+$body-background: #fffdf5;
+$body-background: #edece8;
+$body-background: #fafafa;
 $body-font-color: $black;
 // $body-font-family: 'Helvetica Neue', Helvetica, Roboto, Arial, sans-serif;
 $body-font-family: $sans-regular;

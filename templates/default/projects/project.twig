@@ -54,13 +54,14 @@
 
 <!-- Center -->
 <div class="small-12 medium-10 large-10 xlarge-8 cell">
-{% if entry.video %}
+
 <div class="grid-x grid-padding-x grid-padding-y align-center">
   <div class="small-12 cell">
-    <div id="player" data-plyr-provider="vimeo" data-plyr-embed-id="{{ entry.video }}"></div>
+{#     <div id="player" data-plyr-provider="vimeo" data-plyr-embed-id="{{ entry.video }}"></div> #}
+    <div id="player" data-plyr-provider="vimeo" data-plyr-embed-id="https://vimeo.com/416660583"></div>
   </div>
 </div>
-{% endif %}
+
 
 
 <!-- Credits -->

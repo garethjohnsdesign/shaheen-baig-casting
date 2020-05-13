@@ -967,6 +967,14 @@
 		"oAP": "/templates/default/_includes/blocks/excerpt.twig",
 		"oF": 0
 		},
+	"/templates/default/_includes/blocks/note.twig": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/templates/default/_includes/blocks/note.twig",
+		"oF": 0
+		},
 	"/templates/default/_includes/global/analytics.twig": {
 		"cB": 0,
 		"ft": 8192,
@@ -1439,6 +1447,14 @@
 		"oAP": "/templates/default/index.twig",
 		"oF": 0
 		},
+	"/templates/default/notes/index.twig": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/templates/default/notes/index.twig",
+		"oF": 0
+		},
 	"/templates/default/offline.twig": {
 		"cB": 0,
 		"ft": 8192,
@@ -1461,14 +1477,6 @@
 		"hM": 0,
 		"oA": 0,
 		"oAP": "/templates/default/projects/project.twig",
-		"oF": 0
-		},
-	"/templates/default/work/work.twig": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/templates/default/work/work.twig",
 		"oF": 0
 		},
 	"/vendor": {
