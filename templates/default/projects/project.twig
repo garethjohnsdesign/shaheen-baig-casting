@@ -57,8 +57,7 @@
 
 <div class="grid-x grid-padding-x grid-padding-y align-center">
   <div class="small-12 cell">
-{#     <div id="player" data-plyr-provider="vimeo" data-plyr-embed-id="{{ entry.video }}"></div> #}
-    <div id="player" data-plyr-provider="vimeo" data-plyr-embed-id="https://vimeo.com/416660583"></div>
+    <div id="player" data-plyr-provider="vimeo" data-plyr-embed-id="{{ entry.video }}"></div>
   </div>
 </div>
 
@@ -67,7 +66,11 @@
 <!-- Credits -->
 <div class="grid-x grid-padding-x grid-padding-y align-center">
   <div class="auto cell">
-  {{ entry.director }}<span class="padding-left dark-gray">{{ entry.productionCompany }}</span>
+  <div>Director<span class="padding-left dark-gray">{{ entry.director }}</span></div>
+  <div>Writer<span class="padding-left dark-gray">{{ entry.with }}</span></div>
+  <div>Producer<span class="padding-left dark-gray">{{ entry.producer }}</span></div>
+  <div>Production<span class="padding-left dark-gray">{{ entry.productionCompany }}</span></div>
+  <div>With<span class="padding-left dark-gray">{{ entry.with }}</span></div>
   </div>
 
   <div class="shrink cell">
@@ -112,7 +115,7 @@
     <div class="shrink cell padding-vertical-3">
 
       <div class="grid-x grid-padding-x grid-padding-y grid-margin-y align-center">
-        <div class="small-12 cell text-center">
+        <div class="small-8 cell text-center">
         {{ entry.copy }}
 
 
