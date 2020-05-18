@@ -51,17 +51,42 @@
 // 2. Global
 // ---------
 
-.viewheight {
-  min-height: 100vh;
-  min-height: calc(var(--vh, 1vh) * 100);
-  height: 100vh;
-  height: calc(var(--vh, 1vh) * 100);
+// 2. Global
+// ---------
+
+.off-canvas-wrapper {
+  overflow: visible;
 }
+
+.off-canvas-content {
+  cursor: default;
+  display: flex;
+  flex-direction: column;
+  min-height: calc(var(--vh, 1vh) * 100);
+  font-kerning: normal;
+}
+
+.off-canvas {
+  min-height: calc(var(--vh, 1vh) * 100);
+}
+
+nav {
+  z-index: 14
+}
+
+main {
+  flex: 1 0 auto;
+}
+
+footer {
+  z-index: 2
+}
+
+
 
 body {
   cursor: default;
-  font-kerning: normal ;
-  margin: 0;
+  font-kerning: normal;
 }
 
 svg {
@@ -107,33 +132,6 @@ html.is-animating .swup-transition-fade {
 
 html.is-animating .swup-transition-color {
   opacity: 0;
-}
-
-// 2. Loading
-// ----------
-
-.loader {
-    z-index: 10;
-    position: fixed;
-    background: $white;
-    top: 0;
-    left: 0;
-    height: 100%;
-    width: 100%; 
-    opacity: 0;
-    visibility: visible; 
-    transform: translateY(0%);
-    transition: transform 800ms;
-    transition-timing-function: cubic-bezier(0.645, 0.045, 0.355, 1);
-    overflow: hidden;
-  &.loading {
-    opacity: 1;
-  }
-  &.loaded {
-    transform: translateY(-100%);
-    transition: transform 800ms;
-    transition-timing-function: cubic-bezier(0.645, 0.045, 0.355, 1);
-  }
 }
 
 // 4. Color
@@ -341,6 +339,13 @@ p a {
   background-position: 50%;
 }
 
+.image--hero {
+  height: 100vh;
+  min-height: calc(var(--vh, 1vh) * 100);
+  background-size: cover; 
+  background-position: 50%;
+}
+
 
 // 6. Navigation
 // -------------
@@ -366,10 +371,6 @@ p a {
 .off-canvas .menu .active > a {
   background: transparent;
   color: $black;
-}
-
-.viewheight {
-  min-height: calc(var(--vh, 1vh) * 100);
 }
 
 .swiper-button-prev-test,
@@ -409,8 +410,6 @@ url('/assets/img/arrow-left@3x.png') 3x
   url('/assets/img/arrow-right@3x.png') 3x
   ) 16 16, auto !important;
 }
-
-
 
 
 .excerpt {
@@ -466,11 +465,12 @@ p:last-child {
 }
 
 .navigation {
+  background-color: $white;
   @include breakpoint(medium down) {
-  @include padding(1, 1, 0, 1);
+  @include padding(1, 1, 1, 1);
   }
   z-index: 14;
-  @include padding(2, 2, 0, 2);
+  @include padding(2, 2, 1, 2);
 }
 
 .reveal {
@@ -565,13 +565,16 @@ padding-left: 0.5rem !important;
   }
 }
 
+/*
 .home__hero {
 min-height: 100vh;
 padding-top: 6rem;
 padding-bottom: 6rem;
 position: relative;
 }
+*/
 
+/*
 .home__hero__image {
 height: 100%;
 width: 100%;
@@ -589,6 +592,7 @@ z-index: -1;
   background-position: 50% 50%;
   }
 }
+*/
 
 .home .navigation {
   position: absolute;
@@ -600,6 +604,6 @@ z-index: -1;
   @include links ($white, $white);
 }
 
-  .opacity-50 {
-    @include opacity(0.5);
-  }
+.opacity-50 {
+  @include opacity(0.5);
+}

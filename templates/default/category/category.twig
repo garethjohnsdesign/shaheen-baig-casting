@@ -24,7 +24,7 @@
 
 <div class="grid-x grid-padding-x grid-padding-y align-center">
   <div class="small-12 cell text-center">
-    <ul class="menu small text-uppercase letter-spacing--loose align-center">
+    <ul class="menu small sans-regular text-uppercase letter-spacing--loose align-center">
       {% nav category in craft.categories.group('typeOfProject').all() %}
         <li>
          <a href="{{ category.url }}" class="">{{ category.title }}</a>

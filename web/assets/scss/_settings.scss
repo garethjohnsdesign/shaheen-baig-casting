@@ -66,14 +66,13 @@
 // ---------
 
 $global-font-size: 100%;
-$global-font-size: 18px;
 // $global-width: rem-calc(1200);
 $global-width: rem-calc(1600);
 $global-lineheight: 1.5;
 $light-gray: #e6e6e6;
 $medium-gray: #cacaca;
 $dark-gray: #8a8a8a;
-$black: #0a0a0a;
+$black: #111111;
 $black: #292b2c;
 $white: #fefefe;
 /*
@@ -93,12 +92,13 @@ $foundation-palette: (
   alert: #cc4b37,
 );
 // $body-background: $white;
-$body-background: #fffdf5;
-$body-background: #edece8;
-$body-background: #fafafa;
+// $body-background: #fffdf5;
+// $body-background: #edece8;
+// $body-background: #fafafa;
+$body-background: #f5f1ed;
 $body-font-color: $black;
 // $body-font-family: 'Helvetica Neue', Helvetica, Roboto, Arial, sans-serif;
-$body-font-family: $sans-regular;
+$body-font-family: $serif-regular;
 $body-antialiased: true;
 $global-margin: 1rem;
 // $global-padding: 1rem;

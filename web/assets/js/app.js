@@ -50,9 +50,11 @@ new Swiper('#carousel--hero', {
   centeredSlides: true,
   spaceBetween: 0,
   loop: true,
+/*
   autoplay: {
     delay: 2500
   }
+*/
 })
 }
 
