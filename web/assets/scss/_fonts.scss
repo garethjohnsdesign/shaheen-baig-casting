@@ -66,6 +66,15 @@
 }
 
 @font-face {
+  font-family: 'P22 Mackinac Book Italic';
+  src: 
+  url('../fonts/p22-mackinac-book-italic.woff2') format('woff2'), 
+  url('../fonts/p22-mackinac-book-italic.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
   font-family: 'Bressay Regular';
   src: 
   url('../fonts/bressay-regular.woff2') format('woff2'), 

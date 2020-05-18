@@ -418,8 +418,8 @@ url('/assets/img/arrow-left@3x.png') 3x
   }
   &:hover .content {
     transition: $primary-transition;
-    background: $black;
-    @include opacity(0.5);
+    background: rgba($black, 0.25);
+    @include opacity(1);
   }
 }
 
@@ -465,12 +465,12 @@ p:last-child {
 }
 
 .navigation {
-  background-color: $white;
+//   background-color: $white;
   @include breakpoint(medium down) {
-  @include padding(1, 1, 1, 1);
+  @include padding(1, 1, 0, 1);
   }
   z-index: 14;
-  @include padding(2, 2, 1, 2);
+  @include padding(2, 2, 0, 2);
 }
 
 .reveal {

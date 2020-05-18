@@ -21,39 +21,61 @@
 
 <div class="grid-container">
 
-    {% for region in entry.regions.all()  %}
-    <div class="grid-x grid-padding-x grid-padding-y align-center">
+    {% for contact in entry.contacts.all()  %}
+        <div class="grid-x grid-padding-x grid-padding-y align-center">
+        <div class="small-12 cell text-center">
+        <div class="dark-gray small text-uppercase sans-regular letter-spacing--loose">{{ contact.header }}</div>
 
-      <div class="small-12 medium-3 cell">
-        <div class="dark-gray">{{region.header}}</div>
-        {% if region.company|length %}
-          {% for company in region.company %}
-            <div class="margin-top-1"><a href="{{ company.link }}">{{ company.company }}</a></div>
-          {% endfor %}
-        {% endif %}
-      </div>
-      <div class="small-12 medium-6 cell">
-
-        <div class="grid-x grid-padding-x grid-padding-y">
-        {% if region.contact|length %}
-          {% for contact in region.contact %}
-          <div class="cell medium-6 large-4">
+        {% if contact.contact|length %}
+          {% for contact in contact.contact %}
+          <div class="padding-top-1">
             {% if contact.department|length %}<div class="dark-gray">{{ contact.department }}</div>{% endif %}
             <div>{{ contact.name }}</div>
             <a href="mailto:{{ contact.email }}">{{ contact.email }}</a>
           </div>
           {% endfor %}
         {% endif %}
-        </div>
 
+        </div>
+        </div>
+    {% endfor %}
+
+    <div class="grid-x grid-padding-x grid-padding-y align-center">
+      <div class="small-12 medium-6 cell text-center">
+        <ul class="menu simple dark-gray align-center">
+         {% for block in socials.socials.all() %}
+          {% switch block.type %}
+            {% case "instagram" %}
+              <li><a href="{{block.socialLink}}" target="_blank"><svg class="icon icon-instagram"><use xlink:href="/assets/icons/symbol-defs.svg#icon-instagram"></use></svg></a></li>
+            {% case "vimeo" %}
+              <li><a href="{{block.socialLink}}" target="_blank"><svg class="icon icon-vimeo"><use xlink:href="/assets/icons/symbol-defs.svg#icon-vimeo"></use></svg></a></li>
+          {% endswitch %}
+          {% endfor %}
+        </ul>
       </div>
     </div>
-    {% endfor %}
 
 </div>
 {% endblock %}
 
 
 {% block footer %}
-{% include "_includes/global/footer" %}
+
+<!-- Terms and Privacy -->
+<div class="grid-x grid-padding-x grid-padding-y align-center">
+  <div class="small-12 medium-6 cell text-center">
+    <small>All artwork and photography are copyrighted and protected under international copyright laws. Artwork may not be reproduced in any form, stored, or manipulated without prior written permission from {{site.name}} and the copyright holders.</small>
+  </div>
+</div>
+
+<div class="grid-x grid-padding-x grid-padding-y align-center">
+  <div class="small-12 medium-6 cell text-center">
+    <ul class="menu align-center simple dark-gray small text-uppercase sans-regular letter-spacing--loose">
+     <li><a href="/terms">Terms</a></li>
+     <li><a href="/privacy-policy">Privacy</a></li>
+     <li><a href="https://www.garethjohnsdesign.com" class="dark-gray">Credit</a></li>
+    </ul>
+  </div>
+</div>
+<!-- End Terms and Privacy -->
 {% endblock %}

@@ -50,11 +50,9 @@ new Swiper('#carousel--hero', {
   centeredSlides: true,
   spaceBetween: 0,
   loop: true,
-/*
   autoplay: {
     delay: 2500
   }
-*/
 })
 }
 
@@ -115,7 +113,7 @@ window.addEventListener('load', AOS.refresh);
 // -------------------
 const options = {
   animationSelector: '[class*="swup-transition-"]',
-  containers: [ '#swup-body', '#swup-header', '#swup-overlay', '#swup-navigation' ],
+  containers: [ '#swup-body', '#swup-header', '#swup-overlay', '#swup-navigation', '#swup-footer' ],
   plugins: [
     new SwupPreloadPlugin(),
     new SwupBodyClassPlugin(),

@@ -1847,6 +1847,30 @@
 		"oAP": "/web/assets/fonts/neuzeit-grotesk-light.woff2",
 		"oF": 0
 		},
+	"/web/assets/fonts/p22-mackinac-book-italic.ttf": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/web/assets/fonts/p22-mackinac-book-italic.ttf",
+		"oF": 0
+		},
+	"/web/assets/fonts/p22-mackinac-book-italic.woff": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/web/assets/fonts/p22-mackinac-book-italic.woff",
+		"oF": 0
+		},
+	"/web/assets/fonts/p22-mackinac-book-italic.woff2": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/web/assets/fonts/p22-mackinac-book-italic.woff2",
+		"oF": 0
+		},
 	"/web/assets/fonts/p22-mackinac-book.ttf": {
 		"cB": 0,
 		"ft": 8192,

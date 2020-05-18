@@ -28,8 +28,26 @@
 
 
       <div class="grid-x grid-padding-x grid-padding-y align-center">
-        <div class="small-12 medium-8 cell">
+        <div class="small-12 medium-8 large-6 cell text-center">
+          <div class="dark-gray small text-uppercase sans-regular letter-spacing--loose padding-bottom-1">About</div>
           {{entry.copy}}
+        </div>
+      </div>
+
+      <div class="grid-x grid-padding-x grid-padding-y align-center">
+        <div class="small-12 medium-8 cell text-center">
+          <div class="dark-gray small text-uppercase sans-regular letter-spacing--loose padding-bottom-1">People</div>
+
+
+          {% for person in entry.people.all()  %}
+            <div class="grid-x grid-padding-x grid-padding-y align-center">
+              <div class="small-12 cell text-center">
+                <div class="">{{ person.person }}</div>
+                <div class="">{{ person.email }}</div>
+              </div>
+            </div>
+          {% endfor %}
+
         </div>
       </div>
 

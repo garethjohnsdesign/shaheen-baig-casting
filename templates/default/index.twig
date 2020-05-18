@@ -28,9 +28,9 @@
         <div class="image--hero" data-interchange="{% include "_includes/images/full/full/interchange-img-small-12-medium-12" %}">
 
         <div class="grid-y height-100 align-center content">
-          <div class="shrink cell text-center">
-          <a href="{{ project.url }}" class="white">
-            <h1 class="serif-display text-uppercase">{{project.title}}</h1>
+          <div class="shrink cell text-center white">
+          <a href="{{ project.url }}">
+            <div class="serif-display text-uppercase h1">{{project.title}}</div>
             {{project.with}}
           </a>
           </div>
@@ -44,3 +44,5 @@
 {# End Hero #}
 {% endblock %}
 
+{% block footer %}
+{% endblock %}

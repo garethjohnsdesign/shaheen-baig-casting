@@ -1,11 +1,8 @@
 <!-- Mobile Navigation -->
-<div class="grid-x grid-padding-y align-justify align-middle navigation hide-for-large" id="swup-header" style="z-index: 14">
-  <div class="small-10 cell">
-    <a href="/" class="">{% if bodyClass == "project" %}{{ entry.title }} <span class="dark-gray padding-left">{{ entry.client }}</span>{% else %}{{ siteName }}{% endif %}</a>
-  </div>
-  <div class="shrink cell align-middle">
-    <a class="" type="button" aria-label="Navigation" data-toggle="overlayNavigation">
-      <svg class="icon icon-lens"><use xlink:href="/assets/icons/symbol-defs.svg#icon-lens"></use></svg>
+<div class="grid-x grid-padding-y align-center navigation hide-for-large" id="swup-header" style="z-index: 14">
+  <div class="shrink cell">
+    <a class="logo text-uppercase letter-spacing--loose" type="button" aria-label="Navigation" data-toggle="overlayNavigation">
+    {% if bodyClass == "project" %}{{ entry.title }} <span class="dark-gray padding-left">{{ entry.client }}</span>{% else %}Shaheen Baig <span class="opacity-50">Casting</span>{% endif %}
     </a>
   </div>
 </div>

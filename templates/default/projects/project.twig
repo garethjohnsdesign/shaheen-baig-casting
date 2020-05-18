@@ -65,18 +65,20 @@
 
 <!-- Credits -->
 <div class="grid-x grid-padding-x grid-padding-y align-center">
-  <div class="auto cell">
+  <div class="small-12 medium-12 cell text-center">
   <div>Director<span class="padding-left dark-gray">{{ entry.director }}</span></div>
-  <div>Writer<span class="padding-left dark-gray">{{ entry.with }}</span></div>
+  <div>Writer<span class="padding-left dark-gray">{{ entry.writer }}</span></div>
   <div>Producer<span class="padding-left dark-gray">{{ entry.producer }}</span></div>
   <div>Production<span class="padding-left dark-gray">{{ entry.productionCompany }}</span></div>
   <div>With<span class="padding-left dark-gray">{{ entry.with }}</span></div>
+  <div class="medium-gray margin-top-1">{{ entry.postDate|date('Y') }}</div>
   </div>
+</div>
 
-  <div class="shrink cell">
-  <a class="" data-open="reveal{{entry.id}}"><svg class="icon icon-arrows icon-add"><use xlink:href="/assets/icons/symbol-defs.svg#icon-add"></use></svg></a>
+<div class="grid-x grid-padding-x grid-padding-y align-center">
+  <div class="small-12 medium-6 cell text-center small">
+    <a class="" data-open="reveal{{entry.id}}"><svg class="icon icon-arrows icon-add"><use xlink:href="/assets/icons/symbol-defs.svg#icon-add"></use></svg></a>
   </div>
-
 </div>
 <!-- End Credit -->
 
@@ -112,11 +114,18 @@
 <div class="full reveal" id="reveal{{entry.id}}" data-reveal>
 
   <div class="grid-x align-center-middle" style="min-height: 100%">
-    <div class="shrink cell padding-vertical-3">
+    <div class="small-12 cell padding-vertical-3">
 
       <div class="grid-x grid-padding-x grid-padding-y grid-margin-y align-center">
         <div class="small-8 cell text-center">
         {{ entry.copy }}
+
+        <div>Director<span class="padding-left dark-gray">{{ entry.director }}</span></div>
+        <div>Writer<span class="padding-left dark-gray">{{ entry.writer }}</span></div>
+        <div>Producer<span class="padding-left dark-gray">{{ entry.producer }}</span></div>
+        <div>Production<span class="padding-left dark-gray">{{ entry.productionCompany }}</span></div>
+        <div>With<span class="padding-left dark-gray">{{ entry.with }}</span></div>
+        <div class="medium-gray margin-top-1">{{ entry.postDate|date('Y') }}</div>
 
 
         <a class="dark-gray" data-close aria-label="Close modal" type="button">Close</a>
@@ -130,9 +139,4 @@
 </div>
 <!-- End Credits -->
 
-{% endblock %}
-
-
-{% block footer %}
-{% include "_includes/global/footer" %}
 {% endblock %}
