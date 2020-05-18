@@ -24,12 +24,12 @@
     {% for contact in entry.contacts.all()  %}
         <div class="grid-x grid-padding-x grid-padding-y align-center">
         <div class="small-12 cell text-center">
-        <div class="dark-gray small text-uppercase sans-regular letter-spacing--loose">{{ contact.header }}</div>
+        <div class="small text-uppercase sans-regular letter-spacing--loose white">{{ contact.header }}</div>
 
         {% if contact.contact|length %}
           {% for contact in contact.contact %}
           <div class="padding-top-1">
-            {% if contact.department|length %}<div class="dark-gray">{{ contact.department }}</div>{% endif %}
+            {% if contact.department|length %}<div class="dark-gray white">{{ contact.department }}</div>{% endif %}
             <div>{{ contact.name }}</div>
             <a href="mailto:{{ contact.email }}">{{ contact.email }}</a>
           </div>
@@ -42,7 +42,7 @@
 
     <div class="grid-x grid-padding-x grid-padding-y align-center">
       <div class="small-12 medium-6 cell text-center">
-        <ul class="menu simple dark-gray align-center">
+        <ul class="menu simple white align-center">
          {% for block in socials.socials.all() %}
           {% switch block.type %}
             {% case "instagram" %}
@@ -70,7 +70,7 @@
 
 <div class="grid-x grid-padding-x grid-padding-y align-center">
   <div class="small-12 medium-6 cell text-center">
-    <ul class="menu align-center simple dark-gray small text-uppercase sans-regular letter-spacing--loose">
+    <ul class="menu align-center simple white small text-uppercase sans-regular letter-spacing--loose">
      <li><a href="/terms">Terms</a></li>
      <li><a href="/privacy-policy">Privacy</a></li>
      <li><a href="https://www.garethjohnsdesign.com" class="dark-gray">Credit</a></li>

@@ -607,3 +607,12 @@ z-index: -1;
 .opacity-50 {
   @include opacity(0.5);
 }
+
+.about {
+  background-color: get-color(secondary);
+}
+
+
+.contact {
+  background-color: #e5502a;
+}
