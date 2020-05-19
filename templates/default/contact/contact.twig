@@ -28,11 +28,9 @@
 
         {% if contact.contact|length %}
           {% for contact in contact.contact %}
-          <div class="padding-top-1">
             {% if contact.department|length %}<div class="dark-gray">{{ contact.department }}</div>{% endif %}
             <div>{{ contact.name }}</div>
             <a href="mailto:{{ contact.email }}">{{ contact.email }}</a>
-          </div>
           {% endfor %}
         {% endif %}
 
@@ -47,8 +45,10 @@
           {% switch block.type %}
             {% case "instagram" %}
               <li><a href="{{block.socialLink}}" target="_blank"><svg class="icon icon-instagram"><use xlink:href="/assets/icons/symbol-defs.svg#icon-instagram"></use></svg></a></li>
-            {% case "vimeo" %}
-              <li><a href="{{block.socialLink}}" target="_blank"><svg class="icon icon-vimeo"><use xlink:href="/assets/icons/symbol-defs.svg#icon-vimeo"></use></svg></a></li>
+            {% case "twitter" %}
+              <li><a href="{{block.socialLink}}" target="_blank"><svg class="icon icon-twitter"><use xlink:href="/assets/icons/symbol-defs.svg#icon-twitter"></use></svg></a></li>
+            {% case "facebook" %}
+              <li><a href="{{block.socialLink}}" target="_blank"><svg class="icon icon-facebook"><use xlink:href="/assets/icons/symbol-defs.svg#icon-facebook"></use></svg></a></li>
           {% endswitch %}
           {% endfor %}
         </ul>
