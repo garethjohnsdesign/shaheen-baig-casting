@@ -222,7 +222,7 @@ i, cite, em, var, address, dfn {
 }
 
 p a {
-  color: get-color(secondary);
+  color: $black;
   &:hover {
     color: get-color(primary);   
   }
@@ -611,10 +611,18 @@ z-index: -1;
 }
 
 .about {
-  background-color: #d5d3c9;
+  background-color: get-color(secondary);
 }
 
 
 .contact {
   background-color: #edede5;
+}
+
+.notes {
+  background-color: #d9c7aa;
+}
+
+.red {
+color: #d51f2f;
 }
