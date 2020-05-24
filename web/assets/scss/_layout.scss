@@ -51,8 +51,9 @@
 // 2. Global
 // ---------
 
-// 2. Global
-// ---------
+.menu .menu-text {
+font-weight: normal;
+}
 
 .off-canvas-wrapper {
   overflow: visible;
@@ -611,18 +612,11 @@ z-index: -1;
 }
 
 .about {
-  background-color: get-color(secondary);
 }
-
 
 .contact {
   background-color: #edede5;
 }
 
 .notes {
-  background-color: #d9c7aa;
-}
-
-.red {
-color: #d51f2f;
 }
