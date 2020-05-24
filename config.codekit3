@@ -1439,6 +1439,14 @@
 		"oAP": "/templates/default/contact/contact.twig",
 		"oF": 0
 		},
+	"/templates/default/cv/index.twig": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/templates/default/cv/index.twig",
+		"oF": 0
+		},
 	"/templates/default/error.twig": {
 		"cB": 0,
 		"ft": 8192,
