@@ -68,13 +68,8 @@
   <div class="small-12 medium-12 cell text-center">
 
   <div>Director<span class="padding-left dark-gray">{{ entry.director }}</span></div>
-  <div>Writer<span class="padding-left dark-gray">{{ entry.writer }}</span></div>
-  <div>Producer<span class="padding-left dark-gray">{{ entry.producer }}</span></div>
-  <div>Production<span class="padding-left dark-gray">{{ entry.productionCompany }}</span></div>
   <div>With<span class="padding-left dark-gray">{{ entry.with }}</span></div>
 
-  <div class="medium-gray margin-top-1"><a href="{{ entry.imdb }}">IMDB</a></div>
-  <div class="medium-gray margin-top-1">{{ entry.postDate|date('Y') }}</div>
   </div>
 </div>
 
@@ -127,6 +122,7 @@
         <div>Producer<span class="padding-left dark-gray">{{ entry.producer }}</span></div>
         <div>Production<span class="padding-left dark-gray">{{ entry.productionCompany }}</span></div>
         <div>With<span class="padding-left dark-gray">{{ entry.with }}</span></div>
+        <div class="medium-gray margin-top-1"><a href="{{ entry.imdb }}">IMDB</a></div>
         <div class="medium-gray margin-top-1">{{ entry.postDate|date('Y') }}</div>
 
 
