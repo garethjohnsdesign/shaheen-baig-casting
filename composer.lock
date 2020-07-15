@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "3f53e72852a6184c7736b63f38c9fb59",
+    "content-hash": "79224075e7084f796b1f1f5539cec7bc",
     "packages": [
         {
             "name": "aelvan/imager",
@@ -643,11 +643,11 @@
         },
         {
             "name": "craftcms/cms",
-            "version": "3.4.25",
+            "version": "3.4.27",
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/craftcms/cms/zipball/b5fdef81023c831ddd4f2d7de6063b4f64d1a020",
-                "reference": "b5fdef81023c831ddd4f2d7de6063b4f64d1a020",
+                "url": "https://api.github.com/repos/craftcms/cms/zipball/68d7e40efc7630fc319a27e0536426028d7baa50",
+                "reference": "68d7e40efc7630fc319a27e0536426028d7baa50",
                 "shasum": ""
             },
             "require": {
@@ -728,7 +728,7 @@
                 "docs": "https://docs.craftcms.com/v3/",
                 "rss": "https://github.com/craftcms/cms/releases.atom"
             },
-            "time": "2020-06-23T23:04:43+00:00"
+            "time": "2020-07-03T19:20:14+00:00"
         },
         {
             "name": "craftcms/feed-me",
@@ -974,7 +974,7 @@
             "version": "1.1.9",
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/craftcms/server-check/zipball/0f445599b3a2ccbeba4a83cf34a8070f56326909",
+                "url": "https://api.github.com/repos/craftcms/server-check/zipball/579fd9ac93580800330695c5d38ca6decb6601ac",
                 "reference": "0f445599b3a2ccbeba4a83cf34a8070f56326909",
                 "shasum": ""
             },
@@ -1229,11 +1229,11 @@
         },
         {
             "name": "ether/seo",
-            "version": "3.6.5.2",
+            "version": "3.6.6",
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ethercreative/seo/zipball/f2de784268f43ca190e08bd6199dd22f3ccc05eb",
-                "reference": "f2de784268f43ca190e08bd6199dd22f3ccc05eb",
+                "url": "https://api.github.com/repos/ethercreative/seo/zipball/cfacc65fbea87ace4a40c0c0e5d35ce2e1167e60",
+                "reference": "cfacc65fbea87ace4a40c0c0e5d35ce2e1167e60",
                 "shasum": ""
             },
             "require": {
@@ -1260,22 +1260,19 @@
                 "issues": "https://github.com/ethercreative/seo",
                 "docs": "https://github.com/ethercreative/seo/blob/v3/README.md"
             },
-            "time": "2020-06-24T08:19:35+00:00"
+            "time": "2020-06-30T13:44:29+00:00"
         },
         {
             "name": "ezyang/htmlpurifier",
-            "version": "v4.12.0",
+            "version": "v4.13.0",
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ezyang/htmlpurifier/zipball/a617e55bc62a87eec73bd456d146d134ad716f03",
-                "reference": "a617e55bc62a87eec73bd456d146d134ad716f03",
+                "url": "https://api.github.com/repos/ezyang/htmlpurifier/zipball/08e27c97e4c6ed02f37c5b2b20488046c8d90d75",
+                "reference": "08e27c97e4c6ed02f37c5b2b20488046c8d90d75",
                 "shasum": ""
             },
             "require": {
                 "php": ">=5.2"
-            },
-            "require-dev": {
-                "simpletest/simpletest": "dev-master#72de02a7b80c6bb8864ef9bf66d41d2f58f826bd"
             },
             "type": "library",
             "autoload": {
@@ -1284,9 +1281,11 @@
                 },
                 "files": [
                     "library/HTMLPurifier.composer.php"
+                ],
+                "exclude-from-classmap": [
+                    "/library/HTMLPurifier/Language/"
                 ]
             },
-            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "LGPL-2.1-or-later"
             ],
@@ -1302,7 +1301,7 @@
             "keywords": [
                 "html"
             ],
-            "time": "2019-10-28T03:44:26+00:00"
+            "time": "2020-06-29T00:56:53+00:00"
         },
         {
             "name": "firebase/php-jwt",
@@ -3203,11 +3202,11 @@
         },
         {
             "name": "nikic/php-parser",
-            "version": "v4.5.0",
+            "version": "v4.6.0",
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/nikic/PHP-Parser/zipball/53c2753d756f5adb586dca79c2ec0e2654dd9463",
-                "reference": "53c2753d756f5adb586dca79c2ec0e2654dd9463",
+                "url": "https://api.github.com/repos/nikic/PHP-Parser/zipball/c346bbfafe2ff60680258b631afb730d186ed864",
+                "reference": "c346bbfafe2ff60680258b631afb730d186ed864",
                 "shasum": ""
             },
             "require": {
@@ -3241,7 +3240,7 @@
                 "parser",
                 "php"
             ],
-            "time": "2020-06-03T07:24:19+00:00"
+            "time": "2020-07-02T17:12:47+00:00"
         },
         {
             "name": "nystudio107/craft-minify",
@@ -4172,11 +4171,11 @@
         },
         {
             "name": "seld/phar-utils",
-            "version": "1.1.0",
+            "version": "1.1.1",
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Seldaek/phar-utils/zipball/8800503d56b9867d43d9c303b9cbcc26016e82f0",
-                "reference": "8800503d56b9867d43d9c303b9cbcc26016e82f0",
+                "url": "https://api.github.com/repos/Seldaek/phar-utils/zipball/8674b1d84ffb47cc59a101f5d5a3b61e87d23796",
+                "reference": "8674b1d84ffb47cc59a101f5d5a3b61e87d23796",
                 "shasum": ""
             },
             "require": {
@@ -4193,7 +4192,6 @@
                     "Seld\\PharUtils\\": "src/"
                 }
             },
-            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -4207,7 +4205,7 @@
             "keywords": [
                 "phar"
             ],
-            "time": "2020-02-14T15:25:33+00:00"
+            "time": "2020-07-07T18:42:57+00:00"
         },
         {
             "name": "ssnepenthe/color-utils",
@@ -4871,11 +4869,11 @@
         },
         {
             "name": "symfony/polyfill-php72",
-            "version": "v1.17.0",
+            "version": "v1.17.1",
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/polyfill-php72/zipball/f048e612a3905f34931127360bdd2def19a5e582",
-                "reference": "f048e612a3905f34931127360bdd2def19a5e582",
+                "url": "https://api.github.com/repos/symfony/polyfill-php72/zipball/3d9c70ff1b9f6bb618f9954b2f7f760220c2b38a",
+                "reference": "3d9c70ff1b9f6bb618f9954b2f7f760220c2b38a",
                 "shasum": ""
             },
             "require": {
@@ -4885,6 +4883,10 @@
             "extra": {
                 "branch-alias": {
                     "dev-master": "1.17-dev"
+                },
+                "thanks": {
+                    "name": "symfony/polyfill",
+                    "url": "https://github.com/symfony/polyfill"
                 }
             },
             "autoload": {
@@ -4916,7 +4918,7 @@
                 "portable",
                 "shim"
             ],
-            "time": "2020-05-12T16:47:27+00:00"
+            "time": "2020-06-06T08:46:27+00:00"
         },
         {
             "name": "symfony/polyfill-php73",
@@ -5079,11 +5081,11 @@
         },
         {
             "name": "symfony/service-contracts",
-            "version": "v2.1.2",
+            "version": "v2.1.3",
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/service-contracts/zipball/66a8f0957a3ca54e4f724e49028ab19d75a8918b",
-                "reference": "66a8f0957a3ca54e4f724e49028ab19d75a8918b",
+                "url": "https://api.github.com/repos/symfony/service-contracts/zipball/58c7475e5457c5492c26cc740cc0ad7464be9442",
+                "reference": "58c7475e5457c5492c26cc740cc0ad7464be9442",
                 "shasum": ""
             },
             "require": {
@@ -5097,6 +5099,10 @@
             "extra": {
                 "branch-alias": {
                     "dev-master": "2.1-dev"
+                },
+                "thanks": {
+                    "name": "symfony/contracts",
+                    "url": "https://github.com/symfony/contracts"
                 }
             },
             "autoload": {
@@ -5127,7 +5133,7 @@
                 "interoperability",
                 "standards"
             ],
-            "time": "2020-05-20T17:43:50+00:00"
+            "time": "2020-07-06T13:23:11+00:00"
         },
         {
             "name": "symfony/translation",
@@ -5569,11 +5575,11 @@
         },
         {
             "name": "venveo/craft-bulkedit",
-            "version": "2.0.4",
+            "version": "2.0.5",
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/venveo/craft-bulkedit/zipball/5b053657d869b0f123261a26f8b503b515fa12e6",
-                "reference": "5b053657d869b0f123261a26f8b503b515fa12e6",
+                "url": "https://api.github.com/repos/venveo/craft-bulkedit/zipball/5f74892d123a9ac0e2b2bfecce2ee0a2414e74d0",
+                "reference": "5f74892d123a9ac0e2b2bfecce2ee0a2414e74d0",
                 "shasum": ""
             },
             "require": {
@@ -5591,7 +5597,6 @@
                     "venveo\\bulkedit\\": "src/"
                 }
             },
-            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -5603,13 +5608,17 @@
             ],
             "description": "Bulk edit Craft CMS element fields",
             "keywords": [
-                "Craft",
                 "bulk edit",
                 "cms",
+                "craft",
                 "craft-plugin",
                 "craftcms"
             ],
-            "time": "2020-02-25T22:09:37+00:00"
+            "support": {
+                "docs": "https://github.com/venveo/craft-bulkedit/blob/master/README.md",
+                "issues": "https://github.com/venveo/craft-bulkedit/issues"
+            },
+            "time": "2020-07-12T18:45:03+00:00"
         },
         {
             "name": "vlucas/phpdotenv",
@@ -6076,15 +6085,15 @@
         },
         {
             "name": "webmozart/assert",
-            "version": "1.9.0",
+            "version": "1.9.1",
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/webmozart/assert/zipball/9dc4f203e36f2b486149058bade43c851dd97451",
-                "reference": "9dc4f203e36f2b486149058bade43c851dd97451",
+                "url": "https://api.github.com/repos/webmozart/assert/zipball/bafc69caeb4d49c39fd0779086c03a3738cbb389",
+                "reference": "bafc69caeb4d49c39fd0779086c03a3738cbb389",
                 "shasum": ""
             },
             "require": {
-                "php": "^5.3.3 || ^7.0",
+                "php": "^5.3.3 || ^7.0 || ^8.0",
                 "symfony/polyfill-ctype": "^1.8"
             },
             "conflict": {
@@ -6112,7 +6121,7 @@
                 "check",
                 "validate"
             ],
-            "time": "2020-06-16T10:16:42+00:00"
+            "time": "2020-07-08T17:02:28+00:00"
         },
         {
             "name": "webonyx/graphql-php",
