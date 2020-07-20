@@ -1003,6 +1003,14 @@
 		"oAP": "/templates/default/503.twig",
 		"oF": 0
 		},
+	"/templates/default/_includes/blocks/excerpt-archive.twig": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/templates/default/_includes/blocks/excerpt-archive.twig",
+		"oF": 0
+		},
 	"/templates/default/_includes/blocks/excerpt.twig": {
 		"cB": 0,
 		"ft": 8192,
@@ -1531,12 +1539,36 @@
 		"oAP": "/templates/default/page/page.twig",
 		"oF": 0
 		},
-	"/templates/default/projects/project.twig": {
+	"/templates/default/projects/_project.twig": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/templates/default/projects/project.twig",
+		"oAP": "/templates/default/projects/_project.twig",
+		"oF": 0
+		},
+	"/templates/default/projects/_types/default.twig": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/templates/default/projects/_types/default.twig",
+		"oF": 0
+		},
+	"/templates/default/projects/_types/project.twig": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/templates/default/projects/_types/project.twig",
+		"oF": 0
+		},
+	"/templates/default/projects/_types/series.twig": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/templates/default/projects/_types/series.twig",
 		"oF": 0
 		},
 	"/vendor": {
@@ -1827,6 +1859,22 @@
 		"oAP": "/web/assets/fonts/goldenbook-bold.woff2",
 		"oF": 0
 		},
+	"/web/assets/fonts/gt-alpina-bold.woff": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/web/assets/fonts/gt-alpina-bold.woff",
+		"oF": 0
+		},
+	"/web/assets/fonts/gt-alpina-bold.woff2": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/web/assets/fonts/gt-alpina-bold.woff2",
+		"oF": 0
+		},
 	"/web/assets/fonts/gt-alpina-light.ttf": {
 		"cB": 0,
 		"ft": 8192,
@@ -1849,6 +1897,22 @@
 		"hM": 0,
 		"oA": 2,
 		"oAP": "/web/assets/fonts/gt-alpina-light.woff2",
+		"oF": 0
+		},
+	"/web/assets/fonts/gt-alpina-medium.woff": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/web/assets/fonts/gt-alpina-medium.woff",
+		"oF": 0
+		},
+	"/web/assets/fonts/gt-alpina-medium.woff2": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/web/assets/fonts/gt-alpina-medium.woff2",
 		"oF": 0
 		},
 	"/web/assets/fonts/neuzeit-grotesk-bold.ttf": {
@@ -2137,6 +2201,19 @@
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
+		},
+	"/web/assets/scss/_colors.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/web/assets/css/_colors.css",
+		"oF": 0,
+		"oS": 0,
+		"sct": 1
 		},
 	"/web/assets/scss/_fonts.scss": {
 		"aP": 0,

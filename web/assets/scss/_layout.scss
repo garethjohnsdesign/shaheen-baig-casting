@@ -524,6 +524,18 @@ p:last-child {
   background-color: transparent;
 }
 
+.tippy-box[data-theme~='custom'][data-placement^='top'] > .tippy-arrow::before {
+  border-top-color: transparent;
+}
+.tippy-box[data-theme~='custom'][data-placement^='bottom'] > .tippy-arrow::before {
+  border-bottom-color: transparent;
+}
+.tippy-box[data-theme~='custom'][data-placement^='left'] > .tippy-arrow::before {
+  border-left-color: transparent;
+}
+.tippy-box[data-theme~='custom'][data-placement^='right'] > .tippy-arrow::before {
+  border-right-color: transparent;
+}
 .excerpt {
 position: relative;
 overflow: hidden;
@@ -612,14 +624,52 @@ z-index: -1;
   @include opacity(0.5);
 }
 
+$rose-bud: #fcad90;
+$aqua-haze: #e9f0f7;
+$spring-wood: #ebe1d7;
+$botticelli: #97afb1;
+$green-smoke: #a9a775;
+$magnesium: #b2b3b4;
+$goldenrod: #fbd478;
+
 .about {
+  background-color: rgba($rose-bud, 0.5);
+/*
+  background-color: $aqua-haze;
+  background-color: $spring-wood;
+  background-color: $botticelli;
+  background-color: $botticelli;
+  background-color: $green-smoke;
+  background-color: $magnesium;
+  background-color: $goldenrod;
+*/
+}
+
+.excerpt {
+  background-color: $rose-bud;
+  background-color: $aqua-haze;
+  background-color: $spring-wood;
+/*
+  background-color: $botticelli;
+  background-color: $botticelli;
+  background-color: $green-smoke;
+*/
+//   background-color: $magnesium;
+//   background-color: $goldenrod;
 }
 
 .contact {
-  background-color: #edede5;
+  background-color: $rose-bud;
+  background-color: $aqua-haze;
+//   background-color: $spring-wood;
+//   background-color: $botticelli;
+//   background-color: $green-smoke;
+//   background-color: $magnesium;
+//   background-color: $goldenrod;
 }
 
 .notes {
+  background-color: rgba($goldenrod, 0.5);
 }
 
 .button-group {

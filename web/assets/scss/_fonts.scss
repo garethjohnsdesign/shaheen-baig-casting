@@ -100,3 +100,21 @@
   font-weight: normal;
   font-style: normal;
 }
+
+@font-face {
+  font-family: 'GT Alpina Bold';
+  src: 
+  url('../fonts/gt-alpina-bold.woff2') format('woff2'), 
+  url('../fonts/gt-alpina-bold.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'GT Alpina Medium';
+  src: 
+  url('../fonts/gt-alpina-medium.woff2') format('woff2'), 
+  url('../fonts/gt-alpina-medium.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
