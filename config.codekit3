@@ -168,17 +168,6 @@
 		"sC": 1,
 		"tS": 0
 		},
-	"/node_modules/@popperjs/core/lib/dom-utils/getBorders.js": {
-		"bF": 0,
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 1,
-		"oAP": "/node_modules/@popperjs/core/lib/dom-utils/min/getBorders-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
 	"/node_modules/@popperjs/core/lib/dom-utils/getBoundingClientRect.js": {
 		"bF": 0,
 		"ft": 64,
@@ -219,17 +208,6 @@
 		"mi": 1,
 		"oA": 1,
 		"oAP": "/node_modules/@popperjs/core/lib/dom-utils/min/getComputedStyle-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"/node_modules/@popperjs/core/lib/dom-utils/getDecorations.js": {
-		"bF": 0,
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 1,
-		"oAP": "/node_modules/@popperjs/core/lib/dom-utils/min/getDecorations-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
@@ -828,6 +806,17 @@
 		"sC": 1,
 		"tS": 0
 		},
+	"/node_modules/dom7/dom7.esm.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/node_modules/dom7/min/dom7.esm-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
 	"/node_modules/foundation-sites/dist/js/foundation.esm.js": {
 		"bF": 0,
 		"ft": 64,
@@ -858,24 +847,79 @@
 		"oAP": "/node_modules/plyr/dist/plyr.min.mjs",
 		"oF": 0
 		},
-	"/node_modules/ssr-window/dist/ssr-window.esm.js": {
+	"/node_modules/ssr-window/ssr-window.esm.js": {
 		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 1,
-		"oAP": "/node_modules/ssr-window/dist/min/ssr-window.esm-min.js",
+		"oAP": "/node_modules/ssr-window/min/ssr-window.esm-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"/node_modules/swiper/js/swiper.esm.bundle.js": {
+	"/node_modules/swiper/esm/utils/dom.js": {
 		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 1,
-		"oAP": "/node_modules/swiper/js/min/swiper.esm.bundle-min.js",
+		"oAP": "/node_modules/swiper/esm/utils/min/dom-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/node_modules/swiper/esm/utils/get-browser.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/node_modules/swiper/esm/utils/min/get-browser-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/node_modules/swiper/esm/utils/get-device.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/node_modules/swiper/esm/utils/min/get-device-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/node_modules/swiper/esm/utils/get-support.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/node_modules/swiper/esm/utils/min/get-support-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/node_modules/swiper/esm/utils/utils.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/node_modules/swiper/esm/utils/min/utils-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/node_modules/swiper/swiper.esm.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/node_modules/swiper/min/swiper.esm-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0

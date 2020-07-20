@@ -67,6 +67,15 @@
 <div class="grid-x grid-padding-x grid-padding-y align-center">
   <div class="small-12 medium-12 cell text-center">
 
+  {% set typeOfFilm = entry.typeOfFilm.all() %}
+  {% if typeOfFilm|length %}
+    <ul class="menu align-center">
+      {% for rel in typeOfFilm %}
+          <li class="dark-gray small text-uppercase sans-regular letter-spacing--loose padding-bottom-1">{{ rel.title }}</li>
+      {% endfor %}
+    </ul>
+  {% endif %}
+
   <div>Director<span class="padding-left dark-gray">{{ entry.director }}</span></div>
   <div>With<span class="padding-left dark-gray">{{ entry.with }}</span></div>
 

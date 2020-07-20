@@ -417,7 +417,8 @@ url('/assets/img/arrow-left@3x.png') 3x
 
 .excerpt {
   .content {
-    @include opacity(0);
+    @include opacity(1);
+    background: rgba($black, 0);
   }
   &:hover .content {
     transition: $primary-transition;
@@ -619,4 +620,15 @@ z-index: -1;
 }
 
 .notes {
+}
+
+.button-group {
+  background-color: transparent;
+    &:hover {
+      background-color: transparent;
+    }
+}
+
+.button--correct {
+  padding-top: 11px;
 }

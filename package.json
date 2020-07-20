@@ -1,11 +1,4 @@
 {
-  "name": "codekit-project",
-  "version": "1.0.0",
-  "description": "CodeKit created this starter package.json file. You should customize it appropriately.",
-  "scripts": {},
-  "author": "",
-  "license": "UNLICENSED",
-  "repository": {},
   "dependencies": {
     "@swup/body-class-plugin": "^1.0.2",
     "@swup/ga-plugin": "^1.0.1",
@@ -18,9 +11,18 @@
     "jquery-lazy": "^1.7.10",
     "motion-ui": "^2.0.3",
     "plyr": "^3.6.2",
-    "swiper": "^5.3.8",
+    "swiper": "^6.0.4",
     "swup": "^2.0.9",
-    "tippy.js": "^6.2.3",
-    "what-input": "^5.2.7"
-  }
+    "tippy.js": "^6.2.5",
+    "what-input": "^5.2.10"
+  },
+  "version": "1.0.0",
+  "description": "CodeKit created this starter package.json file. You should customize it appropriately.",
+  "name": "codekit-project",
+  "scripts": {},
+  "author": "",
+  "devDependencies": {},
+  "optionalDependencies": {},
+  "repository": {},
+  "license": "UNLICENSED"
 }
