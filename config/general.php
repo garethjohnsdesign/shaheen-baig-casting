@@ -9,6 +9,8 @@
 return [
     // Global settings
     '*' => [
+        
+        'useProjectConfigFile' => false,
 
         // Default Week Start Day (0 = Sunday, 1 = Monday...)
         'defaultWeekStartDay' => 0,
@@ -43,6 +45,8 @@ return [
         
         'enableTemplateCaching' => false,
 
+        'siteUrl'             => getenv('SITE_URL') ?: '@web',
+
         // Set the environmental variables
         'staticAssetsVersion' => 3,
         
@@ -50,9 +54,6 @@ return [
 
     // Development environment settings
     'dev' => [
-       'siteUrl' => [
-          'default' => 'https://shaheenbaigcasting.test',
-        ],
 
         // Dev Mode (see https://craftcms.com/support/dev-mode)
         'devMode' => true,
@@ -65,11 +66,6 @@ return [
     // Staging environment settings
     'staging' => [
 
-        'siteUrl' => [
-            'default' => 'https://shaheenbaig-stage.frb.io',
-        ],
-
-
         'devMode' => true,
         'enableTemplateCaching' => false,
         'allowUpdates' => true,
@@ -79,10 +75,6 @@ return [
 
     // Production environment settings
     'production' => [
-
-        'siteUrl' => [
-            'default' => 'https://shaheenbaig-prod.frb.io',
-        ],
 
         'devMode' => false,
         'enableTemplateCaching' => true,

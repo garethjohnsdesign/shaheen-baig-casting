@@ -24,25 +24,20 @@
   <div class="swiper-wrapper">
     {% for project in projects %}
     {% set image = project.image.one() %}
-    <div class="swiper-slide">
-        <div class="image--hero" data-interchange="{% include "_includes/images/full/full/interchange-img-small-12-medium-12" %}">
+    <div class="swiper-slide black-background-color">
+        <div class="image--hero" data-interchange="{% include "_includes/images/full/full/interchange-img-small-12-medium-12" %}" data-aos="fade-in">
 
         <div class="grid-y height-100 align-center content">
           <div class="shrink cell text-center white">
 
-      <div class="grid-x grid-padding-x grid-padding-y align-center">
-        <div class="small-10 medium-8 cell text-center">
-          <a href="{{ project.url }}">
-            <div class="serif-display text-uppercase h1">{{project.title}}</div>
-          </a>
-        </div>
-      </div>
+            <div class="grid-x grid-padding-x grid-padding-y align-center" data-aos="fade-in" data-aos-delay="500">
+              <div class="small-10 medium-8 cell text-center">
+                <a href="{{ project.url }}">
+                  <div class="serif-display text-uppercase h1">{{project.title}}</div>
+                </a>
+              </div>
+            </div>
 
-{#
-          <div class="margin-top-1">
-          <a href="{{ project.url }}">Play</a>
-          </div>
-#}
           </div>
         </div>
 

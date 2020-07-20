@@ -202,7 +202,7 @@ html.is-animating .swup-transition-color {
 
 .dark-gray {
   color: $dark-gray;
-  @include links ($dark-gray, $white);
+  @include links ($dark-gray, $black);
 }
 
 .black {
