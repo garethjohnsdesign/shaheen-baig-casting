@@ -59,6 +59,8 @@ new Swiper('#carousel--hero', {
 // 4. Plyr
 // ----------
 
+const players = Plyr.setup('.js-player');
+
 const player = new Plyr('#player', {
   ratio: '16:9',
   controls: ['play', 'progress', 'mute', 'volume', 'pip', 'airplay', 'fullscreen']
