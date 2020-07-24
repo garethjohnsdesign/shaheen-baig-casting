@@ -1739,54 +1739,6 @@
 		"oAP": "/web/assets/favicons/site.webmanifest",
 		"oF": 0
 		},
-	"/web/assets/fonts/brandon-grotesque-bold.ttf": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 2,
-		"oAP": "/web/assets/fonts/brandon-grotesque-bold.ttf",
-		"oF": 0
-		},
-	"/web/assets/fonts/brandon-grotesque-bold.woff": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 2,
-		"oAP": "/web/assets/fonts/brandon-grotesque-bold.woff",
-		"oF": 0
-		},
-	"/web/assets/fonts/brandon-grotesque-bold.woff2": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 2,
-		"oAP": "/web/assets/fonts/brandon-grotesque-bold.woff2",
-		"oF": 0
-		},
-	"/web/assets/fonts/bressay-regular.ttf": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 2,
-		"oAP": "/web/assets/fonts/bressay-regular.ttf",
-		"oF": 0
-		},
-	"/web/assets/fonts/bressay-regular.woff": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 2,
-		"oAP": "/web/assets/fonts/bressay-regular.woff",
-		"oF": 0
-		},
-	"/web/assets/fonts/bressay-regular.woff2": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 2,
-		"oAP": "/web/assets/fonts/bressay-regular.woff2",
-		"oF": 0
-		},
 	"/web/assets/fonts/canela-bold.woff": {
 		"cB": 0,
 		"ft": 8192,
@@ -1817,46 +1769,6 @@
 		"hM": 0,
 		"oA": 2,
 		"oAP": "/web/assets/fonts/canela-regular.woff2",
-		"oF": 0
-		},
-	"/web/assets/fonts/gallery.woff": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 2,
-		"oAP": "/web/assets/fonts/gallery.woff",
-		"oF": 0
-		},
-	"/web/assets/fonts/gallery.woff2": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 2,
-		"oAP": "/web/assets/fonts/gallery.woff2",
-		"oF": 0
-		},
-	"/web/assets/fonts/goldenbook-bold.ttf": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 2,
-		"oAP": "/web/assets/fonts/goldenbook-bold.ttf",
-		"oF": 0
-		},
-	"/web/assets/fonts/goldenbook-bold.woff": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 2,
-		"oAP": "/web/assets/fonts/goldenbook-bold.woff",
-		"oF": 0
-		},
-	"/web/assets/fonts/goldenbook-bold.woff2": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 2,
-		"oAP": "/web/assets/fonts/goldenbook-bold.woff2",
 		"oF": 0
 		},
 	"/web/assets/fonts/gt-alpina-bold.woff": {
@@ -1913,54 +1825,6 @@
 		"hM": 0,
 		"oA": 2,
 		"oAP": "/web/assets/fonts/gt-alpina-medium.woff2",
-		"oF": 0
-		},
-	"/web/assets/fonts/neuzeit-grotesk-bold.ttf": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 2,
-		"oAP": "/web/assets/fonts/neuzeit-grotesk-bold.ttf",
-		"oF": 0
-		},
-	"/web/assets/fonts/neuzeit-grotesk-bold.woff": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 2,
-		"oAP": "/web/assets/fonts/neuzeit-grotesk-bold.woff",
-		"oF": 0
-		},
-	"/web/assets/fonts/neuzeit-grotesk-bold.woff2": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 2,
-		"oAP": "/web/assets/fonts/neuzeit-grotesk-bold.woff2",
-		"oF": 0
-		},
-	"/web/assets/fonts/neuzeit-grotesk-light.ttf": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 2,
-		"oAP": "/web/assets/fonts/neuzeit-grotesk-light.ttf",
-		"oF": 0
-		},
-	"/web/assets/fonts/neuzeit-grotesk-light.woff": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 2,
-		"oAP": "/web/assets/fonts/neuzeit-grotesk-light.woff",
-		"oF": 0
-		},
-	"/web/assets/fonts/neuzeit-grotesk-light.woff2": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 2,
-		"oAP": "/web/assets/fonts/neuzeit-grotesk-light.woff2",
 		"oF": 0
 		},
 	"/web/assets/fonts/p22-mackinac-book-italic.ttf": {
