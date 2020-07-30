@@ -9,7 +9,6 @@
 return [
     // Global settings
     '*' => [
-        
         'useProjectConfigFile' => false,
 
         // Default Week Start Day (0 = Sunday, 1 = Monday...)
@@ -31,7 +30,6 @@ return [
                 'xlarge' => '1440',
                 'xxlarge' => '1440',
         ],
-
         'breakpointsContained' => [
                 'small' => '640',
                 'medium' => '1024',
@@ -39,7 +37,6 @@ return [
                 'xlarge' => '1200',
                 'xxlarge' => '1200',
         ],
-
         // The secure key Craft will use for hashing and encrypting data
         'securityKey' => getenv('SECURITY_KEY'),
         
@@ -54,7 +51,6 @@ return [
 
     // Development environment settings
     'dev' => [
-
         // Dev Mode (see https://craftcms.com/support/dev-mode)
         'devMode' => true,
         'allowUpdates' => true,
@@ -65,7 +61,6 @@ return [
 
     // Staging environment settings
     'staging' => [
-
         'devMode' => true,
         'enableTemplateCaching' => false,
         'allowUpdates' => true,
@@ -75,7 +70,6 @@ return [
 
     // Production environment settings
     'production' => [
-
         'devMode' => false,
         'enableTemplateCaching' => true,
         'allowUpdates' => false,
