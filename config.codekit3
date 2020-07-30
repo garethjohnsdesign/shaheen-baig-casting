@@ -858,6 +858,17 @@
 		"sC": 1,
 		"tS": 0
 		},
+	"/node_modules/swiper/bundle/../swiper-bundle.esm.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/node_modules/swiper/bundle/../min/swiper-bundle.esm-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
 	"/node_modules/swiper/esm/utils/dom.js": {
 		"bF": 0,
 		"ft": 64,

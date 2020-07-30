@@ -4,7 +4,7 @@
 import $ from "jquery";
 import Plyr from 'plyr';
 import tippy, {followCursor} from 'tippy.js';
-import Swiper from 'swiper';
+import swiper from 'swiper/bundle';
 import Foundation from 'foundation-sites';
 import AOS from 'aos';
 import Swup from 'swup';
@@ -44,12 +44,26 @@ tippy('[data-tippy-content]', {
 // -----------
 
 if (document.querySelector('#carousel--hero')) {
+/*
 new Swiper('#carousel--hero', {
   effect: 'fade',
   slidesPerView: '1',
   centeredSlides: true,
   spaceBetween: 0,
   loop: true,
+  autoplay: {
+    delay: 2500
+  }
+})
+*/
+var mySwiper = new swiper('.swiper-container', {
+  // Optional parameters
+  effect: 'fade',
+  loop: true,
+  // Navigation arrows
+  navigation: {
+    nextEl: '.swiper-slide',
+  },
   autoplay: {
     delay: 2500
   }
