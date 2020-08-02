@@ -55,12 +55,29 @@
 <!-- Center -->
 <div class="small-12 medium-10 large-10 xlarge-8 cell">
 
+{% if entry.video | length %}
 <div class="grid-x grid-padding-x grid-padding-y align-center">
   <div class="small-12 cell text-center">
-    <div id="player" data-plyr-provider="vimeo" data-plyr-embed-id="{{ entry.video }}"></div>
+    <div class="js-player" data-plyr-provider="vimeo" data-plyr-embed-id="{{ entry.video }}"></div>
   </div>
 </div>
-
+{% elseif entry.image | length %}
+<div class="grid-x grid-padding-x grid-padding-y align-center">
+  <div class="small-12 cell text-center">
+  {% set image = entry.image.one() %}
+  <div class="image--16-9" data-interchange="{% if image | length %}{% include "_includes/images/full/16-9/interchange-img-small-12-medium-6" %}{% endif %}"></div>
+  </div>
+</div>
+{% else %}
+<div class="grid-x grid-padding-x grid-padding-y align-center">
+  <div class="small-12 cell text-center">
+  {% set typeOfInProduction = entry.typeOfInProduction.one() %}
+  {% if typeOfInProduction|length %}
+  <h1>{{ typeOfInProduction }}</h1>
+  {% endif %}
+  </div>
+</div>
+{% endif %}
 
 
 <!-- Credits -->
@@ -75,9 +92,13 @@
       {% endfor %}
     </ul>
   {% endif %}
-
+  
+  {% if entry.director|length %}
   <div>Director<span class="padding-left dark-gray">{{ entry.director }}</span></div>
+  {% endif %}
+  {% if entry.with|length %}
   <div>With<span class="padding-left dark-gray">{{ entry.with }}</span></div>
+  {% endif %}
 
   </div>
 </div>
@@ -164,13 +185,13 @@
       <div class="grid-x grid-padding-x grid-padding-y grid-margin-y align-center">
         <div class="small-8 cell text-center">
 
-        <div>Director<span class="padding-left dark-gray">{{ entry.director }}</span></div>
-        <div>Writer<span class="padding-left dark-gray">{{ entry.writer }}</span></div>
-        <div>Producer<span class="padding-left dark-gray">{{ entry.producer }}</span></div>
-        <div>Production<span class="padding-left dark-gray">{{ entry.productionCompany }}</span></div>
-        <div>With<span class="padding-left dark-gray">{{ entry.with }}</span></div>
-        <div class="medium-gray margin-top-1"><a href="{{ entry.imdb }}">IMDB</a></div>
-        <div class="medium-gray margin-top-1">{{ entry.postDate|date('Y') }}</div>
+        {% if entry.director|length %}<div>Director<span class="padding-left dark-gray">{{ entry.director }}</span></div>{% endif %}
+        {% if entry.writer|length %}<div>Writer<span class="padding-left dark-gray">{{ entry.writer }}</span></div>{% endif %}
+        {% if entry.producer|length %}<div>Producer<span class="padding-left dark-gray">{{ entry.producer }}</span></div>{% endif %}
+        {% if entry.productionCompany|length %}<div>Production<span class="padding-left dark-gray">{{ entry.productionCompany }}</span></div>{% endif %}
+        {% if entry.with|length %}<div>With<span class="padding-left dark-gray">{{ entry.with }}</span></div>{% endif %}
+        {% if entry.imdb|length %}<div class="medium-gray margin-top-1"><a href="{{ entry.imdb }}">IMDB</a></div>{% endif %}
+        {% if entry.postDate|length %}<div class="medium-gray margin-top-1">{{ entry.postDate|date('Y') }}</div>{% endif %}
 
 
         <a class="dark-gray" data-close aria-label="Close modal" type="button">Close</a>

@@ -20,10 +20,10 @@
 
 <!-- Projects -->
 {% set projectCount = projects|length %}
-<div class="grid-container">
+<div class="grid-container padding-bottom-2">
 
 <div class="grid-x grid-padding-x grid-padding-y align-center">
-  <div class="small-12 cell text-center">
+  <div class="small-12 cell text-center padding-bottom-0">
     <ul class="menu small sans-regular text-uppercase letter-spacing--loose align-center">
       {% nav menu in craft.categories.group('typeOfProject').all() %}
         <li class="{{ menu.slug == category.slug ? 'underline' }}">
@@ -35,9 +35,9 @@
 </div>
 
 
-<div class="grid-x {% if projectCount > 2 %}align-left{% else %}align-center{% endif %}">
+<div class="grid-x grid-padding-x grid-padding-y {% if projectCount > 2 %}align-left{% else %}align-center{% endif %}">
   {% for project in projects %}
-    <div class="small-12 medium-6 {% if projectCount > 2 %}xlarge-4{% else %}xlarge-4{% endif %} xxlarge-4 cell padding">
+    <div class="small-12 medium-6 {% if projectCount > 2 %}xlarge-4{% else %}xlarge-4{% endif %} xxlarge-4 cell padding-bottom-0">
     {% include "_includes/blocks/excerpt" %}
     </div>
   {% endfor %}

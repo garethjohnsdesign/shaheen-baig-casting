@@ -1,0 +1,128 @@
+field: 0b8b44f0-6b19-4cd5-979e-b2a3d95ca50a
+fieldLayouts:
+  4fa9a314-33d7-4e74-8112-7ec9ed88597c:
+    tabs:
+      -
+        fields:
+          796ea498-6823-4fda-b429-c959dc0687b7:
+            required: false
+            sortOrder: 5
+          93541572-9604-4cb0-a668-e6103a246c73:
+            required: false
+            sortOrder: 1
+          a6fb3869-ca93-49d4-bb07-f76e012c633d:
+            required: false
+            sortOrder: 3
+          aaeff3b4-eee2-4632-a9f3-af8fb279aaa1:
+            required: false
+            sortOrder: 4
+          ed846714-de49-4696-8cc5-bc55ab9e159f:
+            required: false
+            sortOrder: 2
+        name: Content
+        sortOrder: 1
+fields:
+  796ea498-6823-4fda-b429-c959dc0687b7:
+    contentColumnType: text
+    fieldGroup: null
+    handle: with
+    instructions: ''
+    name: With
+    searchable: true
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: ''
+      columnType: null
+      initialRows: '4'
+      multiline: ''
+      placeholder: ''
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+  93541572-9604-4cb0-a668-e6103a246c73:
+    contentColumnType: text
+    fieldGroup: null
+    handle: seasonEpisode
+    instructions: ''
+    name: 'Season / Episode'
+    searchable: true
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: ''
+      columnType: null
+      initialRows: '4'
+      multiline: ''
+      placeholder: ''
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+  a6fb3869-ca93-49d4-bb07-f76e012c633d:
+    contentColumnType: text
+    fieldGroup: null
+    handle: video
+    instructions: ''
+    name: Video
+    searchable: true
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: ''
+      columnType: null
+      initialRows: '4'
+      multiline: ''
+      placeholder: ''
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+  aaeff3b4-eee2-4632-a9f3-af8fb279aaa1:
+    contentColumnType: text
+    fieldGroup: null
+    handle: director
+    instructions: ''
+    name: Director
+    searchable: true
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: ''
+      columnType: null
+      initialRows: '4'
+      multiline: ''
+      placeholder: ''
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+  ed846714-de49-4696-8cc5-bc55ab9e159f:
+    contentColumnType: string
+    fieldGroup: null
+    handle: image
+    instructions: ''
+    name: Image
+    searchable: true
+    settings:
+      allowSelfRelations: ''
+      allowedKinds: null
+      defaultUploadLocationSource: 'volume:244f7440-a428-4998-8c23-00991784b369'
+      defaultUploadLocationSubpath: ''
+      limit: '1'
+      localizeRelations: false
+      restrictFiles: ''
+      selectionLabel: ''
+      showUnpermittedFiles: false
+      showUnpermittedVolumes: false
+      singleUploadLocationSource: 'volume:244f7440-a428-4998-8c23-00991784b369'
+      singleUploadLocationSubpath: ''
+      source: null
+      sources: '*'
+      targetSiteId: null
+      useSingleFolder: false
+      validateRelatedElements: ''
+      viewMode: large
+    translationKeyFormat: null
+    translationMethod: site
+    type: craft\fields\Assets
+handle: seasonEpisode
+name: 'Season / Episode'
+sortOrder: 1

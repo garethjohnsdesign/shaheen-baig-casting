@@ -28,6 +28,16 @@ Foundation.Interchange.SPECIAL_QUERIES['xxlarge-retina'] = 'only screen and (min
 $(document).foundation();
 
 
+$(function() {
+  $("video.video source").each(function() {
+    var sourceFile = $(this).attr("data-src");
+    $(this).attr("src", sourceFile);
+    var video = this.parentElement;
+    video.load();
+    video.play();
+  });
+});
+
 // 3. Loading
 // ----------
 
@@ -73,12 +83,11 @@ var mySwiper = new swiper('.swiper-container', {
 // 4. Plyr
 // ----------
 
-const players = Plyr.setup('.js-player');
-
-const player = new Plyr('#player', {
+const players = Plyr.setup('.js-player', { 
   ratio: '16:9',
   controls: ['play', 'progress', 'mute', 'volume', 'pip', 'airplay', 'fullscreen']
 });
+
 
 // 5. Hamburger
 // ------------

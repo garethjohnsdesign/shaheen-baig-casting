@@ -1,0 +1,22 @@
+contentColumnType: string
+fieldGroup: 04b3b4bb-5a04-4d55-a1fc-39e4312e4e96
+handle: typeOfFilm
+instructions: ''
+name: 'Type of Film'
+searchable: true
+settings:
+  allowLimit: false
+  allowMultipleSources: false
+  allowSelfRelations: ''
+  branchLimit: '1'
+  limit: null
+  localizeRelations: false
+  selectionLabel: 'Add a type'
+  source: 'group:7258eff3-8b68-4b6e-ad5d-b67358e82804'
+  sources: '*'
+  targetSiteId: null
+  validateRelatedElements: ''
+  viewMode: null
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Categories

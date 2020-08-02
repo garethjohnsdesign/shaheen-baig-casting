@@ -1,0 +1,10 @@
+handle: film
+name: Film
+siteSettings:
+  8a2043ba-0ab6-482c-bb78-9c06b90e1891:
+    hasUrls: true
+    template: category/category
+    uriFormat: 'film/{slug}'
+structure:
+  maxLevels: 1
+  uid: 5e0b3f0e-0068-4481-8d3a-6e39bea67bbc

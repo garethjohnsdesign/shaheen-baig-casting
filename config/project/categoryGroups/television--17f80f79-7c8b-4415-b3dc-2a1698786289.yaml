@@ -1,0 +1,10 @@
+handle: television
+name: Television
+siteSettings:
+  8a2043ba-0ab6-482c-bb78-9c06b90e1891:
+    hasUrls: true
+    template: category/category
+    uriFormat: 'television/{slug}'
+structure:
+  maxLevels: null
+  uid: 26f20342-08a8-4f54-b3ff-fb360911e73d

@@ -1,0 +1,10 @@
+handle: inProduction
+name: 'In Production'
+siteSettings:
+  8a2043ba-0ab6-482c-bb78-9c06b90e1891:
+    hasUrls: true
+    template: category/category
+    uriFormat: 'in-production/{slug}'
+structure:
+  maxLevels: null
+  uid: 617aeca5-3a38-472c-9630-68b1e4da286a

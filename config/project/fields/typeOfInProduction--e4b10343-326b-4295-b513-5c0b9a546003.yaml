@@ -1,0 +1,22 @@
+contentColumnType: string
+fieldGroup: 04b3b4bb-5a04-4d55-a1fc-39e4312e4e96
+handle: typeOfInProduction
+instructions: ''
+name: 'Type of In Production'
+searchable: true
+settings:
+  allowLimit: false
+  allowMultipleSources: false
+  allowSelfRelations: ''
+  branchLimit: '1'
+  limit: null
+  localizeRelations: false
+  selectionLabel: ''
+  source: 'group:51264010-f349-41b0-8d62-684c610b5b7b'
+  sources: '*'
+  targetSiteId: null
+  validateRelatedElements: ''
+  viewMode: null
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Categories

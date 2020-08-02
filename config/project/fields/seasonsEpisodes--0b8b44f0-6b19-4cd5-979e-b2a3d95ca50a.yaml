@@ -1,0 +1,14 @@
+contentColumnType: string
+fieldGroup: dfe9b0d4-736b-4fbd-a584-88932d8d56a9
+handle: seasonsEpisodes
+instructions: ''
+name: 'Seasons / Episodes'
+searchable: true
+settings:
+  contentTable: '{{%matrixcontent_seasonsepisodes}}'
+  maxBlocks: ''
+  minBlocks: ''
+  propagationMethod: all
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Matrix

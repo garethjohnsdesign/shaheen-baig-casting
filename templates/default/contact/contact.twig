@@ -19,6 +19,10 @@
 
 {% block main %}
 
+<!-- Hero -->
+{% include "_includes/blocks/hero" %}    
+<!-- Hero -->
+
 <div class="grid-container">
 
    <div class="grid-x grid-padding-x padding-top-1 align-center">
@@ -64,6 +68,8 @@
               <li><a href="{{block.socialLink}}" target="_blank"><svg class="icon icon-twitter"><use xlink:href="/assets/icons/symbol-defs.svg#icon-twitter"></use></svg></a></li>
             {% case "facebook" %}
               <li><a href="{{block.socialLink}}" target="_blank"><svg class="icon icon-facebook"><use xlink:href="/assets/icons/symbol-defs.svg#icon-facebook"></use></svg></a></li>
+            {% case "imdb" %}
+              <li><a href="{{block.socialLink}}" target="_blank"><svg class="icon icon-imdb"><use xlink:href="/assets/icons/symbol-defs.svg#icon-imdb"></use></svg></a></li>
           {% endswitch %}
           {% endfor %}
         </ul>

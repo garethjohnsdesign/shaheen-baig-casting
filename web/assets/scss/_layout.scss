@@ -341,13 +341,24 @@ p a {
 }
 
 .image--hero {
+  height: 80vh;
+  height: calc(var(--vh, 1vh) * 80);
+  min-height: 80vh;
+  min-height: calc(var(--vh, 1vh) * 80);
+  background-size: cover; 
+  background-position: 50%;
+}
+
+.image--slide {
   height: 100vh;
   height: calc(var(--vh, 1vh) * 100);
   min-height: 100vh;
   min-height: calc(var(--vh, 1vh) * 100);
   background-size: cover; 
   background-position: 50%;
+  overflow: hidden;
 }
+
 
 
 // 6. Navigation
@@ -551,6 +562,7 @@ overflow: hidden;
   top: 50%;
   left: 50%;
   transform: translate(-50%,-50%);
+  z-index: -1;
 }
 
 
@@ -620,6 +632,26 @@ z-index: -1;
   @include links ($white, $white);
 }
 
+.about .navigation {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 210;
+  background-color: transparent;
+  @include links ($white, $white);
+}
+
+.contact .navigation {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 210;
+  background-color: transparent;
+  @include links ($white, $white);
+}
+
 .opacity-50 {
   @include opacity(0.5);
 }
@@ -631,9 +663,10 @@ $botticelli: #97afb1;
 $green-smoke: #a9a775;
 $magnesium: #b2b3b4;
 $goldenrod: #fbd478;
+$pink: #FEDBBD;
 
 .about {
-  background-color: rgba($rose-bud, 0.5);
+  background-color: $pink;
 /*
   background-color: $aqua-haze;
   background-color: $spring-wood;
@@ -645,19 +678,6 @@ $goldenrod: #fbd478;
 */
 }
 
-.excerpt {
-  background-color: $rose-bud;
-  background-color: $aqua-haze;
-  background-color: $spring-wood;
-/*
-  background-color: $botticelli;
-  background-color: $botticelli;
-  background-color: $green-smoke;
-*/
-//   background-color: $magnesium;
-//   background-color: $goldenrod;
-}
-
 .contact {
   background-color: $rose-bud;
   background-color: $aqua-haze;
@@ -666,10 +686,12 @@ $goldenrod: #fbd478;
 //   background-color: $green-smoke;
 //   background-color: $magnesium;
 //   background-color: $goldenrod;
+  background-color: $pink;
 }
 
 .notes {
   background-color: rgba($goldenrod, 0.5);
+  background-color: $pink;
 }
 
 .button-group {
