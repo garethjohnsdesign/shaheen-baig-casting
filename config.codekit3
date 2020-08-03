@@ -593,6 +593,14 @@
 		"oAP": "/config/project/matrixBlockTypes/seasonEpisode--fe464eb6-e72b-4c3e-9c6e-6c1e09cdb258.yaml",
 		"oF": 0
 		},
+	"/config/project/matrixBlockTypes/sectionTitle--42f88501-933a-49b5-82d8-d9a8105574df.yaml": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/config/project/matrixBlockTypes/sectionTitle--42f88501-933a-49b5-82d8-d9a8105574df.yaml",
+		"oF": 0
+		},
 	"/config/project/matrixBlockTypes/twitter--8d5ef6c6-820e-4020-9189-486b1dc4210a.yaml": {
 		"cB": 0,
 		"ft": 8192,
@@ -2472,17 +2480,6 @@
 		"sC": 1,
 		"tS": 0
 		},
-	"/node_modules/swiper/esm/components/core/breakpoints/index.js": {
-		"bF": 0,
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 1,
-		"oAP": "/node_modules/swiper/esm/components/core/breakpoints/min/index-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
 	"/node_modules/swiper/esm/components/core/breakpoints/setBreakpoint.js": {
 		"bF": 0,
 		"ft": 64,
@@ -2523,17 +2520,6 @@
 		"mi": 1,
 		"oA": 1,
 		"oAP": "/node_modules/swiper/esm/components/core/min/defaults-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"/node_modules/swiper/esm/components/core/events-emitter.js": {
-		"bF": 0,
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 1,
-		"oAP": "/node_modules/swiper/esm/components/core/min/events-emitter-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
@@ -2681,17 +2667,6 @@
 		"sC": 1,
 		"tS": 0
 		},
-	"/node_modules/swiper/esm/components/core/manipulation/addSlide.js": {
-		"bF": 0,
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 1,
-		"oAP": "/node_modules/swiper/esm/components/core/manipulation/min/addSlide-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
 	"/node_modules/swiper/esm/components/core/manipulation/appendSlide.js": {
 		"bF": 0,
 		"ft": 64,
@@ -2835,17 +2810,6 @@
 		"sC": 1,
 		"tS": 0
 		},
-	"/node_modules/swiper/esm/components/core/translate/getTranslate.js": {
-		"bF": 0,
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 1,
-		"oAP": "/node_modules/swiper/esm/components/core/translate/min/getTranslate-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
 	"/node_modules/swiper/esm/components/core/translate/maxTranslate.js": {
 		"bF": 0,
 		"ft": 64,
@@ -2879,17 +2843,6 @@
 		"sC": 1,
 		"tS": 0
 		},
-	"/node_modules/swiper/esm/components/core/translate/translateTo.js": {
-		"bF": 0,
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 1,
-		"oAP": "/node_modules/swiper/esm/components/core/translate/min/translateTo-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
 	"/node_modules/swiper/esm/components/core/update/updateActiveIndex.js": {
 		"bF": 0,
 		"ft": 64,
@@ -2897,17 +2850,6 @@
 		"mi": 1,
 		"oA": 1,
 		"oAP": "/node_modules/swiper/esm/components/core/update/min/updateActiveIndex-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"/node_modules/swiper/esm/components/core/update/updateAutoHeight.js": {
-		"bF": 0,
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 1,
-		"oAP": "/node_modules/swiper/esm/components/core/update/min/updateAutoHeight-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
@@ -2941,17 +2883,6 @@
 		"mi": 1,
 		"oA": 1,
 		"oAP": "/node_modules/swiper/esm/components/core/update/min/updateSize-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"/node_modules/swiper/esm/components/core/update/updateSlides.js": {
-		"bF": 0,
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 1,
-		"oAP": "/node_modules/swiper/esm/components/core/update/min/updateSlides-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0

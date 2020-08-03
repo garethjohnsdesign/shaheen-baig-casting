@@ -25,15 +25,17 @@
 
 <div class="grid-container">
 
+{#
    <div class="grid-x grid-padding-x padding-top-1 align-center">
       <div class="small-12 medium-6 cell text-center">
       {{ entry.copy }}
       </div>
    </div>
+#}
 
     {% for contact in entry.contacts.all()  %}
-        <div class="grid-x grid-padding-x padding-top-1 align-center">
-        <div class="small-12 cell text-center">
+        <div class="grid-x grid-padding-x grid-padding-y align-center">
+        <div class="small-12 cell text-center padding-bottom-0">
         <div class="dark-gray small text-uppercase sans-regular letter-spacing--loose">{{ contact.header }}</div>
 
         {% if contact.contact|length %}

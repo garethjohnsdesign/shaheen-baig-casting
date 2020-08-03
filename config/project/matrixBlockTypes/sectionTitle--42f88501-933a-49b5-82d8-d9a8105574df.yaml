@@ -1,0 +1,40 @@
+field: 0b8b44f0-6b19-4cd5-979e-b2a3d95ca50a
+fieldLayouts:
+  bc9d8658-5eff-4320-9bd8-47e4c37d0043:
+    tabs:
+      -
+        elements:
+          -
+            fieldUid: 1d0fde39-3326-4e80-ba70-4fdc8d99f695
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+        name: Content
+        sortOrder: 1
+fields:
+  1d0fde39-3326-4e80-ba70-4fdc8d99f695:
+    contentColumnType: text
+    fieldGroup: null
+    handle: copy
+    instructions: ''
+    name: Copy
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: ''
+      columnType: null
+      initialRows: '4'
+      multiline: ''
+      placeholder: ''
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+handle: sectionTitle
+name: 'Section Title'
+sortOrder: 2

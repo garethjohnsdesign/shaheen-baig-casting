@@ -76,8 +76,9 @@ $light-gray: #e6e6e6;
 $medium-gray: #cacaca;
 $dark-gray: #8a8a8a;
 $black: #111111;
-$black: #292b2c;
+// $black: #292b2c;
 $white: #fefefe;
+$off-white: #f5f1ed;
 /*
 $foundation-palette: (
   primary: #1779ba,
@@ -98,7 +99,7 @@ $foundation-palette: (
 // $body-background: #fffdf5;
 // $body-background: #edece8;
 // $body-background: #fafafa;
-$body-background: #f5f1ed;
+$body-background: $off-white;
 $body-font-color: $black;
 // $body-font-family: 'Helvetica Neue', Helvetica, Roboto, Arial, sans-serif;
 $body-font-family: $serif-regular;
@@ -818,7 +819,8 @@ $responsive-embed-ratios: (
 // 47. Reveal
 // ----------
 
-$reveal-background: $white;
+// $reveal-background: $white;
+$reveal-background: $off-white;
 $reveal-width: 600px;
 $reveal-max-width: $global-width;
 $reveal-padding: $global-padding;

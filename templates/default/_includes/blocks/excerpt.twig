@@ -11,7 +11,7 @@
     </div>
   </div>
   </div>
-  <div class="margin-top-1 sans-regular text-uppercase letter-spacing--loose text-center">{{ project.title }}</div>
+  <div class="margin-top-1 sans-regular text-uppercase letter-spacing--loose text-center small">{{ project.title }}</div>
   {% else %}
   <div class="image--16-9">
     <div class="grid-y content align-center-middle" style="height: 100%">
@@ -22,7 +22,7 @@
   </div>
   {% set typeOfInProduction = project.typeOfInProduction.one() %}
   {% if typeOfInProduction|length %}
-  <div class="margin-top-1 lazy text-center serif-display">{{ typeOfInProduction }}</div>
+  <div class="margin-top-1 sans-regular text-uppercase letter-spacing--loose text-center small">{{ typeOfInProduction }}</div>
   {% endif %}
   {% endif %}
 </a>
