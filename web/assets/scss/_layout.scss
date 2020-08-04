@@ -364,13 +364,6 @@ p a {
 // 6. Navigation
 // -------------
 
-.navigation {
-  width: 100%;
-  .cell {
-	z-index: 14; 
-  }
-}
-
 .hamburger-inner {
   &,
   &::before,
@@ -622,7 +615,7 @@ z-index: -1;
 }
 */
 
-.home .navigation {
+.home nav {
   position: absolute;
   top: 0;
   left: 0;
@@ -632,7 +625,7 @@ z-index: -1;
   @include links ($white, $white);
 }
 
-.about .navigation {
+.about nav {
   position: absolute;
   top: 0;
   left: 0;
@@ -642,7 +635,7 @@ z-index: -1;
   @include links ($white, $white);
 }
 
-.contact .navigation {
+.contact nav {
   position: absolute;
   top: 0;
   left: 0;

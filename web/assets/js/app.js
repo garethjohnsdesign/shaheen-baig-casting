@@ -53,40 +53,34 @@ tippy('[data-tippy-content]', {
 // 5. Carousel
 // -----------
 
-if (document.querySelector('#carousel--hero')) {
-/*
-new Swiper('#carousel--hero', {
-  effect: 'fade',
-  slidesPerView: '1',
-  centeredSlides: true,
-  spaceBetween: 0,
-  loop: true,
-  autoplay: {
-    delay: 2500
-  }
-})
-*/
 var mySwiper = new swiper('.swiper-container', {
   // Optional parameters
   effect: 'fade',
   loop: true,
+  // If we need pagination
+  pagination: {
+    el: '.swiper-pagination',
+  },
   // Navigation arrows
   navigation: {
     nextEl: '.swiper-slide',
   },
   autoplay: {
-    delay: 2500
+    delay: 5000
   }
 })
-}
 
 // 4. Plyr
 // ----------
 
-const players = Plyr.setup('.js-player', { 
+/*
+const players = Plyr.setup('.js-player');
+
+const player = new Plyr('#player', {
   ratio: '16:9',
   controls: ['play', 'progress', 'mute', 'volume', 'pip', 'airplay', 'fullscreen']
 });
+*/
 
 
 // 5. Hamburger
