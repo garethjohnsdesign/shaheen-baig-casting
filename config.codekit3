@@ -1501,39 +1501,6 @@
 		"sC": 1,
 		"tS": 0
 		},
-	"/node_modules/swiper/esm/utils/dom.js": {
-		"bF": 0,
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 1,
-		"oAP": "/node_modules/swiper/esm/utils/min/dom-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"/node_modules/swiper/esm/utils/get-browser.js": {
-		"bF": 0,
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 1,
-		"oAP": "/node_modules/swiper/esm/utils/min/get-browser-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"/node_modules/swiper/esm/utils/get-device.js": {
-		"bF": 0,
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 1,
-		"oAP": "/node_modules/swiper/esm/utils/min/get-device-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
 	"/node_modules/swiper/esm/utils/get-support.js": {
 		"bF": 0,
 		"ft": 64,
@@ -1541,28 +1508,6 @@
 		"mi": 1,
 		"oA": 1,
 		"oAP": "/node_modules/swiper/esm/utils/min/get-support-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"/node_modules/swiper/esm/utils/utils.js": {
-		"bF": 0,
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 1,
-		"oAP": "/node_modules/swiper/esm/utils/min/utils-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"/node_modules/swiper/swiper.esm.js": {
-		"bF": 0,
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 1,
-		"oAP": "/node_modules/swiper/min/swiper.esm-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
@@ -2650,7 +2595,7 @@
 		"bF": 4,
 		"ft": 64,
 		"ma": 0,
-		"mi": 1,
+		"mi": 0,
 		"oA": 0,
 		"oAP": "/web/assets/js/min/app-min.js",
 		"oF": 0,
