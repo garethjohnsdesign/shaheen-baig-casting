@@ -49,24 +49,29 @@
   </div>
 </div>
 
-
+{% if entry.image |length %}
 <div class="grid-x align-center">
   <div class="small-12 medium-12 cell text-center">
   {% set image = entry.image.one() %}
   <div class="image--24-1" data-interchange="{% if image | length %}{% include "_includes/images/full/24-1/interchange-img-small-12-medium-12" %}{% endif %}"></div>
   </div>
 </div>
+{% endif %}
 
 <div class="grid-container">
       <div class="grid-x grid-padding-x grid-padding-y align-center">
-        <div class="small-12 medium-8 cell text-center">
-          <div class="dark-gray small text-uppercase sans-regular letter-spacing--loose padding-bottom-1">Team</div>
+        <div class="small-12 medium-10 cell text-center">
+          <div class="dark-gray small text-uppercase sans-regular letter-spacing--loose padding-bottom-2">Team</div>
  
-            <ul class="menu align-center">
+            <div class="grid-x grid-padding-x grid-padding-y small-up-2 medium-up-3 large-up-5">
             {% for person in entry.people.all()  %}
-              <li class="menu-text">{{ person.person }}</li>
+              {% set image = person.image.one() %}
+              <div class="small-12 medium-6 large-3 cell">
+              <div class="image--1-1 margin-bottom-1" data-interchange="{% if image | length %}{% include "_includes/images/full/24-1/interchange-img-small-12-medium-12" %}{% endif %}"></div>
+              {{ person.person }}
+              </div>
             {% endfor %}
-            </ul>
+            </div>
 
           </div>
         </div>

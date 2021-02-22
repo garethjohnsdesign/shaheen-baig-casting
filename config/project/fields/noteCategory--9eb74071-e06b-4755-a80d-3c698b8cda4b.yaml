@@ -1,0 +1,23 @@
+contentColumnType: string
+fieldGroup: aea8f7d7-487c-42ed-8af7-a33fd4a416e0
+handle: noteCategory
+instructions: ''
+name: 'Note Category'
+searchable: false
+settings:
+  allowLimit: false
+  allowMultipleSources: false
+  allowSelfRelations: false
+  branchLimit: ''
+  limit: null
+  localizeRelations: false
+  selectionLabel: ''
+  showSiteMenu: false
+  source: 'group:d5a9b2a0-51aa-4c05-a5bf-8345cea3e449'
+  sources: '*'
+  targetSiteId: null
+  validateRelatedElements: false
+  viewMode: null
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Categories

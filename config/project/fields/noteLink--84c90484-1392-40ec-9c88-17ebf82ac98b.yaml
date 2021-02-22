@@ -1,0 +1,14 @@
+contentColumnType: string(255)
+fieldGroup: aea8f7d7-487c-42ed-8af7-a33fd4a416e0
+handle: noteLink
+instructions: ''
+name: Link
+searchable: false
+settings:
+  maxLength: '255'
+  placeholder: null
+  types:
+    - url
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\Url

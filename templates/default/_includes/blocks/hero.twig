@@ -1,5 +1,6 @@
 {% set block = entry.hero.one() %}
 {% if block %}
+{% if block.image |length %}
 <div class="hero black-background-color">
 {% set image = block.image.one() %}
 <div class="image--hero align-center-middle" {% if not block.video %}data-interchange="{% include "_includes/images/full/full/interchange-img-small-12-medium-12" %}"{% endif %} data-aos="fade-in">
@@ -7,9 +8,9 @@
   <div class="grid-y height-100 align-center content">
     <div class="shrink cell text-center white">
 
-      <div class="grid-container" data-aos="fade-in" data-aos-delay="500">
+      <div class="grid-container" data-aos="fade-in">
         <div class="grid-x grid-padding-x grid-padding-y padding-vertical-3 align-center align-middle">
-          <div class="small-11 medium-10 large-9 cell text-center">
+          <div class="small-11 medium-10 large-10 cell text-center">
             {{block.copy}}
           </div>
         </div>
@@ -25,4 +26,13 @@
   {% endif %}
   </div>
 </div>
+{% else %}
+<div class="grid-container" data-aos="fade-in">
+  <div class="grid-x grid-padding-x grid-padding-y padding-top-1 align-center align-middle">
+    <div class="small-11 medium-10 large-6 cell text-center">
+      {{block.copy}}
+    </div>
+  </div>
+</div>
+{% endif %} 
 {% endif %}

@@ -625,25 +625,25 @@ z-index: -1;
   @include links ($white, $white);
 }
 
-.about nav {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  z-index: 210;
-  background-color: transparent;
-  @include links ($white, $white);
-}
+// .about nav {
+//   position: absolute;
+//   top: 0;
+//   left: 0;
+//   width: 100%;
+//   z-index: 210;
+//   background-color: transparent;
+//   @include links ($white, $white);
+// }
 
-.contact nav {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  z-index: 210;
-  background-color: transparent;
-  @include links ($white, $white);
-}
+// .contact nav {
+//   position: absolute;
+//   top: 0;
+//   left: 0;
+//   width: 100%;
+//   z-index: 210;
+//   background-color: transparent;
+//   @include links ($white, $white);
+// }
 
 .opacity-50 {
   @include opacity(0.5);

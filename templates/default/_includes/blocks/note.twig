@@ -1,7 +1,27 @@
+{% if note.image |length %}
 {% set image = note.image.one() %}
 <div class="light-gray-background-color excerpt">
-<div class="image--1-1" data-interchange="{% if image | length %}{% include "_includes/images/full/1-1/interchange-img-small-12-medium-6" %}{% endif %}" data-aos="fade-in">
+ <div class="image--6-4" data-interchange="{% if image | length %}{% include "_includes/images/full/1-1/interchange-img-small-12-medium-6" %}{% endif %}" data-aos="fade-in">
+ </div>
 </div>
-</div>
-<div class="margin-top-1 serif-display h4">{{ note.title }}</div>
-<div class="margin-top-0">{{ note.copy}}</div>
+{% endif %}
+<div class="margin-top-1 serif-display h4 margin-bottom-0">{{ note.title }}</div>
+<div class="margin-top-0 small text-uppercase sans-regular letter-spacing--loose margin-bottom-1 dark-gray">{{ note.postDate |date("F Y") }}</div>
+<div class="margin-bottom-1">{{ note.copy }}</div>
+{% if note.noteLink %}
+<div class="margin-bottom-1 text-uppercase sans-regular letter-spacing--loose small"><a href="{{ note.noteLink }}">Link <svg class="icon icon-arrow_forward"><use xlink:href="/assets/icons/symbol-defs.svg#icon-arrow_forward"></use></svg></a></div>
+{% endif %}
+{# Create a category query with the 'group' parameter #}
+{% set myCategoryQuery = note.noteCategory %}
+
+{# Fetch the categories #}
+{% set categories = myCategoryQuery.all() %}
+
+{# Display the navigation #}
+<ul class="menu simple">
+    {% nav category in categories %}
+        <li class="small text-uppercase sans-regular letter-spacing--loose dark-gray">
+            {{ category.title }}
+        </li>
+    {% endnav %}
+</ul>
